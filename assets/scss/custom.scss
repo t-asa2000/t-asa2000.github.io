@@ -1,0 +1,128 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
+
+:root {
+	--sys-font-family: 'BIZ UDPGothic',”Yu Gothic Medium”, “游ゴシック Medium”,-apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+    --base-font-family: var(--sys-font-family), sans-serif;
+	--body-text-color: #707070;
+	--card-text-color-tertiary:#a9a9a9;
+}
+
+.article-category a{
+	background: #8ea885;
+	color: #fff;
+}
+
+.article-list article .article-category a:hover {
+    color: var(--accent-color-text);
+    background-color: var(--accent-color-darker);
+}
+
+.article-category a, .article-tags a{
+	transition: color .5s ease, background-color .5s ease;
+}
+
+.related-content article.has-image .article-details{
+	background: rgba(0,0,0,.25);
+}
+
+.left-sidebar{
+	--sidebar-avatar-size: 50px;
+}
+
+.sidebar header{
+	flex-direction: row;
+}
+
+.sidebar header .site-meta{
+	justify-content: end;
+}
+
+.menu{
+	gap: 0px;
+	padding:10px;
+}
+
+.menu li a, .menu .menu-bottom-section{
+	width: 100%;
+	padding: 15px;
+	letter-spacing: 0.03em;
+	line-height: 1.2;
+	border-radius: 1.2em;
+}
+
+.menu li a, #dark-mode-toggle{
+	color: var(--card-text-color-main);
+}
+
+.menu li a svg{
+	color: var(--accent-color);
+}
+
+.menu li.current a{
+	background: var(--body-background);
+}
+
+#toggle-menu{
+	top:10px;
+}
+
+div.at-expanding-share-button-mobile {
+    zoom: 1.5;
+	bottom: 20px !important;
+}
+
+.article-list article .article-header .article-image, .article-page .main-article .article-header .article-image{
+	position: relative;
+	width: 100%;
+}
+
+.article-list article .article-header .article-image:before, .article-page .main-article .article-header .article-image:before{
+	content:"";
+    display: block;
+	padding-top: 42.8%;
+}
+
+.article-list article .article-header .article-image img, .article-page .main-article .article-header .article-image img{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100% !important;
+	height: 100% !important;
+	max-height: 100% !important;
+}
+
+.article-header .article-title a{
+	display: block;
+}
+
+@media (min-width: 768px){
+	.left-sidebar{
+		--left-sidebar-max-width:max-content;
+	}
+	.right-sidebar{
+		--right-sidebar-max-width:20%;
+	}
+	.menu{
+		padding:0;
+	}
+	.menu li a, .menu .menu-bottom-section{
+		padding: 15px 10px;
+	}
+	.menu li.current a{
+		background: var(--card-background);
+	}
+}
+
+@media (min-width: 1280px){
+	.article-list{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.article-list article:first-child{
+		grid-column: 1/3;
+	}
+}

@@ -1,0 +1,313 @@
+baseurl: https://t-asa2000.net/
+languageCode: ja
+theme: hugo-theme-stack
+paginate: 5
+title: t-asa2000.net
+publishDir: docs
+
+# frontmatter
+frontmatter:
+    lastmod: ':fileModTime'
+
+# Change it to your Disqus shortname before using
+disqusShortname: https-t-asa2000-github-io
+
+# GA Tracking ID
+googleAnalytics:
+
+# Theme i18n support
+# Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
+DefaultContentLanguage: ja
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: true
+
+permalinks:
+    post: /post/:filename/
+    page: /:filename/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+
+    footer:
+        customText:
+
+    dateFormat:
+        published: 2006年1月2日
+        lastUpdated: 2006年1月2日
+
+    sidebar:
+        emoji: 
+        title:
+        titlehtml:
+        subtitle: 
+        subtitlehtml:
+        avatar:
+            enabled: true
+            local: false
+            src: /img/avatar.jpg
+
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: false
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: disqus
+
+        disqusjs:
+            shortname:
+            apiUrl:
+            apiKey:
+            admin:
+            adminLabel:
+
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+
+        remark42:
+            host:
+            site:
+            locale:
+
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
+        # Waline client configuration see: https://waline.js.org/en/reference/component.html
+        waline:
+            serverURL:
+            lang:
+            pageview:
+            emoji:
+                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            locale:
+                admin: Admin
+                placeholder:
+
+        twikoo:
+            envId:
+            region:
+            path:
+            lang:
+
+        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner:
+            admin:
+            repo:
+            clientID:
+            clientSecret:
+
+        cusdis:
+            host:
+            id:
+    widgets:
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site: t_asa2000
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        homepage:
+            enabled: false
+            local: false
+            src: /img/default.jpg
+        section:
+            enabled: true
+            local: false
+            src: /img/default.jpg
+        taxonomy:
+            enabled: true
+            local: false
+            src: /img/default.jpg
+        article:
+            enabled: true
+            local: false
+            src: /img/default.jpg
+        articleList:
+            enabled: true
+            local: false
+            src: /img/default.jpg
+        opengraph:
+            enabled: true
+            local: false
+            src: /img/default.jpg
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: light
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main:
+        - identifier: spotify
+          name: プレイリスト
+          url: "https://open.spotify.com/playlist/2QaGyw6rKWDO28LiNnj9T3"
+          weight: 100
+          params:
+            icon: brand-spotify
+            newtab: true
+        - identifier: qiita
+          name: Qiita
+          url: "https://qiita.com/t_asa"
+          weight: 101
+          params:
+            icon: archives
+            newtab: true
+        - identifier: zenn
+          name: Zenn
+          url: "https://zenn.dev/t_asa2000"
+          weight: 102
+          params:
+            icon: archives
+            newtab: true
+        - identifier: gist
+          name: GitHub Gist
+          url: https://gist.github.com/t-asa2000/
+          weight: 103
+          params:
+            icon: brand-github
+            newtab: true
+        - identifier: misskey
+          name: Misskey.io
+          url: "https://misskey.io/@asata"
+          weight: 104
+          params:
+            icon: planet
+            newtab: true
+        - identifier: fedibird
+          name: Fedibird.com
+          url: "https://fedibird.com/@asata"
+          weight: 105
+          params:
+            icon: planet
+            newtab: true
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/t-asa2000/
+          weight: 1
+          params:
+              icon: brand-github
+              newtab: true
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/t_asa2000/
+          weight: 2
+          params:
+              icon: brand-twitter
+              newtab: true
+        - identifier: spotify
+          name: Spotify
+          url: https://open.spotify.com/user/31u5ssruqseukcodexup2ua3lxnm
+          weight: 3
+          params:
+              icon: brand-spotify
+              newtab: true
+        - identifier: rss
+          name: RSS
+          url: /post/index.xml
+          weight: 4
+          params:
+              icon: rss
+              newtab: true
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4

@@ -1,0 +1,49 @@
+{{ define "main" }}
+    <header>
+		{{ if ne .Parent (.GetPage "/") }}
+			<h3 class="section-title">{{ .Parent.Title }}</h3>
+		{{ end }}
+
+        <div class="section-card">
+            <div class="section-details">
+                <h1 class="section-term">{{ .Title }}</h1>
+                {{ with .Params.description }}
+                    <h2 class="section-description">{{ . }}</h2>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    {{- $subsections := .Sections -}}
+    {{- $pages := .Pages | complement $subsections -}}
+
+    {{- with $subsections -}}
+        <aside>
+            <div class="subsection-list">
+                <div class="article-list--tile">
+                    {{ range . }}
+                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "taxonomy") }}
+                    {{ end }}
+                </div>
+            </div>
+        </aside>
+    {{- end -}}
+    
+    {{/* List only pages that are not a subsection */}}
+    {{ $pag := .Paginate ($pages) }}
+    <section class="article-list">
+        {{ range $index, $element := $pag.Pages }}
+			{{ if not .Params.hidden }}
+            	{{ partial "article-list/default" . }}
+			{{ end }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

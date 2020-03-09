@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>t-asa2000.net</title>
+			<description>Recent content on t-asa2000.net</description><link>https://t-asa2000.net/page/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language><atom:link href="https://t-asa2000.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>カスタム絵文字</title>
+		<link>https://t-asa2000.net/emoji/</link>
+		<pubDate>Mon, 06 Mar 2023 15:48:38 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/emoji/</guid>
+		<description>&lt;p&gt;Misskey個人サーバー(運用終了)で使用していた絵文字の一覧です．&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/applenanntokashiro.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:applenanntokashiro:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/applenanntokashiro.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/ittare.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:ittare:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/ittare.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/okosama_lunch.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:okosama_lunch:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/okosama_lunch.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+
+</description>
+		</item>
+		<item>
+		<title>プロフィール</title>
+		<link>https://t-asa2000.net/profile/</link>
+		<pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/profile/</guid>
+		<description>&lt;h2 id=&#34;asata-t-asa2000&#34;&gt;asata (t-asa2000)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;新潟県出身・在住　学生　男&lt;br&gt;
+Niigata-pref, Japan. Student. Male.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;工学系の学生。自称「普通の人よりちょっとPCがいじれる」だけ。&lt;br&gt;
+中学校に入学した頃から、自分専用のPCを買ってプログラミングとかをやりはじめました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;血液型 : B型&lt;/li&gt;
+&lt;li&gt;主な使用プログラミング言語: C#, PHP, Java&lt;/li&gt;
+&lt;li&gt;好きな食べ物：うどん(丸亀製麺好き)、餃子、エビフライ、寿司&lt;/li&gt;
+&lt;li&gt;趣味：ガジェット,Webサイト製作,ラジオ,音楽,ドラマ観賞etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;苦手なこと：おしゃれ、手先を使う作業(不器用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;メールアドレス&lt;/strong&gt; (2024.2.16 更新)&lt;br&gt;
+現在諸般の事情によりメールアドレスを非公開とさせていただいております．&lt;/p&gt;
+&lt;h2 id=&#34;主な活動&#34;&gt;主な活動&lt;/h2&gt;
+&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;所属していた部活のサイト (WordPress) を作成・維持管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2021&#34;&gt;2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;学生ベンチャー企業のサイト (WordPress) を作成・維持管理
+&lt;ul&gt;
+&lt;li&gt;同社のWeb上で閲覧する教材コンテンツ (動画・テキスト) のビューアーをPHPで開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プライベートでの活動&#34;&gt;プライベートでの活動&lt;/h2&gt;
+&lt;h3 id=&#34;2021-1&#34;&gt;2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;初めての個人ドメイン (t-asa2000.net) を購入&lt;/li&gt;
+&lt;li&gt;VPS(Linux)を契約&lt;/li&gt;
+&lt;li&gt;分散型SNS「misskey」の個人サーバーを設置&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://misskey.t-asa2000.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(2023年8月6日運用終了, 跡地はこちら)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;卒業研究で使用するアプリケーションをC#で開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使ってるモノ&#34;&gt;使ってるモノ&lt;/h2&gt;
+&lt;p&gt;2023年7月13日現在&lt;/p&gt;
+&lt;h3 id=&#34;スマートフォン&#34;&gt;スマートフォン&lt;/h3&gt;
+&lt;p&gt;AQUOS sense7 SH-M24&lt;br&gt;
+(2023.7 - )&lt;/p&gt;
+&lt;h3 id=&#34;タブレット&#34;&gt;タブレット&lt;/h3&gt;
+&lt;p&gt;第8世代 iPad Wi-Fi+Cellular 128GB&lt;br&gt;
+(2021.5 - )&lt;/p&gt;
+&lt;h3 id=&#34;pc&#34;&gt;PC&lt;/h3&gt;
+&lt;p&gt;Lenovo ThinkPad L15 gen1&lt;br&gt;
+(2020.10 - )&lt;/p&gt;
+&lt;h3 id=&#34;ヘッドフォン&#34;&gt;ヘッドフォン&lt;/h3&gt;
+&lt;p&gt;DENON AH-GC30&lt;br&gt;
+(2020.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;イヤフォン&#34;&gt;イヤフォン&lt;/h3&gt;
+&lt;p&gt;DENON AH-C620R&lt;br&gt;
+(2021.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;ポータブルスピーカー&#34;&gt;ポータブルスピーカー&lt;/h3&gt;
+&lt;p&gt;SONY SRS-XB20&lt;br&gt;
+(2018.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;モバイル回線&#34;&gt;モバイル回線&lt;/h3&gt;
+&lt;p&gt;UQモバイル (音声+データ 4GB)&lt;br&gt;
+IIJmio (データeSIM 2GB)&lt;/p&gt;
+&lt;h3 id=&#34;自動車&#34;&gt;自動車&lt;/h3&gt;
+&lt;p&gt;マツダ MAZDA2 15S Smart Edition 4WD&lt;br&gt;
+※2021年次改良モデル&lt;br&gt;
+(2022.2 - )&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

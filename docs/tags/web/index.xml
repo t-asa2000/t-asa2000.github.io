@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Web | t-asa2000.net</title>
+			<description>Recent content in Web on t-asa2000.net</description><link>https://t-asa2000.net/tags/web/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Fri, 10 Mar 2023 01:36:26 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title>
+		<link>https://t-asa2000.net/post/20230310/</link>
+		<pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20230310/</guid>
+		<description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" /&gt;&lt;h2 id=&#34;プロローグ&#34;&gt;プロローグ&lt;/h2&gt;
+&lt;p&gt;世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p&gt;
+&lt;p&gt;今の時代&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li&gt;
+&lt;li&gt;Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p&gt;
+&lt;p&gt;今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページを作る意味&#34;&gt;ホームページを作る意味&lt;/h2&gt;
+&lt;p&gt;一番大きなことは「情報の整理・集約化」だと思います．&lt;/p&gt;
+&lt;p&gt;例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;時系列順に写真や文章が並んでいるだけ&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;シンプルにお店のメニューだけが見たい&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p&gt;
+&lt;p&gt;そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong&gt;必要な人が必要な時に&lt;/strong&gt;情報を得ることができます．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ホームページの正体&#34;&gt;ホームページの正体&lt;/h2&gt;
+&lt;p&gt;「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p&gt;
+&lt;p&gt;↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p&gt;
+&lt;p&gt;ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong&gt;あなたの代わりにやってます．&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページに関わる3つの要素&#34;&gt;ホームページに関わる3つの要素&lt;/h2&gt;
+&lt;p&gt;ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームページの中身（を生成するためのツール）&lt;/li&gt;
+&lt;li&gt;サーバー（ホームページの置き場所）&lt;/li&gt;
+&lt;li&gt;ドメイン（置き場所の住所）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ドメインというのは，&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.co.jp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.google.co.jp&lt;/a&gt;&lt;/strong&gt; みたいなやつのことです．&lt;/p&gt;
+&lt;h3 id=&#34;中身サーバードメインが全てセット&#34;&gt;中身・サーバー・ドメインが全てセット&lt;/h3&gt;
+&lt;p&gt;1.と2.と3.が全てセットになったのが&lt;a class=&#34;link&#34; href=&#34;https://ja.wix.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;wix&lt;/strong&gt;」&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;https://sites.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;Google サイト&lt;/strong&gt;」&lt;/a&gt;みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p&gt;
+&lt;p&gt;ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p&gt;
+&lt;p&gt;あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p&gt;
+&lt;h3 id=&#34;中身を作ってサーバードメインは別に用意&#34;&gt;中身を作ってサーバー・ドメインは別に用意&lt;/h3&gt;
+&lt;p&gt;恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class=&#34;link&#34; href=&#34;https://www.justsystems.com/jp/products/hpb/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;ホームページ・ビルダー&lt;/strong&gt;」&lt;/a&gt;などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p&gt;
+&lt;p&gt;中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p&gt;
+&lt;p&gt;このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p&gt;
+&lt;p&gt;お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;wixみたいなシステムをサーバーの中に設置してしまう奥の手&#34;&gt;wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3&gt;
+&lt;p&gt;実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p&gt;
+&lt;p&gt;それが「&lt;strong&gt;CMS&lt;/strong&gt;」と呼ばれるツールで，代表的なものが&lt;a class=&#34;link&#34; href=&#34;https://ja.wordpress.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;WordPress&lt;/strong&gt;&lt;/a&gt;です．&lt;/p&gt;
+&lt;p&gt;ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p&gt;
+&lt;p&gt;サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p&gt;
+&lt;h2 id=&#34;hp作りを友人知人に委託したい人へ&#34;&gt;HP作りを友人・知人に委託したい人へ&lt;/h2&gt;
+&lt;p&gt;私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p&gt;
+&lt;p&gt;ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p&gt;
+&lt;h3 id=&#34;更新頻度&#34;&gt;更新頻度&lt;/h3&gt;
+&lt;p&gt;最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまでを自分でやるか&#34;&gt;どこまでを自分でやるか&lt;/h3&gt;
+&lt;p&gt;本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまで相手に介入させるか&#34;&gt;どこまで相手に介入させるか&lt;/h3&gt;
+&lt;p&gt;ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p&gt;
+&lt;h3 id=&#34;引き継ぎ&#34;&gt;引き継ぎ&lt;/h3&gt;
+&lt;p&gt;これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p&gt;
+&lt;p&gt;例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p&gt;
+&lt;p&gt;もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p&gt;
+&lt;p&gt;さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;という訳で，今回の記事を通して伝えたかったことは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HPを作る目的を今一度確認して欲しい&lt;/li&gt;
+&lt;li&gt;中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li&gt;
+&lt;li&gt;誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ということでした．最後までご覧いただきありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>Hugoに移行してみた</title>
+		<link>https://t-asa2000.net/post/20220903/</link>
+		<pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20220903/</guid>
+		<description>&lt;p&gt;これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong&gt;GitHub Pages + Hugo&lt;/strong&gt; に移行しました．&lt;/p&gt;
+&lt;p&gt;移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023.3.6 追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

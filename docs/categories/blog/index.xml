@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Blog | t-asa2000.net</title>
+			<description>Recent content in Blog on t-asa2000.net</description><link>https://t-asa2000.net/categories/blog/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://t-asa2000.net/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>メインブラウザをMicrosoft Edgeに乗り換えた</title>
+		<link>https://t-asa2000.net/post/202309_01/</link>
+		<pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202309_01/</guid>
+		<description>&lt;img src="https://t-asa2000.net/post/202309_01/img3.png" alt="Featured image of post メインブラウザをMicrosoft Edgeに乗り換えた" /&gt;&lt;p&gt;表題の通りです．&lt;/p&gt;
+&lt;h2 id=&#34;僕がメインブラウザに求める要素&#34;&gt;僕がメインブラウザに求める要素&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;縦の解像度（作業領域）を少しでも広くしたい&lt;/li&gt;
+&lt;li&gt;PWAが使いたい&lt;/li&gt;
+&lt;li&gt;同期したい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この3つです．特に一番最初が，ストレスなく使うためには重要でした．&lt;/p&gt;
+&lt;h2 id=&#34;縦の解像度作業領域を少しでも広くしたい&#34;&gt;縦の解像度（作業領域）を少しでも広くしたい&lt;/h2&gt;
+&lt;p&gt;Webページのコンテンツは基本的に上から下へと書かれているので，1行でも多くの情報を画面に表示したいなと思ってしまいます．&lt;/p&gt;
+&lt;p&gt;そのためには，タブバーもしくはブックマークバーをなくすしかないのですが，よく使うブックマークは何かしらの形で常に表示しておきたいなと．&lt;/p&gt;
+&lt;p&gt;最近になってChromeが「サイドバーでブックマーク等を表示する」機能に対応したのですが，既に対応していたFirefoxやEdgeと比べると，後追いのせいかどうしても使い勝手が良くないなと思います．行間が広すぎて表示できる量が少ないし，表示/非表示も(Firefoxより)ワンテンポ遅い気がします．&lt;/p&gt;
+&lt;p&gt;そうすると選択肢がEdgeかFirefoxに限られてくるのですが，Firefoxは「PWAに対応してない」「NHKプラスが使えない」とか色々問題が出てきたので，最終的にメインブラウザをChrome→Edgeに乗り換えることにしました．&lt;/p&gt;
+&lt;h2 id=&#34;垂直タブ機能が良い&#34;&gt;垂直タブ機能が良い&lt;/h2&gt;
+&lt;p&gt;垂直タブ機能があるかないかの違いを比較してみましょう．（写真はこの記事の執筆中の画面です）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/post/202309_01/img1.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://t-asa2000.net/post/202309_01/img1_huc8488dbf819b3f1af595b297054d9453_378460_480x0_resize_box_3.png 480w, https://t-asa2000.net/post/202309_01/img1_huc8488dbf819b3f1af595b297054d9453_378460_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/post/202309_01/img2.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://t-asa2000.net/post/202309_01/img2_hu2c02504877688447c19d85fbc60feae3_356834_480x0_resize_box_3.png 480w, https://t-asa2000.net/post/202309_01/img2_hu2c02504877688447c19d85fbc60feae3_356834_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;サイトのCSS(レイアウト)の都合上，正確な比較ができてないのはご容赦を．(垂直タブをONにしたことで，記事の横幅が狭くなり，サムネイル画像が小さくなったことで本文の位置が上がっています．)&lt;/p&gt;
+&lt;p&gt;画像では分かりにくいかもしれませんが，この数十ピクセル程度の違いがとても大事なんです．私は普段15インチ(16:9,FHD)のノートPCを使っているのですが，タブバーがある分視線が下に行くので，その分若干首も下を向くので，首コリが酷いわけです．いやいやこんなん誤差の範囲でしょ・・・って思われるかもしれませんが，少しコンテンツの位置が上がるだけで，結構変わると思います．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2023.9.8 追記&lt;/strong&gt;&lt;br&gt;
+すみません．ただ単に「垂直タブ」をONにするだけでは，画像のようになりません．「設定＞外観＞ツールバーのカスタマイズ」で「垂直タブでタイトルバーを非表示にする」をONにする必要がありました．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023.10.2 追記2&lt;/strong&gt;&lt;br&gt;
+今現在は「垂直タブ」を無効化して使っています．結局タブ操作する度に，タブバーをホバーして展開させないといけないのがめんどくさくなってきたので．．．首コリのくだりは今読み返したら「何言ってんだコイツ」って思ったので，全部忘れてください(笑)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;あと私はそこまでタブを開く方ではない（多い時でも12～3個程度）ので，タブバーの右側の余白が無駄ですごく勿体ないなと思ってたんです．なので，タブバーを横から縦にするという発想はすごく良いなと前々から思ってました．（タブを閉じたいときに，一度ホバーしないといけないから手間だけど・・・）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;以上がブラウザを乗り換えた経緯になります．ただ，以前からChromeとEdgeは併用していて，今回はブックマークなどを入れ替えて，メインとサブを交代させた感じです．今でもChromeは学業用のサブブラウザとして愛用しています．&lt;/p&gt;
+&lt;h2 id=&#34;余談&#34;&gt;余談&lt;/h2&gt;
+&lt;p&gt;実は現在，Edge（メイン），Chrome（学業用），Firefox（プライベート用のサブ）の3つを併用しています．Firefoxまで活用してるのは，広告ブロックを使いたい時用や作った物のFirefoxでの動作確認用で残してるのもありますが，全部が全部Chromiumに喰われるのも面白くないので，応援の意味も込めて使ってます．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>発達障害持ちの僕がこまること「荷物が上手く捌けない」</title>
+		<link>https://t-asa2000.net/post/202303_02/</link>
+		<pubDate>Sat, 11 Mar 2023 10:07:46 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202303_02/</guid>
+		<description>&lt;img src="https://t-asa2000.net/img/pakutaso/Nimotsu1.jpg" alt="Featured image of post 発達障害持ちの僕がこまること「荷物が上手く捌けない」" /&gt;&lt;p&gt;カバー写真: &lt;a class=&#34;link&#34; href=&#34;https://www.pakutaso.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ぱくたそ&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;～おことわり～&lt;/strong&gt;&lt;br&gt;
+この記事の筆者は，幼少期から広汎性発達障害（のグレーゾーン）の傾向が見られるものの，医師による正式な診断は受けていません．ただし，執筆時点ではADHDの診断をもらっています．また，この手の話題は個人による症状差が大きいため，あくまで私個人のケースとして捉えてもらえると幸いです．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;普段の荷物&#34;&gt;普段の荷物&lt;/h2&gt;
+&lt;p&gt;皆さんがいつも外出する時，絶対に必要なものって何でしょうか．少なくとも以下の3つは，どんな場合でも常に携帯してないといけないと思います．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;家の鍵（＋車の鍵）&lt;/li&gt;
+&lt;li&gt;財布&lt;/li&gt;
+&lt;li&gt;携帯電話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;私は基本，ズボンの左前ポケットに財布，右前ポケットに携帯電話を入れてます．ただ，鍵などを入れる場所がないので，それらを持ち運ぶためだけに&lt;strong&gt;ショルダーポーチ&lt;/strong&gt;を携帯します．定期券や交通系ICカードも，ショルダーポーチにくっつけてます．&lt;/p&gt;
+&lt;p&gt;加えて，私は学生ですので教科書などを&lt;strong&gt;バックパック&lt;/strong&gt;で持ち歩きます．&lt;/p&gt;
+&lt;p&gt;さらに，悪天候時には傘が必要です．&lt;/p&gt;
+&lt;p&gt;ここまでの荷物の構成は以下のようになります．ついでに，写真も撮っておきました（床が汚くてごめんなさい）．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;財布（左ポケット）&lt;/li&gt;
+&lt;li&gt;携帯電話（右ポケット）&lt;/li&gt;
+&lt;li&gt;ショルダーポーチ&lt;/li&gt;
+&lt;li&gt;バックパック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/post/202303_02/img1.jpg&#34;
+	width=&#34;1318&#34;
+	height=&#34;859&#34;
+	srcset=&#34;https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_480x0_resize_q75_box.jpg 480w, https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;さて，ここから実体験の話をしていきます．&lt;/p&gt;
+&lt;h2 id=&#34;困りごと1-ショルダーポーチとバックパックの紐が絡まる&#34;&gt;困りごと1: ショルダーポーチとバックパックの紐が絡まる&lt;/h2&gt;
+&lt;p&gt;ショルダーポーチとバックパックを体から降ろすときに，身に着けた順番と逆順で外していかなくてはいけませんが，順番を間違えて紐が絡まってオロオロしてしまうときが多々あります．特に，バスや電車などの公共交通に乗って席に着いた際に，荷物をどかしたいなと思って人前でこれをやらかすのが，本当に恥ずかしい．&lt;/p&gt;
+&lt;h2 id=&#34;困りごと2-傘を持ち歩いているとき&#34;&gt;困りごと2: 傘を持ち歩いているとき&lt;/h2&gt;
+&lt;p&gt;傘を持ち歩いているときは最悪です．片手が塞がっているので，例えば土足禁止の空間（傘立てがない場所）に入ったとき，靴の履き替えで時間がかかります．というか，手先が不器用なのでただでさえ時間がかかるのに・・・&lt;/p&gt;
+&lt;p&gt;後ろに人がいると，自分で詰まってしまって，ただただ申し訳なく切ない気持ちになります．&lt;/p&gt;
+&lt;h2 id=&#34;外出時以外でも&#34;&gt;外出時以外でも&lt;/h2&gt;
+&lt;p&gt;夕飯の支度とか，食器の片づけとか，普段のちょっとした動作の中で，今手に持っているものをどこにどかせば良いのか，次に何を手に持てば良いのか，うまく脳内で計算できません．普通の人ならすぐ終わる作業が，2～3倍くらいの時間がかかってしまいます．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;とにかく日頃の生活において，カバン類や手に持っている荷物を瞬間的に捌くのが，本当に苦手です．全体的な動作が，周囲から見てもちょっと「子供っぽい」「もたもたしている」「変な人っぽい」って感じになって，「この人変だよね」って思われて距離を置かれる（もしくは自分でそう見られてると思い込んで距離を置いてしまう）ことがあります．&lt;/p&gt;
+&lt;p&gt;もっと要領良く生きていきたいですね・・・&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title>
+		<link>https://t-asa2000.net/post/20230310/</link>
+		<pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20230310/</guid>
+		<description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" /&gt;&lt;h2 id=&#34;プロローグ&#34;&gt;プロローグ&lt;/h2&gt;
+&lt;p&gt;世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p&gt;
+&lt;p&gt;今の時代&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li&gt;
+&lt;li&gt;Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p&gt;
+&lt;p&gt;今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページを作る意味&#34;&gt;ホームページを作る意味&lt;/h2&gt;
+&lt;p&gt;一番大きなことは「情報の整理・集約化」だと思います．&lt;/p&gt;
+&lt;p&gt;例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;時系列順に写真や文章が並んでいるだけ&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;シンプルにお店のメニューだけが見たい&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p&gt;
+&lt;p&gt;そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong&gt;必要な人が必要な時に&lt;/strong&gt;情報を得ることができます．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ホームページの正体&#34;&gt;ホームページの正体&lt;/h2&gt;
+&lt;p&gt;「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p&gt;
+&lt;p&gt;↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p&gt;
+&lt;p&gt;ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong&gt;あなたの代わりにやってます．&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページに関わる3つの要素&#34;&gt;ホームページに関わる3つの要素&lt;/h2&gt;
+&lt;p&gt;ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームページの中身（を生成するためのツール）&lt;/li&gt;
+&lt;li&gt;サーバー（ホームページの置き場所）&lt;/li&gt;
+&lt;li&gt;ドメイン（置き場所の住所）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ドメインというのは，&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.co.jp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.google.co.jp&lt;/a&gt;&lt;/strong&gt; みたいなやつのことです．&lt;/p&gt;
+&lt;h3 id=&#34;中身サーバードメインが全てセット&#34;&gt;中身・サーバー・ドメインが全てセット&lt;/h3&gt;
+&lt;p&gt;1.と2.と3.が全てセットになったのが&lt;a class=&#34;link&#34; href=&#34;https://ja.wix.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;wix&lt;/strong&gt;」&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;https://sites.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;Google サイト&lt;/strong&gt;」&lt;/a&gt;みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p&gt;
+&lt;p&gt;ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p&gt;
+&lt;p&gt;あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p&gt;
+&lt;h3 id=&#34;中身を作ってサーバードメインは別に用意&#34;&gt;中身を作ってサーバー・ドメインは別に用意&lt;/h3&gt;
+&lt;p&gt;恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class=&#34;link&#34; href=&#34;https://www.justsystems.com/jp/products/hpb/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;ホームページ・ビルダー&lt;/strong&gt;」&lt;/a&gt;などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p&gt;
+&lt;p&gt;中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p&gt;
+&lt;p&gt;このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p&gt;
+&lt;p&gt;お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;wixみたいなシステムをサーバーの中に設置してしまう奥の手&#34;&gt;wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3&gt;
+&lt;p&gt;実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p&gt;
+&lt;p&gt;それが「&lt;strong&gt;CMS&lt;/strong&gt;」と呼ばれるツールで，代表的なものが&lt;a class=&#34;link&#34; href=&#34;https://ja.wordpress.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;WordPress&lt;/strong&gt;&lt;/a&gt;です．&lt;/p&gt;
+&lt;p&gt;ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p&gt;
+&lt;p&gt;サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p&gt;
+&lt;h2 id=&#34;hp作りを友人知人に委託したい人へ&#34;&gt;HP作りを友人・知人に委託したい人へ&lt;/h2&gt;
+&lt;p&gt;私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p&gt;
+&lt;p&gt;ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p&gt;
+&lt;h3 id=&#34;更新頻度&#34;&gt;更新頻度&lt;/h3&gt;
+&lt;p&gt;最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまでを自分でやるか&#34;&gt;どこまでを自分でやるか&lt;/h3&gt;
+&lt;p&gt;本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまで相手に介入させるか&#34;&gt;どこまで相手に介入させるか&lt;/h3&gt;
+&lt;p&gt;ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p&gt;
+&lt;h3 id=&#34;引き継ぎ&#34;&gt;引き継ぎ&lt;/h3&gt;
+&lt;p&gt;これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p&gt;
+&lt;p&gt;例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p&gt;
+&lt;p&gt;もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p&gt;
+&lt;p&gt;さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;という訳で，今回の記事を通して伝えたかったことは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HPを作る目的を今一度確認して欲しい&lt;/li&gt;
+&lt;li&gt;中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li&gt;
+&lt;li&gt;誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ということでした．最後までご覧いただきありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>Hugoに移行してみた</title>
+		<link>https://t-asa2000.net/post/20220903/</link>
+		<pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20220903/</guid>
+		<description>&lt;p&gt;これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong&gt;GitHub Pages + Hugo&lt;/strong&gt; に移行しました．&lt;/p&gt;
+&lt;p&gt;移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023.3.6 追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>
