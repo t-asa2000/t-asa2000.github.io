@@ -147,7 +147,9 @@ header #sitemenu_openclose{
 
 /* smartphone */
 @media screen and (max-width: 499px){
-    
+    header sitename{
+        font-size: 18px;
+    }
 }
 
 /* tablet */
@@ -161,7 +163,7 @@ header #sitemenu_openclose{
         left: 10px;
     }
     header sitename{
-        left: 80px;
+        left: 55px;
     }
     header label.sitemenu_button{
         top: 5px;
