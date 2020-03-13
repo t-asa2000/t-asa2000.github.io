@@ -1,18 +1,83 @@
 /* common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
 *{
     /* border: 1px solid black; */
 }
 
-img.siteicon,header,header sitename,header ul.sitemenu,header label{
+header a,h1 a,h2 a{
+    text-decoration: none;
+    color:inherit;
+}
+
+h1 a:hover,h2 a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+    padding-left: 8px;
+    font-weight: lighter;
+    color: white;
+    background-color: #333;
+    border-left: 3px solid #aaa;
+    border-right: 3px solid #aaa;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 3px 0px;
+}
+
+h2{
+    padding-left: 8px;
+    font-weight: 300;
+    background-color: #eee;
+    border-bottom: 3px solid;
+    border-bottom-color: #aaa;
+}
+
+h2.red,h2.blue,h2.green,h2.yellow{
+    color:white;
+}
+
+h2.red{ 
+    background-color: darkred;
+    border-bottom-color: red;
+}
+
+h2.blue{
+    background-color: darkblue;
+    border-bottom-color: blue;
+}
+
+h2.green{
+    background-color:darkgreen;
+    border-bottom-color: greenyellow;
+}
+
+h2.yellow{
+    background-color:darkgoldenrod;
+    border-bottom-color: yellow;
+}
+
+h3{
+    padding-left: 11px;
+    border-bottom: 3px solid #aaa;
+}
+
+h4{
+    background-color: #eee;
+}
+
+img.siteicon,header,header sitename,header ul.sitemenu,header label.sitemenu_button{
     position: fixed;
 }
 
-img,header ul.sitemenu li,header label{
+img,header ul.sitemenu li,header label.sitemenu_button{
     border-radius: 6px;
-}
-
-header a {
-    text-decoration: none;
 }
 
 header{
@@ -25,44 +90,44 @@ header{
 
 header img.siteicon{
     top: 5px;
-    left: 40px;
     width: 40px;
     height: 40px;
 }
 
 header sitename{
     top: 5px;
-    left: 100px;
     width: 250px;
     height: 40px;
     line-height: 40px;
     font-size: 26px;
+    font-weight: lighter;
 }
 
 header ul.sitemenu{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    background-color: #eee;
 }
 
-header ul.sitemenu li,header label {
+header ul.sitemenu li,header label.sitemenu_button {
     height: 40px;
     padding:0 20px;
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 300;
     -webkit-transition: background-color 0.8s ease;
     -moz-transition: background-color 0.8s ease;
     -o-transition: background-color 0.8s ease;
     transition: background-color  0.8s ease;
 }
 
-header ul.sitemenu li.current,header #sitemenu_openclose:checked ~ label{
+header ul.sitemenu li.current,header #sitemenu_openclose:checked ~ label.sitemenu_button{
     background-color: #fff;
 }
 
-header ul.sitemenu li:hover,header label:hover{
+header ul.sitemenu li:hover,header label.sitemenu_button{
     background-color: #ccc;
 }
 
@@ -70,39 +135,42 @@ header #sitemenu_openclose{
     display: none;
 }
 
-main{
-    padding: 55px 40px 0;
+.sidebar,main{
+    margin-top: 60px;
 }
 
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
 /* smartphone */
-@media screen and (max-width: 500px){
-    header label{
-        top: 5px;
-        right: 10px;
-        overflow: hidden;
-    }
-    header ul.sitemenu{
-        top: 50px;
-        left: 0px;
-        padding: 5px 40px 5px;
-        background-color: #eee;
-        display: none;
-    }
-    header #sitemenu_openclose:checked ~ ul.sitemenu{
-        display: inline;
-    }
+@media screen and (max-width: 499px){
+    
 }
 
 /* tablet */
-@media screen and (min-width: 501px) and (max-width: 799px){
-    header label{
+@media screen and (min-width: 500px) and (max-width: 799px){
+
+}
+
+/* smartphone + tablet */
+@media screen and (max-width: 799px){
+    header img.siteicon{
+        left: 10px;
+    }
+    header sitename{
+        left: 80px;
+    }
+    header label.sitemenu_button{
         top: 5px;
         right: 10px;
         overflow: hidden;
     }
     header ul.sitemenu{
         top: 50px;
-        left: 0px;
+        right: 0px;
         padding: 5px 40px 5px;
         background-color: #eee;
         display: none;
@@ -114,6 +182,12 @@ main{
 
 /* desktop */
 @media screen and (min-width: 800px){
+    header img.siteicon{
+        left: 40px;
+    }
+    header sitename{
+        left: 100px;
+    }
     header ul.sitemenu{
         top: 5px;
         left: 375px;
@@ -122,7 +196,15 @@ main{
     header ul.sitemenu li{
         float: left;
     }
-    header label{
+    header label.sitemenu_button{
         display: none;
+    }
+    .sidebar{
+        float: left;
+        width: 320px;
+    }
+    main{
+        float: right;
+        width: calc(100% - 330px);
     }
 }
