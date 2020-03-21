@@ -1,3 +1,15 @@
+/*
+Theme Name : AT Theme
+*/
+
+/* for WordPress */
+
+#wpadminbar{
+    position: absolute !important;
+    top: 55px !important;
+    z-index: 0 !important;
+}
+
 /* common CSS */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
@@ -16,6 +28,12 @@ h1 a:hover,h2 a:hover{
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 h1{
@@ -86,6 +104,7 @@ header{
     width: 100%;
     height: 50px;
     background-color: #eee;
+    z-index: 1;
 }
 
 header img.siteicon{
@@ -99,7 +118,7 @@ header sitename{
     width: 250px;
     height: 40px;
     line-height: 40px;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
@@ -110,25 +129,35 @@ header ul.sitemenu{
     background-color: #eee;
 }
 
+header ul.sitemenu ul{ /* for WordPress */
+    list-style: none;
+    padding: 0px 3px;
+}
+
 header ul.sitemenu li,header label.sitemenu_button {
     height: 40px;
     padding:0 20px;
+    margin:0 3px;
     text-align: center;
     line-height: 40px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
     -webkit-transition: background-color 0.8s ease;
     -moz-transition: background-color 0.8s ease;
     -o-transition: background-color 0.8s ease;
     transition: background-color  0.8s ease;
 }
 
-header ul.sitemenu li.current,header #sitemenu_openclose:checked ~ label.sitemenu_button{
+header ul.sitemenu li.current,header ul.sitemenu .current_page_item/*,header #sitemenu_openclose:checked ~ label.sitemenu_button*/{
     background-color: #fff;
 }
 
-header ul.sitemenu li:hover,header label.sitemenu_button{
+header ul.sitemenu li:hover{
     background-color: #ccc;
+}
+
+header ul.sitemenu li a,header label.sitemenu_button{
+    display: block;
 }
 
 header #sitemenu_openclose{
@@ -136,20 +165,22 @@ header #sitemenu_openclose{
 }
 
 .sidebar,main{
-    margin-top: 60px;
+    margin-top: 55px;
+}
+
+main img{
+    max-width: 100%;
 }
 
 .clearfix:after {
     clear: both;
     content: '';
     display: block;
-  }
+}
 
 /* smartphone */
 @media screen and (max-width: 499px){
-    header sitename{
-        font-size: 18px;
-    }
+    
 }
 
 /* tablet */
@@ -172,8 +203,9 @@ header #sitemenu_openclose{
     }
     header ul.sitemenu{
         top: 50px;
-        right: 0px;
-        padding: 5px 40px 5px;
+        left: 0px;
+        width: 100%;
+        padding: 5px 0;
         background-color: #eee;
         display: none;
     }
@@ -188,11 +220,11 @@ header #sitemenu_openclose{
         left: 40px;
     }
     header sitename{
-        left: 100px;
+        display: none;
     }
     header ul.sitemenu{
         top: 5px;
-        left: 375px;
+        left: 80px;
         overflow: hidden;
     }
     header ul.sitemenu li{
