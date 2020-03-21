@@ -39,6 +39,7 @@ body::-webkit-scrollbar{
 h1{
     padding-left: 8px;
     font-weight: lighter;
+    font-size: 32px;
     color: white;
     background-color: #333;
     border-left: 3px solid #aaa;
@@ -103,7 +104,7 @@ header{
     left: 0px;
     width: 100%;
     height: 50px;
-    background-color: #eee;
+    background-color: white;
     z-index: 1;
 }
 
@@ -115,18 +116,17 @@ header img.siteicon{
 
 header sitename{
     top: 5px;
+    left: 55px;
     width: 250px;
     height: 40px;
     line-height: 40px;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 header ul.sitemenu{
     margin: 0px;
-    padding: 0px;
     list-style: none;
-    background-color: #eee;
 }
 
 header ul.sitemenu ul{ /* for WordPress */
@@ -146,10 +146,23 @@ header ul.sitemenu li,header label.sitemenu_button {
     -moz-transition: background-color 0.8s ease;
     -o-transition: background-color 0.8s ease;
     transition: background-color  0.8s ease;
+    -ms-user-select: none; /* IE 10+ */
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+header label.sitemenu_button {
+    font-size: 32px;
+    font-weight:400;
+    padding:0 8px;
+    color: #777;
 }
 
 header ul.sitemenu li.current,header ul.sitemenu .current_page_item/*,header #sitemenu_openclose:checked ~ label.sitemenu_button*/{
     background-color: #fff;
+    font-weight: 600;
 }
 
 header ul.sitemenu li:hover{
@@ -164,18 +177,20 @@ header #sitemenu_openclose{
     display: none;
 }
 
-.sidebar,main{
-    margin-top: 55px;
-}
-
-main img{
+.sidebar img,main img{
     max-width: 100%;
+    height: auto;
 }
 
 .clearfix:after {
     clear: both;
     content: '';
     display: block;
+}
+
+article{
+    padding-top: 55px;
+    margin-top: -55px;
 }
 
 /* smartphone */
@@ -193,9 +208,6 @@ main img{
     header img.siteicon{
         left: 10px;
     }
-    header sitename{
-        left: 55px;
-    }
     header label.sitemenu_button{
         top: 5px;
         right: 10px;
@@ -212,6 +224,9 @@ main img{
     header #sitemenu_openclose:checked ~ ul.sitemenu{
         display: inline;
     }
+    .sidebar,main{
+        margin-top: 55px;
+    }
 }
 
 /* desktop */
@@ -225,6 +240,8 @@ main img{
     header ul.sitemenu{
         top: 5px;
         left: 80px;
+        padding: 0px;
+        background-color: white;
         overflow: hidden;
     }
     header ul.sitemenu li{
@@ -233,12 +250,16 @@ main img{
     header label.sitemenu_button{
         display: none;
     }
+    .sidebar,main{
+        margin-top: 40px;
+    }
     .sidebar{
         float: left;
         width: 320px;
     }
     main{
         float: right;
-        width: calc(100% - 330px);
+        width: calc(100% - 370px);
+        margin-right: 40px;
     }
 }
