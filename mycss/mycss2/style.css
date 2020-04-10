@@ -27,7 +27,7 @@ h1 a:hover,h2 a:hover{
 }
 
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Yu Gothic UI','Noto Sans JP', sans-serif;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -52,34 +52,9 @@ h1,h2,h3,h4,h5,h6{
 
 h2{
     padding-left: 8px;
-    font-weight: 300;
-    background-color: #eee;
+    font-weight: 700;
     border-bottom: 3px solid;
     border-bottom-color: #aaa;
-}
-
-h2.red,h2.blue,h2.green,h2.yellow{
-    color:white;
-}
-
-h2.red{ 
-    background-color: darkred;
-    border-bottom-color: red;
-}
-
-h2.blue{
-    background-color: darkblue;
-    border-bottom-color: blue;
-}
-
-h2.green{
-    background-color:darkgreen;
-    border-bottom-color: greenyellow;
-}
-
-h2.yellow{
-    background-color:darkgoldenrod;
-    border-bottom-color: yellow;
 }
 
 h3{
@@ -91,11 +66,11 @@ h4{
     background-color: #eee;
 }
 
-img.siteicon,header,header sitename,header ul.sitemenu,header label.sitemenu_button{
+img.siteicon,header,header sitename,header ul.sitemenu,header label.sitemenu-button{
     position: fixed;
 }
 
-img,header ul.sitemenu li,header label.sitemenu_button{
+img,header ul.sitemenu li,header label.sitemenu-button{
     border-radius: 6px;
 }
 
@@ -134,7 +109,7 @@ header ul.sitemenu ul{ /* for WordPress */
     padding: 0px 3px;
 }
 
-header ul.sitemenu li,header label.sitemenu_button {
+header ul.sitemenu li,header label.sitemenu-button {
     height: 40px;
     padding:0 20px;
     margin:0 3px;
@@ -153,14 +128,14 @@ header ul.sitemenu li,header label.sitemenu_button {
    user-select: none;
 }
 
-header label.sitemenu_button {
+header label.sitemenu-button {
     font-size: 32px;
     font-weight:400;
     padding:0 8px;
     color: #777;
 }
 
-header ul.sitemenu li.current,header ul.sitemenu .current_page_item/*,header #sitemenu_openclose:checked ~ label.sitemenu_button*/{
+header ul.sitemenu li.current,header ul.sitemenu .current_page_item/*,header #sitemenu-openclose:checked ~ label.sitemenu-button*/{
     background-color: #fff;
     font-weight: 600;
 }
@@ -169,11 +144,11 @@ header ul.sitemenu li:hover{
     background-color: #ccc;
 }
 
-header ul.sitemenu li a,header label.sitemenu_button{
+header ul.sitemenu li a,header label.sitemenu-button{
     display: block;
 }
 
-header #sitemenu_openclose{
+header #sitemenu-openclose{
     display: none;
 }
 
@@ -208,7 +183,7 @@ article{
     header img.siteicon{
         left: 10px;
     }
-    header label.sitemenu_button{
+    header label.sitemenu-button{
         top: 5px;
         right: 10px;
         overflow: hidden;
@@ -221,7 +196,7 @@ article{
         background-color: #eee;
         display: none;
     }
-    header #sitemenu_openclose:checked ~ ul.sitemenu{
+    header #sitemenu-openclose:checked ~ ul.sitemenu{
         display: inline;
     }
     .sidebar,main{
@@ -247,7 +222,7 @@ article{
     header ul.sitemenu li{
         float: left;
     }
-    header label.sitemenu_button{
+    header label.sitemenu-button{
         display: none;
     }
     .sidebar,main{

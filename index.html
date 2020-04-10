@@ -14,17 +14,12 @@
     <header>
         <a href="index.html"><img class="siteicon" src="https://github.com/t-asa2000.png"></a>
         <sitename><a href="index.html">asata(GitHub Pages)</a></sitename>
-        <input type="checkbox" id="sitemenu_openclose" />
-        <label for="sitemenu_openclose" class="sitemenu_button" >≡</label>
+        <input type="checkbox" id="sitemenu-openclose" />
+        <label for="sitemenu-openclose" class="sitemenu-button" >≡</label>
         <ul class="sitemenu">
             <li><a href="#profile">Profile</a></li>
-            <li><a href="#what_i_did">What I did?</a></li>
-            <li><a href="#gadgets">Gadgets</a></li>
-            <li><a href="https://qiita.com/t_asa">Qiita</a></li>
-            <li><a href="https://github.com/t-asa2000">GitHub</a></li>
-            <li><a href="https://t-asa2000.hatenablog.com/">HatenaBlog</a></li>
-            <li><a href="https://soundcloud.com/t-asa2000">SoundCloud</a></li>
-            <li><a href="https://qiitadon.com/@t_asa">Mastodon (Qiitadon.com)</a></li>
+            <li><a href="#what-i-did">What I did?</a></li>
+            <li><a href="#sns">My SNS</a></li>
         </ul>
         </div>
     </header> 
@@ -32,7 +27,7 @@
         <main>
             <article id="profile">
                 <h1>Profile</h1>
-                <h2>asata</h2>
+                <h2 class="h2" style="border-bottom-color: darkgreen;">asata</h2>
                 <b>
                     新潟県出身・在住　学生
                     <br>Niigata-pref, Japan. Student.
@@ -43,6 +38,9 @@
                     最近ではWebサイト作りに興味があります．<br>
                     プログラミングは，C，VB.NET，Pythonのいずれも入出力・四則演算・if文・ループ等基本的な部分だけならできます．<br>後は，ググりながらのコーディングなら多分出来ます．
                 </p>
+                <p>
+                    このページは僕が自作CSSの練習の一環として作成したプロフィールページです．
+                </p>
                 <ul>
                     <li>血液型：B型</li>
                     <li>好きな食べ物：うどん(丸亀製麺好き)，餃子，エビフライ，寿司</li>
@@ -50,15 +48,39 @@
                     <li>苦手なこと：おしゃれ，手先を使う作業(不器用)</li>
                 </ul>
             </article>
-            <h1 id="what_i_did">What I did?</h1>
+            <article  id="what-i-did">
+                <h1>What I did?</h1>
+                <ul>
+                    <li><a href="https://t-asa2000.hatenablog.com/entry/2020/02/22/225522">2019.12.21 同じ雛形かつ大量のExcelファイルを一括処理するツールをPython3で作りました</a></li>
+                    <li><a href="https://www.nagaoka-ct.ac.jp/st/robo/">こちらのHPの維持管理をしています．(WordPressシステム管理)</a></li>
+                </ul>
+                <p>
+                    その他，僕が普段どんなことをしているかは<a href="https://t-asa2000.hatenablog.com/">ブログ</a>や<a href="https://qiita.com/t_asa">Qiita</a>を見てください．
+                </p>
+            </article>
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5deb3f8a13799570"></script>
         </main>
         <div class="sidebar">
-            <h2><a href="https://twitter.com/t_asa2000">Twitter</a></h2>
-            <p>
-                <a class="twitter-timeline" data-width="320" href="https://twitter.com/t_asa2000?ref_src=twsrc%5Etfw">Tweets by t_asa2000</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </p>
+            <article id="sns">
+                <h2>My SNS</h2>
+                <ul>
+                    <li><a href="https://qiitadon.com/@t_asa">Mastodon(main SNS)<br>(@t_asa@qiitadon.com)</a></li>
+                    <li><a href="https://t-asa2000.hatenablog.com/">HatenaBlog</a></li>
+                    <li><a href="https://qiita.com/t_asa">Qiita(@t_asa)</a></li>
+                    <li><a href="https://twitter.com/t_asa2000">Twitter(@t_asa2000)</a></li>
+                    <li><a href="https://github.com/t-asa2000">GitHub(@t-asa2000)</a></li>
+                    <li><a href="https://soundcloud.com/t-asa2000">SoundCloud(listening only)<br>(@t-asa2000)</a></li>
+                    
+                </ul>
+            </article>
+            <article>
+                <h2 style="border-bottom-color:  #1DA1F2
+                ;"><a href="https://twitter.com/t_asa2000">Twitter</a></h2>
+                <p>
+                    <a class="twitter-timeline" data-width="320" href="https://twitter.com/t_asa2000?ref_src=twsrc%5Etfw">Tweets by t_asa2000</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </p>
+            </article>
         </div>
     </content>
 </body>
