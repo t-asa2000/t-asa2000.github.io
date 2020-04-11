@@ -40,10 +40,7 @@ h1{
     padding-left: 8px;
     font-weight: lighter;
     font-size: 32px;
-    color: white;
-    background-color: #333;
-    border-left: 3px solid #aaa;
-    border-right: 3px solid #aaa;
+    background-color: #eee;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -70,7 +67,7 @@ img.siteicon,header,header sitename,header ul.sitemenu,header label.sitemenu-but
     position: fixed;
 }
 
-img,header ul.sitemenu li,header label.sitemenu-button{
+img,header ul.sitemenu li,header label.sitemenu-button,div.profilebox,div.profilebox div.profilebox-detail{
     border-radius: 6px;
 }
 
@@ -166,6 +163,70 @@ header #sitemenu-openclose{
 article{
     padding-top: 55px;
     margin-top: -55px;
+}
+
+div.profilebox{
+    position: relative;
+    margin: 30px;
+    height: 280px;
+    overflow: hidden;
+}
+
+div.profilebox img.profilebox-back{
+    width: 100%;
+    height: 100%;
+    -ms-filter: blur(80px) brightness(200%);
+    filter: blur(80px) brightness(200%);
+    border-radius: none;
+}
+
+div.profilebox img.profilebox-icon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-transition: box-shadow 0.8s ease;
+    -moz-transition: box-shadow 0.8s ease;
+    -o-transition: box-shadow 0.8s ease;
+    transition: box-shadow  0.8s ease;
+}
+
+div.profilebox img.profilebox-icon:hover{
+    box-shadow: 0px 0px 20px #777;
+}
+
+div.profilebox p.profilebox-name{
+    position: absolute;
+    margin: 0px;
+    top: 30px;
+    left: 280px;
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+div.profilebox div.profilebox-detail{
+    position: absolute;
+    margin-right: 5px;
+    padding: 5px;
+    top: 95px;
+    left: 280px;
+    max-width: 70%;
+    max-height: 170px;
+    overflow-y: scroll;
+    background: rgba(255,255,255,0.3);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+div.profilebox div.profilebox-detail::-webkit-scrollbar{
+    display: none;
+}
+
+div.profilebox div.profilebox-detail p,div.profilebox div.profilebox-detail ul{
+    margin: 5px 0px 0px;
 }
 
 /* smartphone */
