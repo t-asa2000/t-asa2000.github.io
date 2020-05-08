@@ -27,13 +27,7 @@ h1 a:hover,h2 a:hover{
 }
 
 body{
-    font-family: 'Yu Gothic UI','Noto Sans JP', sans-serif;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-body::-webkit-scrollbar{
-    display: none;
+    font-family: 'Yu Gothic UI','Yu Gothic','YuGothic','Meiryo','Noto Sans JP';
 }
 
 h1{
@@ -168,11 +162,16 @@ article{
 
 /* smartphone */
 @media screen and (max-width: 499px){
-    
+    .sp-hide{
+        display: none;
+    }
 }
 
 /* tablet */
 @media screen and (min-width: 500px) and (max-width: 799px){
+    .tab-hide{
+        display: none;
+    }
 
 }
 
@@ -197,13 +196,22 @@ article{
     header #sitemenu-openclose:checked ~ ul.sitemenu{
         display: inline;
     }
-    .sidebar,main{
+    .sidebar.header-on,main.header-on{
         margin-top: 55px;
+    }
+    .sidebar,main{
+        margin-bottom: 55px;
+    }
+    main.sidebar-on{
+        margin-bottom: 0;
     }
 }
 
 /* desktop */
 @media screen and (min-width: 800px){
+    .pc-hide{
+        display: none;
+    }
     header img.siteicon{
         left: 40px;
     }
@@ -230,9 +238,12 @@ article{
         float: left;
         width: 320px;
     }
+    main{
+        margin: 0 40px;
+    }
     main.sidebar-on{
+        margin-left: 0;
         float: right;
         width: calc(100% - 370px);
-        margin-right: 40px;
     }
 }
