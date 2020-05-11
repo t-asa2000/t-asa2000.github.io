@@ -11,7 +11,6 @@ Theme Name : AT Theme
 }
 
 /* common CSS */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 *{
     /* border: 1px solid black; */
@@ -20,19 +19,16 @@ Theme Name : AT Theme
 body{
     color: #1c1c1c;
     background-color: #fefefe;
+    font-family: 'Yu Gothic','YuGothic','Noto Sans JP','Meiryo';
 }
 
-header a,h1 a,h2 a,p.profile-name a{
+header a,h1 a,h2 a,p.profile-name a,label.button a{
     text-decoration: none;
     color:inherit;
 }
 
-h1 a:hover,h2 a:hover,p.profile-name a:hover{
+h1 a:hover,h2 a:hover,p.profile-name a:hover,label.button a:hover{
     text-decoration: underline;
-}
-
-body{
-    font-family: 'Yu Gothic','YuGothic','Meiryo','Noto Sans JP';
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -47,8 +43,8 @@ h1{
     text-align: center;
     font-weight: lighter;
     font-size: 34px;
-    line-height: 120px;
-    border-bottom: 2px solid #efeaea;
+    padding: 34px 0;
+    border-bottom: 2px solid #847400;
 }
 
 .sidebar h1{
@@ -122,22 +118,41 @@ header ul.sitemenu ul{ /* for WordPress */
     padding: 0px 3px;
 }
 
-header ul.sitemenu li,header label.sitemenu-button {
+label.button,header ul.sitemenu li,header label.sitemenu-button {
     height: 42px;
-    padding-top:5px;
+    padding:5px 10px 0;
     text-align: center;
     line-height: 42px;
-    font-size: 14px;
-    font-weight: 400;
-    -webkit-transition: background-color 0.8s ease;
-    -moz-transition: background-color 0.8s ease;
-    -o-transition: background-color 0.8s ease;
-    transition: background-color 0.8s ease;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: background-color 0.8s ease,color 0.8s ease;
+    -moz-transition: background-color 0.8s ease,color 0.8s ease;
+    -o-transition: background-color 0.8s ease,color 0.8s ease;
+    transition: background-color 0.8s ease,color 0.8s ease;
     -ms-user-select: none; /* IE 10+ */
    -moz-user-select: -moz-none;
    -khtml-user-select: none;
    -webkit-user-select: none;
    user-select: none;
+}
+
+label.button{
+    --btn-color:#707070;
+    background-color: var(--btn-color);
+    color: #fefefe;
+    margin: 5px;
+    height: unset;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    width: auto;
+    word-wrap: break-word;
+    border: 2px solid var(--btn-color);
+}
+
+label.button:hover{
+    background-color: #fefefe;
+    color: var(--btn-color);
 }
 
 header label.sitemenu-button {
@@ -147,9 +162,9 @@ header label.sitemenu-button {
     color: #777;
 }
 /* .current_page_itemはwordpress用 */
-header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
+/*header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
     font-weight: 600;
-}
+}*/
 
 header ul.sitemenu li a,header label.sitemenu-button{
     display: block;
@@ -277,11 +292,22 @@ div.profile-box p.profile-name{
     header ul.sitemenu{
         left: 80px;
         padding: 0px;
-        overflow: hidden;
+        overflow-x:scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        white-space: nowrap;
+        font-size: 0;
+        width: 90%;
+    }
+    header ul.sitemenu::-webkit-scrollbar{
+        display: none;
     }
     header ul.sitemenu li{
-        width: 150px;
-        float: left;
+        padding-bottom: 3px;
+        display: inline-block;
+        min-width: 100px;
+        white-space: normal;
     }    
     header ul.sitemenu li:hover{
         background-color: #efeaea;
@@ -291,6 +317,7 @@ div.profile-box p.profile-name{
     }
     /* .current_page_itemはwordpress用 */
     header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
+        padding-bottom: 0;
         border-bottom: 3px solid #847400;
     }
     div.content{
@@ -328,7 +355,7 @@ div.profile-box p.profile-name{
 /*dark theme : ブラウザのダークテーマ対応 */
 @media (prefers-color-scheme: dark) {
     body,header{
-      background-color: #252525;
+      background-color: #292929;
       color: #cecece;
     }
 
@@ -340,10 +367,6 @@ div.profile-box p.profile-name{
         background-color: #363636;
     }
 
-    h1{
-        border-bottom-color: #847400;
-    }
-
     .sidebar h1{
         background-color: #2f2f2f;
     }
@@ -353,7 +376,7 @@ div.profile-box p.profile-name{
     }
     @media screen and (max-width: 799px){
         header ul.sitemenu {
-            background-color: #2b2b2b;
+            background-color: #2f2f2f;
         }
     }
 }
