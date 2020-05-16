@@ -407,10 +407,10 @@ div.profile-box div.profile{
     a{
         color:#e7b0c8;
     }
-    header ul.sitemenu li:hover,div.profile-box,h1.title{
+    header ul.sitemenu li:hover{
         background-color: #444444;
     }
-    .sidebar h1{
+    .sidebar h1,div.profile-box,h1.title{
         background-color: #2f2f2f;
     }
     div.mamewaza_blog a{
