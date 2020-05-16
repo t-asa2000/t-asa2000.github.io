@@ -22,6 +22,10 @@ body{
     font-family: 'Yu Gothic','YuGothic','Noto Sans JP','Meiryo';
 }
 
+a{
+    color: #0011ee;
+}
+
 header a,h1 a,h2 a,p.profile-name a,label.button a{
     text-decoration: none;
     color:inherit;
@@ -40,8 +44,10 @@ h2,h3,h4,h5,h6{
 }
 
 h1{
-    text-align: center;
     font-weight: lighter;
+}
+
+h1:not([class]){
     font-size: 34px;
     padding: 34px 0;
     border-bottom: 2px solid #847400;
@@ -49,12 +55,19 @@ h1{
 
 .sidebar h1{
     border-radius: 6px;
-    padding: 9px 15px;
+    padding: 9px 20px;
     font-size: 20px;
     line-height: 20px;
     border-bottom: none;
     background-color: #efeaea;
     box-shadow: 5px 5px 10px -2px rgba(0,0,0,50%)
+}
+
+h1.title{
+    margin:0;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #efeaea;
 }
 
 h2{
@@ -68,7 +81,7 @@ h3{
     font-size: 18px;
 }
 
-img.siteicon,header,header sitename,header ul.sitemenu,header label.sitemenu-button{
+img.siteicon,header,header p.sitename,header ul.sitemenu,header label.sitemenu-button{
     position: fixed;
 }
 
@@ -76,7 +89,7 @@ header{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 50px;
+    height: 55px;
     background-color: #fefefe;
     z-index: 1;
 }
@@ -86,7 +99,11 @@ img.siteicon{
     height: 40px;
 }
 
-img.siteicon,img.profile-icon{
+header img.siteicon{
+    margin: 5px 10px;
+}
+
+img.siteicon{
     border-radius: 50%;
     -webkit-transition: box-shadow 0.8s ease;
     -moz-transition: box-shadow 0.8s ease;
@@ -94,18 +111,8 @@ img.siteicon,img.profile-icon{
     transition: box-shadow 0.8s ease;
 }
 
-img.siteicon:hover,img.profile-icon:hover{
+img.siteicon:hover{
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,25%);
-}
-
-header sitename{
-    top: 5px;
-    left: 55px;
-    width: 250px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 header ul.sitemenu{
@@ -190,22 +197,49 @@ div.content{
 }
 
 div.content.header-on{
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 article{
-    padding-top: 55px;
-    margin-top: -55px;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 
 div.profile-box{
-    display: flex;
+    background-color: #efeaea;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,20%);
 }
 
-div.profile-box p.profile-name{
-    font-family: 'Yu Gothic UI';
-    font-weight: 100;
-    margin:auto 3px;
+div.profile-box img.cover{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: -48px;
+    display: block;
+    border-bottom: 5px solid #847400;
+}
+
+div.profile-box img.icon{
+    border-radius:50%;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto -80px;
+    top:-48px;
+    display: block;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,75%);
+}
+
+div.profile-box h1.title{
+    margin-top:-48px;
+}
+
+div.profile-box img.cover ~ h1.title{
+    margin-top:0;    
+}
+
+div.profile-box div.profile{
+    margin-top: -40px;
 }
 
 /* smartphone */
@@ -213,12 +247,8 @@ div.profile-box p.profile-name{
     .sp-hide{
         display: none !important;
     }
-    img.profile-icon{
-        max-height: 64px;
-        margin: 0 5px;
-    }
-    div.profile-box p.profile-name{
-        font-size: 21px;
+    h1.title{
+        font-size: 26px;
     }
 }
 
@@ -227,17 +257,17 @@ div.profile-box p.profile-name{
     .tab-hide{
         display: none !important;
     }
-    img.profile-icon{
-        max-height: 96px;
-    }
 
 }
 
 /* smartphone + tablet */
 @media screen and (max-width: 799px){
-    img.siteicon{
-        top: 5px;
-        left: 10px;
+    header p.sitename{
+        margin: 18.5px 0 18.5px 60px;
+        max-width: 250px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 18px;
     }
     header label.sitemenu-button{
         top: 5px;
@@ -245,9 +275,11 @@ div.profile-box p.profile-name{
         overflow: hidden;
     }
     header ul.sitemenu{
-        top: 50px;
+        top: 55px;
         left: 0px;
         width: 100%;
+        max-height: 400px;
+        overflow-y: auto;
         padding: 5px 0;
         background-color: #efeaea;
         display: none;
@@ -265,15 +297,21 @@ div.profile-box p.profile-name{
     div.sidebar{
         margin-top:60px;
     }
+    h1:not([class]){
+        text-align: center;
+    }
+    div.profile-box{
+        margin-top: 120px;
+    }
+    div.profile-box img.cover{
+        max-height: 50vw;
+    }
 }
 
 /* tablet + desktop */
-@media screen and (min-width:500px){
-    div.profile-box p.profile-name{
-        font-size: 36px;
-    }
-    img.profile-icon{
-        margin: 10px;
+@media screen and (min-width:500px){    
+    h1.title{
+        font-size: 34px;
     }
 }
 
@@ -282,26 +320,17 @@ div.profile-box p.profile-name{
     .pc-hide{
         display: none !important;
     }
-    img.siteicon{
-        top: 7px;
-        left: 20px;
-    }
-    header sitename{
+    header p.sitename{
         display: none;
     }
     header ul.sitemenu{
-        left: 80px;
+        left: 60px;
         padding: 0px;
-        overflow-x:scroll;
+        overflow-x: auto;
         overflow-y: hidden;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
         white-space: nowrap;
         font-size: 0;
-        width: 90%;
-    }
-    header ul.sitemenu::-webkit-scrollbar{
-        display: none;
+        width: 92%;
     }
     header ul.sitemenu li{
         padding-bottom: 3px;
@@ -322,25 +351,39 @@ div.profile-box p.profile-name{
     }
     div.content{
         display: flex;
-    }
-    div.content{
         flex-direction: row-reverse;
+        margin: 0 40px;
     }
     div.sidebar{
         min-width: 320px;
-        max-width: 320px;
+        width: 20%;
+        margin-left: -40px;
+        margin-right: 20px;
     }
     div.main{
-        margin: 0 40px;
-        width: 100%;
+        margin: 0 auto;
+        width: 80%;
     }
-    img.profile-icon{  
-        max-height: 128px;
+    h1:not([class]){
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    div.profile-box{
+        margin-top: 48px;
+    }
+    div.profile-box img.cover{
+        max-height: 40vw;
+    }
+    div.profile-box div.profile{
+        padding:0 10px 10px;
     }
 }
 
 /* wide */
 @media screen and (min-width: 1000px){
+    header ul.sitemenu{
+        width: 93%;
+    }
     div.multi-column{
         display: flex;
         margin-left: -10px;
@@ -349,6 +392,9 @@ div.profile-box p.profile-name{
     div.multi-column > div,div.multi-column > article{
         margin-left: 10px;
         margin-right: 10px;
+    }    
+    h1.title{
+        font-size: 50px;
     }
 }
 
@@ -358,19 +404,15 @@ div.profile-box p.profile-name{
       background-color: #292929;
       color: #cecece;
     }
-
     a{
         color:#e7b0c8;
     }
-
-    header ul.sitemenu li:hover{
-        background-color: #363636;
+    header ul.sitemenu li:hover,div.profile-box,h1.title{
+        background-color: #444444;
     }
-
     .sidebar h1{
         background-color: #2f2f2f;
     }
-
     div.mamewaza_blog a{
         color:#cecece !important;
     }
