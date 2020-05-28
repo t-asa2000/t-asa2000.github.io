@@ -318,7 +318,6 @@ div.title-box img.icon{
 
 div.title-box h1,div.name-box h1{
     border-bottom: unset;
-    font-weight: 100;
 }
 
 div.title-box h1{
@@ -350,7 +349,7 @@ div.name-box img.icon{
 }
 
 div.name-box h1{  
-    margin: auto 20px;
+    margin: auto 20px auto 0;
     padding: 0;
     width: 100%;
     white-space: nowrap;
@@ -434,7 +433,7 @@ div.name-box h1{
     div.sidebar{
         margin-top:60px;
     }
-    div.main h1:not([class]){
+    div.main > h1:not([class]){
         text-align: center;
     }
     div.title-box{
@@ -455,8 +454,11 @@ div.name-box h1{
         height: 96px;
     }
     div.name-box h1{
-        margin: auto 40px;
+        margin: auto 0 auto 40px;
         text-align: unset;
+    }
+    div.title-box h1,div.name-box h1{
+        font-weight: 100;
     }
 }
 
