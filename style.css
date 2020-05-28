@@ -21,7 +21,7 @@
     --default-font-color-dark:#cecece;
     --link-color:#84790D;
     --link-color-dark:#e7b0c8;
-    --back-color:#fefefe;
+    --back-color:#fafafa;
     --back-color-dark:#292929;
     --header-font-color:var(--default-font-color);
     --header-font-color-dark:var(--default-font-color-dark);
@@ -360,8 +360,11 @@ div.name-box h1{
     .sp-hide{
         display: none !important;
     }
-    div.title-box h1,div.name-box h1,ul.article-list li h1{
+    div.main h1:not([class]),div.title-box h1,div.name-box h1,ul.article-list li h1{
         font-size: 22px;
+    }
+    div.main h1:not([class]){
+        padding: 10px;
     }
     div.title-box img.icon,div.name-box img.icon{
         width: 72px;
@@ -432,9 +435,6 @@ div.name-box h1{
     }
     div.sidebar{
         margin-top:60px;
-    }
-    div.main > h1:not([class]){
-        text-align: center;
     }
     div.title-box{
         margin-top: 120px;
