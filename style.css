@@ -1,20 +1,50 @@
-/* common CSS */
+:root{
+    /* color sample */
+    --color-mastodon:#008cff;
+    --color-hatenablog:#444444;
+    --color-qiita:#55C500;
+    --color-twitter:#1DA1F2;
+    --color-github:#44494e;
+    --color-soundcloud:#f50;
+    --color-twitch:#7940CF;
+    --color-youtube:#FF0000;
+    --color-facebook:#3C5A99;
+    --color-instagram:#CF2E92;
+    --color-line:#00B900;
+    --color-pinterest:#BD081C;
+    --color-feedly:#6CC655;
 
+    /* color property */
+    --theme-color:#847400;
+    --theme-color-dark:#847400;
+    --default-font-color:#1c1c1c;
+    --default-font-color-dark:#cecece;
+    --link-color:#84790D;
+    --link-color-dark:#e7b0c8;
+    --back-color:#fefefe;
+    --back-color-dark:#292929;
+    --header-font-color:var(--default-font-color);
+    --header-font-color-dark:var(--default-font-color-dark);
+    --header-back-color:var(--back-color);
+    --header-back-color-dark:var(--back-color-dark);
+}
+
+/* common CSS */
 *{
     /* border: 1px solid black; */
 }
 
 body{
-    color: #1c1c1c;
-    background-color: #fefefe;
+    color: var(--default-font-color);
+    background-color: var(--back-color);
     font-family: 'Yu Gothic','YuGothic','Arial','Meiryo','Noto Sans JP';
 }
 
 a{
-    color: #84790D;
+    color: var(--link-color);
 }
 
-header a,h1 a,h2 a,p.profile-name a,label a,ul.sitemenu a,ul.menu a,ul.article-list a,ul.list a{
+header a,h1 a,h2 a,p.profile-name a,label a,ul.sitemenu a,ul.menu a,ul.article-list a,ul.article-list a:hover,ul.list a,ul.list a:hover{
     text-decoration: none;
     color:inherit;
 }
@@ -32,36 +62,28 @@ h2,h3,h4,h5,h6{
 }
 
 h1{
-    font-weight: lighter;
+    font-weight: 300;
+    font-family: 'Noto Sans JP';
 }
 
 h1:not([class]){
     font-size: 34px;
     padding: 34px 0;
-    border-bottom: 2px solid #847400;
+    border-bottom: 2px solid var(--theme-color);
 }
 
 .sidebar h1{
     border-radius: 6px;
     padding: 9px 20px;
     font-size: 20px;
+    font-weight: 500;
     line-height: 20px;
     border-bottom: none;
-    box-shadow: 5px 5px 10px -2px rgba(0,0,0,50%)
+    text-align: unset;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,30%);
 }
 
-h1.title,h1.article-title,ul.article-list li h1{
-    margin:0;
-    padding: 20px;
-    font-family: 'Noto Sans JP';
-    font-weight: 300;
-}
-
-h1.title{
-    text-align: center;
-}
-
-.sidebar h1,div.name-box{
+.sidebar h1,div.title-box{
     background-color: #efeaea;
 }
 
@@ -85,7 +107,8 @@ header{
     left: 0px;
     width: 100%;
     height: 55px;
-    background-color: inherit;
+    color: var(--header-font-color);
+    background-color: var(--header-back-color);
     z-index: 1;
 }
 
@@ -135,6 +158,12 @@ ul.article-list,ul.list{
 ul.article-list li,ul.list li{
     padding: 10px 10px 9.5px;
     border-bottom: 0.5px solid #cecece;
+    position: relative;
+}
+
+ul.list li a{
+    padding: 10px;
+    margin: -10px;
 }
 
 ul.article-list li h1{
@@ -145,7 +174,7 @@ ul.article-list li h1{
 }
 
 .content ul.sitemenu{
-    border-bottom: 2px solid #847400;
+    border-bottom: 2px solid var(--theme-color);
 }
 
 .content ul.sitemenu li{
@@ -159,7 +188,7 @@ ul.article-list li h1{
 
 .content ul.sitemenu li.current,.content ul.menu li.current{
     color:#fefefe;
-    background-color:  #847400;
+    background-color:  var(--theme-color);
 }
 
 .content ul.sitemenu li.current{
@@ -182,6 +211,7 @@ label.button,ul.sitemenu li,ul.menu li,label.sitemenu-button{
    -khtml-user-select: none;
    -webkit-user-select: none;
    user-select: none;
+   position: relative;
 }
 
 label.button{
@@ -190,13 +220,16 @@ label.button{
     color: #fefefe;
     margin: 5px;
     height: unset;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 5px 20px 0;
     display: inline-block;
     width: auto;
     word-wrap: break-word;
     border: 2px solid var(--btn-color);
-    position: relative;
+}
+
+label.button a{
+    padding: 5px 20px 0;
+    margin: -5px -20px 0;
 }
 
 label.button:hover{
@@ -208,6 +241,11 @@ label.button.block,label.button.large{
     padding: 15px 40px;
     font-size: 26px;
     min-width: 120px;
+}
+
+label.button.block a,label.button.large a{
+    padding: 15px 40px;
+    margin: -15px -40px;
 }
 
 label.button.block,.sidebar label.button.large{
@@ -222,6 +260,11 @@ label.meta{
     margin: 3px;
     padding:3px 5px;
     display: inline-block;
+    position: relative;
+}
+
+label.meta:hover{
+    background-color: #444444;
 }
 
 ul.sitemenu li a,ul.menu li a,label.button a,ul.article-list li a,ul.list li a,header label.sitemenu-button{
@@ -247,7 +290,7 @@ div.content{
     margin-bottom: 55px;
 }
 
-div.content.header-on{
+header ~ div.content{
     margin-top: 70px;
 }
 
@@ -256,35 +299,61 @@ article{
     margin-top: -70px;
 }
 
-div.name-box img.cover{
+div.title-box img.cover{
     width: 100%;
     height: auto;
     object-fit: cover;
     margin-top: -48px;
     display: block;
-    border-bottom: 5px solid #847400;
+    border-bottom: 5px solid var(--theme-color);
 }
 
-div.name-box img.icon{
+div.title-box img.icon{
     border-radius:50%;
-    width: 96px;
-    height: 96px;
     margin: 0 auto -60px;
     top:-48px;
     display: block;
     position: relative;
 }
 
-div.name-box h1{
-    margin-top:-48px;
+div.title-box h1,div.name-box h1{
+    border-bottom: unset;
+    font-weight: 100;
 }
 
-div.name-box img.cover ~ h1{
+div.title-box h1{
+    margin:-48px 0 0;
+    padding: 20px;
+    text-align: unset;
+}
+
+div.title-box img.cover ~ h1{
     margin-top:0;
 }
 
-div.name-box div.detail{
+div.title-box div.detail{
     margin-top: -20px;
+}
+
+div.title-box div.detail p,ul.list p{
+    margin: 0 0 6px;
+}
+
+div.name-box{
+    display: flex;
+}
+
+div.name-box img.icon{
+    width: 128px;
+    height: 128px; 
+    border-radius: 50%;  
+}
+
+div.name-box h1{  
+    margin: auto 20px;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
 }
 
 /* smartphone */
@@ -292,8 +361,12 @@ div.name-box div.detail{
     .sp-hide{
         display: none !important;
     }
-    h1.title,h1.article-title,ul.article-list li h1{
-        font-size: 26px;
+    div.title-box h1,div.name-box h1,ul.article-list li h1{
+        font-size: 22px;
+    }
+    div.title-box img.icon,div.name-box img.icon{
+        width: 72px;
+        height: 72px;
     }
     label.meta{
         font-size: 13px;
@@ -353,7 +426,7 @@ div.name-box div.detail{
     }
     /* .current_page_itemはwordpress用 */
     header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
-        border-left: 5px solid #847400;
+        border-left: 5px solid var(--theme-color);
     }
     header #sitemenu-openclose:checked ~ ul.sitemenu{
         display: inline;
@@ -361,24 +434,29 @@ div.name-box div.detail{
     div.sidebar{
         margin-top:60px;
     }
-    h1:not([class]){
+    div.main h1:not([class]){
         text-align: center;
     }
-    div.name-box{
+    div.title-box{
         margin-top: 120px;
     }
-    div.name-box img.cover{
-        max-height: 50vw;
+    div.title-box img.cover{
+        max-height: 45vw;
     }
-    div.name-box div.detail{
+    div.title-box div.detail{
         padding:0 5px 10px;
     }
 }
 
 /* tablet + desktop */
-@media screen and (min-width:500px){    
-    h1.title,h1.article-title,ul.article-list li h1{
-        font-size: 34px;
+@media screen and (min-width:500px){
+    div.title-box img.icon{        
+        width: 96px;
+        height: 96px;
+    }
+    div.name-box h1{
+        margin: auto 40px;
+        text-align: unset;
     }
 }
 
@@ -410,7 +488,7 @@ div.name-box div.detail{
     /* .current_page_itemはwordpress用 */
     header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
         padding-bottom: 0;
-        border-bottom: 3px solid #847400;
+        border-bottom: 3px solid var(--theme-color);
     }
     div.content{
         display: flex;
@@ -428,22 +506,25 @@ div.name-box div.detail{
         width: 80%;
     }
     h1:not([class]){
-        padding-left: 34px;
-        padding-right: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    div.name-box{
+    div.title-box{
         margin-top: 48px;
     }
-    div.name-box img.cover{
-        max-height: 40vw;
+    div.title-box img.cover{
+        max-height: 35vw;
     }
-    div.name-box div.detail{
+    div.title-box div.detail{
         padding:0 20px 10px;
     }
 }
 
 /* wide */
 @media screen and (min-width: 1000px){
+    div.title-box h1,div.name-box h1{
+        font-size: 44px;
+    }
     div.multi-column{
         display: flex;
         margin-left: -10px;
@@ -452,26 +533,31 @@ div.name-box div.detail{
     div.multi-column > div,div.multi-column > article{
         margin-left: 10px;
         margin-right: 10px;
-    }    
-    h1.title,h1.article-title{
-        font-size: 42px;
     }
 }
 
 /*dark theme : ブラウザのダークテーマ対応 */
 @media (prefers-color-scheme: dark) {
+    :root{
+        /* color */
+        --theme-color:var(--theme-color-dark);
+        --default-font-color:var(--default-font-color-dark);
+        --link-color:var(--link-color-dark);
+        --back-color:var(--back-color-dark);
+        --header-font-color:var(--header-font-color-dark);
+        --header-back-color:var(--header-back-color-dark);
+    }
     .light-only{
         display: none !important;
     }
-    body{
-      background-color: #292929;
-      color: #cecece;
-    }
-    a{
-        color:#e7b0c8;
-    }
-    ul.menu li:hover,ul.sitemenu li:hover,header ul.sitemenu li:hover,div.name-box{
+    ul.menu li:hover,ul.sitemenu li:hover,header ul.sitemenu li:hover,div.title-box{
         background-color: #444444;
+    }
+    ul.article-list,ul.list{
+        border-top-color: #444444;
+    }
+    ul.article-list li,ul.list li{
+        border-bottom-color: #444444;
     }
     ul.article-list li:hover,ul.list li:hover{
         background-color: #333333;
@@ -481,6 +567,13 @@ div.name-box div.detail{
     }
     div.mamewaza_blog a{
         color:#cecece !important;
+    }
+    label.meta{
+        background-color:#bbbbbb;
+        color: #2f2f2f;
+    }
+    label.meta:hover{
+        background-color: #efefef;
     }
     @media screen and (max-width: 799px){
         header ul.sitemenu {
