@@ -13,6 +13,7 @@
     --color-line:#00B900;
     --color-pinterest:#BD081C;
     --color-feedly:#6CC655;
+    --color-rss:#ec602f;
 
     /* color property */
     --theme-color:#847400;
@@ -34,10 +35,34 @@
     /* border: 1px solid black; */
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 body{
     color: var(--default-font-color);
     background-color: var(--back-color);
     font-family: 'Yu Gothic','YuGothic','Arial','Meiryo','Noto Sans JP';
+    animation: fadeIn 1s ease-in 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease-in 0s 1 normal;
+    -moz-animation: fadeIn 1s ease-in 0s 1 normal;
+    -o-animation: fadeIn 1s ease-in 0s 1 normal;
 }
 
 a{
@@ -111,13 +136,15 @@ header{
     color: var(--header-font-color);
     background-color: var(--header-back-color);
     z-index: 1;
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,50%)
 }
 
 header img.siteicon{
     max-width: 250px;
-    margin: 3px -8px 3px 8px;
+    margin: 3px 0 3px 16px;
     height: 44px;
     border-radius: 4px;
+    z-index:2;
 }
 
 header img.siteicon.compact{
@@ -232,6 +259,7 @@ label.button{
     width: auto;
     word-wrap: break-word;
     border: 2px solid var(--btn-color);
+    border-radius: 4px;
 }
 
 label.button a{
@@ -268,6 +296,11 @@ label.meta{
     padding:3px 5px;
     display: inline-block;
     position: relative;
+}
+
+label.meta a{
+    margin: -3px -5px;
+    padding: 3px 5px;
 }
 
 label.meta:hover{
@@ -338,7 +371,7 @@ div.title-box img.cover ~ h1{
 }
 
 div.title-box div.detail{
-    margin-top: -20px;
+    margin-top: -10px;
     padding:0 10px 10px;
 }
 
@@ -351,8 +384,10 @@ div.name-box{
 }
 
 div.name-box img.icon{
-    width: 128px;
-    height: 128px; 
+    min-width: 128px;
+    max-width: 128px;
+    min-height: 128px; 
+    max-height: 128px;
     border-radius: 50%;  
 }
 
@@ -374,8 +409,10 @@ div.name-box h1{
         font-size: 22px;
     }
     div.title-box img.icon,div.name-box img.icon{
-        width: 72px;
-        height: 72px;
+        min-width: 72px;
+        max-width: 72px;
+        min-height: 72px;
+        max-height: 72px;
     }
     label.meta{
         font-size: 13px;
@@ -384,12 +421,20 @@ div.name-box h1{
         margin: 10px 5px;
         display: block;
     }
+    header ul.sitemenu{
+        left:-270px;
+        width:270px;
+    }
 }
 
 /* tablet */
 @media screen and (min-width: 500px) and (max-width: 799px){
     .tab-hide{
         display: none !important;
+    }
+    header ul.sitemenu{
+        left:-400px;
+        width:400px;
     }
 
 }
@@ -398,9 +443,9 @@ div.name-box h1{
 @media screen and (max-width: 799px){
     header label.sitemenu-button{
         position: fixed;
-        margin: 0;
+        margin: 0 3px 0 0;
         right: 0px;
-        min-width: 60px;
+        min-width: 50px;
         overflow: hidden;
         font-size: 26px;
         height: 50px;
@@ -409,24 +454,37 @@ div.name-box h1{
         padding:0;
         color: #777;
     }
+    header label.sitemenu-button.float{
+        top: unset;
+        bottom:50px;
+        border-radius: 50%;
+        background-color: #efeaea;
+        box-shadow: 5px 5px 10px -5px rgba(0,0,0,60%);
+        margin: 10px;
+        z-index: 2;
+    }
     header ul.sitemenu{
         position: fixed;
-        margin-top: 50px;
-        width: 100%;
-        max-height: 400px;
+        padding: 70px 0;
+        min-height: 100%;
         overflow-y: auto;
         background-color: #efeaea;
-        display: none;
+        display: inline-block;        
+        transition: left .5s,right .5s,box-shadow .5s;
+        -moz-transition: left .5s,right .5s,box-shadow .5s;
+        -o-transition: left .5s,right .5s,box-shadow .5s;
+        -webkit-transition: left .5s,right .5s,box-shadow .5s;
     }    
     header ul.sitemenu li:hover{
-        background-color: #fefefe;
+        background-color: var(--back-color);
     }
     /* .current_page_itemはwordpress用 */
     header ul.sitemenu li.current,header ul.sitemenu .current_page_item{
         border-left: 5px solid var(--theme-color);
     }
     header #sitemenu-openclose:checked ~ ul.sitemenu{
-        display: inline;
+        left:0;
+        box-shadow: -3px -5px 10px 0px rgba(0,0,0,50%);
     }
     div.sidebar{
         margin-top:60px;
@@ -450,6 +508,10 @@ div.name-box h1{
     }
     div.title-box h1,div.name-box h1{
         font-weight: 100;
+    }
+    h1:not([class]){
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -485,7 +547,8 @@ div.name-box h1{
     div.content{
         display: flex;
         flex-direction: row-reverse;
-        margin-right: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     div.sidebar{
         min-width: 320px;
@@ -495,10 +558,6 @@ div.name-box h1{
     div.main{
         margin: 0 auto;
         width: 80%;
-    }
-    h1:not([class]){
-        padding-left: 20px;
-        padding-right: 20px;
     }
     div.title-box{
         margin-top: 48px;
@@ -564,7 +623,10 @@ div.name-box h1{
     }
     @media screen and (max-width: 799px){
         header ul.sitemenu {
-            background-color: #2f2f2f;
+            background-color: var(--back-color-dark);
+        }
+        header label.sitemenu-button.float{
+            background-color: #444444;
         }
     }
 }
