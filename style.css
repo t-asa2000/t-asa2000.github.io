@@ -35,7 +35,7 @@
     /* border: 1px solid black; */
 }
 
-@keyframes fadeIn {
+/*@keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
 }
@@ -53,16 +53,16 @@
 @-moz-keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
-}
+}*/
 
 body{
     color: var(--default-font-color);
     background-color: var(--back-color);
-    font-family: 'Yu Gothic','YuGothic','Arial','Meiryo','Noto Sans JP';
-    animation: fadeIn 1s ease-in 0s 1 normal;
+    font-family: 'Noto Sans JP','Arial','Meiryo';
+    /*animation: fadeIn 1s ease-in 0s 1 normal;
     -webkit-animation: fadeIn 1s ease-in 0s 1 normal;
     -moz-animation: fadeIn 1s ease-in 0s 1 normal;
-    -o-animation: fadeIn 1s ease-in 0s 1 normal;
+    -o-animation: fadeIn 1s ease-in 0s 1 normal;*/
 }
 
 a{
@@ -152,17 +152,20 @@ header img.siteicon.compact{
     border-radius: 50%;
 }
 
-header img.siteicon,div.name-box img.icon{
+header img.siteicon,div.name-box img.icon,img.banner{
     -webkit-transition: opacity 0.8s ease, filter 0.8s ease;
     -moz-transition: opacity 0.8s ease, filter 0.8s ease;
     -o-transition: opacity 0.8s ease, filter 0.8s ease;
     transition: opacity 0.8s ease, filter 0.8s ease;
+}
+
+header img.siteicon,div.name-box img.icon,div.title-box img.cover{
     object-fit: cover;
 }
 
-header img.siteicon:hover,div.name-box img.icon:hover{
+header img.siteicon:hover,div.name-box img.icon:hover,img.banner:hover{
     opacity: 80%;
-    filter: contrast(80%) brightness(130%);;
+    filter: contrast(80%) brightness(130%);
 }
 
 ul.sitemenu,ul.menu,ul.article-list,ul.list{
@@ -342,7 +345,6 @@ article{
 div.title-box img.cover{
     width: 100%;
     height: auto;
-    object-fit: cover;
     margin-top: -48px;
     display: block;
     border-bottom: 5px solid var(--theme-color);
@@ -484,7 +486,7 @@ div.name-box h1{
     }
     header #sitemenu-openclose:checked ~ ul.sitemenu{
         left:0;
-        box-shadow: -3px -5px 10px 0px rgba(0,0,0,50%);
+         box-shadow: -3px -5px 10px 0px rgba(0,0,0,50%);
     }
     div.sidebar{
         margin-top:60px;
