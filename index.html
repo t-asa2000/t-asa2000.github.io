@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <!--<link rel="stylesheet" type="text/css" media="all" href="style.css">-->
         <script>
-            document.write("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"style.css?");
+            document.write("<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"core.css?");
             const d = Date.now();
             document.write(d);
             document.write("\"\n");
@@ -25,27 +25,21 @@
 
     <body>
         <header>
-            <a href="index.html">
-            <img class="siteicon compact" src="https://github.com/t-asa2000.png"></img>
-            </a>
+        	<p class="sitename"><a href="index.html">asata's Web</a></p>
             <input type="checkbox" id="sitemenu-openclose" />
-            <label for="sitemenu-openclose" class="sitemenu-button" >≡</label>
+            <label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
+            <label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
+            <div class="sitemenu-background"></div>
             <ul class="sitemenu">
-                <li class="current"><a href="index.html">プロフィール</a></li>
                 <li><a href="https://t-asa2000.hatenablog.com/">ブログ</a></li>
                 <li><a href="https://qiitadon.com/@t_asa">Qiitadon</a></li>
                 <li><a href="https://pawoo.net/@asata">Pawoo</a></li>
                 <li><a href="https://qiita.com/t_asa">Qiita</a></li>
                 <li><a href="https://github.com/t-asa2000">GitHub</a></li>
-                <li><a href="https://github.com/t-asa2000/t-asa2000.github.io">リポジトリ (t-asa2000.github.io)</a></li>
             </ul>
         </header>
         <div class="content">
             <div class="main">
-                <div class="name-box">
-                    <img class="icon" src="https://github.com/t-asa2000.png">
-                    <h1>Taichi Asakura</h1>
-                </div>
                 <article id="profile">
                     <h1>プロフィール</h1>
                     <b>
@@ -72,99 +66,18 @@
                     <h1>お知らせ</h1>
                     <ul class="list">
                         <li><a href="https://pawoo.net/@asata">
-                            <p><b>2020.5.27</b></p>
-                            Pawoo.netで新しいマストドンアカウントを作りました。
+                            <b>2020.5.27</b> Pawoo.netで新しいマストドンアカウントを作りました。
                         </a></li>
-                        <li>
-                            当サイトではJavaScriptを使用しています。
-                            <br>ページのレイアウトが崩れている場合、
-                            JavaScriptを有効に設定した上Shift+F5キーで再読み込みしてください。
-                        </li>
-                        <li><a href="https://mamewaza.com/support/blog/blog-parts-to-fetch-rss.html">
-                            ブログの記事一覧の表示には、まめわざ様の「RSS展開＆表示用ブログパーツ」を使用しています。<br>（まめわざ様のサイトへ）
-                        </a></li>
-                    </ul>
-                </article>
-                <article  id="works">
-                    <h1>Works</h1>
-                    <ul class="list">
-                        <li><a href="https://t-asa2000.hatenablog.com/entry/2020/02/22/225522"><p><b>2019.12.21</b></p>同じ雛形かつ大量のExcelファイルを一括処理するツールをPython3で作りました</a></li>
-                        <li><a href="https://www.nagaoka-ct.ac.jp/st/robo/">こちらのHPの維持管理をしています。(WordPressシステム管理)</a></li>
-                    </ul>
-                    <p>
-                        その他、僕が普段どんなことをしているかは<a href="https://t-asa2000.hatenablog.com/">ブログ</a>や<a href="https://qiita.com/t_asa">Qiita</a>を見てください。
-                    </p>
-                </article>
-                <article id="gadgets">
-                    <h1>Gadgets(準備中)</h1>
-                    <h2>PC</h2>
-                    <ul class="list">
-                        <li><p><b>Dell Isnpiron 14 7472(シルバー)</b> | 2017.12.10 - </p><p>
-                        ディスプレイ : 14インチ<br>
-                        CPU : 第8世代Intel Core i5 8250U<br>
-                        メモリ : 8GB<br>
-                        SSD : 256GB<br>
-                        OS : Windows 10 Home⇒Win10+Ubuntu<br>⇒Win10⇒Ubuntu⇒Debian⇒Win10</p>
-                        <p>父親のPCが壊れたので前のPCを譲ってほしいと言われたのと、学業都部活の関係で持ち運びがしやすいノートパソコンが欲しかったので、買い換えました。<br>
-                        でも、画面が小さいPCって姿勢が前かがみになりがちなので逆に肩凝ってキツいです。次のPCは、持ち運びすることになったとしても15インチに戻す予定。</p></li>
-                        <li><p><b>NEC Lavie S PC-LS150NSB</b> | 2014.3.5 - 2017.12.10</p>
-                        <p>ディスプレイ : 15.6インチ<br>CPU : Intel Celeron 1005M<br>
-                        メモリ : 4GB<br>
-                        HDD : 750GB<br>
-                        OS : Windows 8.1⇒Win10⇒Win8.1</p>
-                        <p>最初のPC、どうせグラフィックゴリゴリのゲームしないだろうから、特に何も考えず性能低くて安いのを買った。Windows 8.1が幸いにも軽いOSだったのである程度は軽く動作した。Win10にアップグレードしたら重くなったので結局戻した。</p></li>
-                    </ul>
-                    <h2>SmartPhone</h2>
-                    <ul class="list">
-                        <li><p><b>au AQUOS sense3 SHV45 シルバーホワイト</b> | 2019.12.28 - </p>
-                        <p>ハイエンドからミドルレンジへの買い替えって、失敗すると買い替えたのに損した感じになってしまうのでは？という不安もあった。RAMがSOV34の3GBから4GBに増量されてる一方、CPUが820⇒630にグレードダウンしているから、尚更その不安があったが、全然問題なかった。やっぱ今の時代、普通の用途ならミドルレンジで十分だよねーと実感させられた一台だった。もう今後は本体価格5万以上のスマホは一生買わない、そう宣言させてくれるほどの優秀なミドルレンジスマホだと思う。あと、電池持ちが良い、マジで。</p>
-                        </li>
-                        <li><p><b>au Xperia XZ SOV34 ミネラルブラック</b> | 2017.3.11 - 2019.12.28</p>
-                        <p>初めての本格的なスマートフォン。ワンセグが見たいからという理由だけで国内メーカーのフラッグシップを買った。最初の頃は特に不満もなかった。1年くらい使ったところで、急に電池持ちが悪くなった。あと、発熱が酷く、そのせいでハイエンドCPUを積んでいる割にはパフォーマンスが落ちていて、しっかりと性能を生かしきれてない感じがした。というか、そもそも<b>電話とメールとLINEさえできれば十分な僕にハイエンドのスマホなどいらなかった。</b></p>
-                        </li>
-                        <li><p><b>docomo AQUOS PHONE SH-01D ブルー</b> | 2015.3 - 2016.4</p>
-                        <p>父親が機種変更したので、お下がりの白ロムをもらい、Wi-Fi専用で運用してました。Android版iPod touchという感じですね。ColorNoteというアプリでメモを取ったり、音楽プレーヤー、ワンセグ受信機として使ってました。急に充電ができなくなってしまっため、EOL。なお、たまたま最初に触った端末(これ)がAndroidだったので、同じアプリがそのまま使えるからなどの理由からその後の僕はAndroidユーザーになりました。</p></li>
                     </ul>
                 </article>
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5deb3f8a13799570"></script>
             </div>
-            <div class="sidebar">
-                <article id="blog">
-                    <h1>最新記事</h1>
-                    <div class="mamewaza_blog"><div><div class="mamewaza_blog_exp"><span class="mamewaza_assembled">powered by <a href="http://mamewaza.com/tools/" target="_blank" rel="nofollow">まめわざ</a></span></div></div></div><script type="text/javascript" src="https://mamewaza.net/blog.js?200311"></script><script type="text/javascript">mamewaza_blog({selector:"#mamewaza_blog",feed:"https://t-asa2000.hatenablog.com/feed",rpp:"4",height:"auto",exp:true,url:true,date:"1",style:"div.mamewaza_blog > div{background-color:transparent;}div.mamewaza_blog ul.mamewaza_blog{background-color:transparent;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog li,div.mamewaza_blog div.mamewaza_blog_exp{padding:10px;}div.mamewaza_blog > div{padding:0px;font-size:12px;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog ul.mamewaza_blog,div.mamewaza_blog li{border-bottom:1px solid #eeeeee;}div.mamewaza_blog h5.mamewaza_blog a,div.mamewaza_blog a.mamewaza_blog_title{color:#000;font-size:14px;text-shadow:none;}div.mamewaza_blog a.mamewaza_blog_title{font-weight:normal;}div.mamewaza_blog,div.mamewaza_blog a{color:#999999;}div.mamewaza_blog a.mamewaza_blog_url{color:#999999;}"})</script>
-                </article>
-                <article id="sns">
-                    <h1>Mastodon</h1>
-                    <ul class="list">
-                        <li><a href="https://qiitadon.com/@t_asa">t_asa@qiitadon.com (メイン)</a></li>
-                        <li><a href="https://pawoo.net/@asata">asata@pawoo.net</a></li>
-                    </ul>
-                </article>
-                <article>
-                    <h1>ブログ</h1>
-                    <ul class="list">
-                        <li><a href="https://t-asa2000.hatenablog.com/">asata's Blog (はてなブログ / メイン)</a></li>
-                    </ul>
-                </article>
-                <article>
-                    <h1>技術系SNS</h1>
-                    <ul class="list">
-                        <li><a href="https://qiita.com/t_asa">Qiita</a></li>
-                        <li><a href="https://github.com/t-asa2000">GitHub</a></li>
-                        <li><a href="https://gist.github.com/t-asa2000">GitHub Gist</a></li>
-                    </ul>
-                </article>
-                <article>
-                    <h1>その他のSNS</h1>
-                    <ul class="list">
-                        <li><a href="https://twitter.com/t_asa2000">Twitter</a></li>
-                        <li><a href="https://soundcloud.com/t-asa2000">SoundCloud(主に視聴用)</a></li>
-                        <li><a href="https://twitch.tv/asata2020">Twitch</a></li>
-                        <li><a href="https://www.youtube.com/channel/UC2l-ub95RdLcfH9Jx7AjSyg">YouTube(主に視聴用)</li>
-                    </ul>
-                </article>
-            </div>
         </div>
+        <footer>
+			<p>
+			Copyright © 2020 asata(Taichi Asakura) All Rights Reserved.
+			</p>
+		</footer>
     </body>
 </html>
