@@ -292,7 +292,7 @@ ul.article-list li h1{
 
 label.button,ul.sitemenu li,ul.menu li,label.sitemenu-button{
     height: 42px;
-    padding:5px 10px 0;
+    padding:5px 12.3px 0;
     text-align: center;
     line-height: 42px;
     font-size: 16px;
@@ -317,10 +317,10 @@ label.button{
     background-color: var(--btn-color);
     color: #fefefe;
     margin: 5px;
-    height: unset;
     padding: 0 20px;
     display: inline-block;
     width: auto;
+    height:unset;
     word-wrap: break-word;
     border: 2px solid var(--btn-color);
     border-radius: 4px;
@@ -611,12 +611,11 @@ footer{
     header ul.sitemenu li{
         padding-bottom: 3px;
         display: inline-block;
-        min-width: 100px;
         white-space: normal;
     }    
     header ul.sitemenu li a{
-        margin: -5px -10px -3px;
-        padding: 5px 10px 3px;
+        margin: -5px -12.3px -3px;
+        padding: 5px 12.3px 3px;
     }
     header label.sitemenu-button{
         display: none;
