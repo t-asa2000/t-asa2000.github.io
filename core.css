@@ -1,6 +1,8 @@
 :root{
     /* color sample */
     --color-mastodon:#008cff;
+    --color-misskey:#2ba3bc;
+    --color-misskey-v12:#86b300;
     --color-hatenablog:#444;
     --color-qiita:#55C500;
     --color-twitter:#1DA1F2;
@@ -449,6 +451,10 @@ footer{
     }
     label.meta{
         font-size: 13px;
+    }
+    label.button{
+        padding: unset;
+        width: 42vw;
     }
     label.button.large{
         margin: 10px 5px;
