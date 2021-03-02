@@ -362,6 +362,8 @@ label.meta{
     padding:3px 5px;
     display: inline-block;
     position: relative;
+    word-break: keep-all;
+    white-space: pre;
 }
 
 label.meta a{
@@ -643,8 +645,8 @@ footer{
         margin-right: 20px;
     }
     div.main{
-        margin: 0 auto;
-        width:100%;
+        margin: 0 auto 0 0;
+        max-width:800px;
     }
     div.title-box{
         margin: 50px 0 -50px;
@@ -652,8 +654,9 @@ footer{
     }
     div.title-box h1{
         padding: 0;
-        max-width: calc(100vw - 100px);
+        width: calc(100vw - 100px);
         margin: 0;
+        max-width: 1200px;
     }
     footer{
     	margin:0 50px;
