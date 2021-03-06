@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="asata,t-asa2000,プログラミング,学生,エンジニア,Web">
@@ -22,23 +21,11 @@
             document.write("\"\n");
         </script>
     </head>
-
     <body>
-        <header>
-            <input type="checkbox" id="sitemenu-openclose" />
-            <label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
-            <label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
-            <div class="sitemenu-background"></div>
-            <ul class="sitemenu">
-                <li class="current"><a href="index.html">Profile</a></li>
-                <li><a href="sns.html">SNS</a></li>
-                <li><a href="http://blog.t-asa2000.net/">Blog</a></li>
-            </ul>
-        </header>
         <div class="content">
             <div class="main">
                 <article id="profile">
-                    <h1>Profile</h1>
+                    <h1>asata's Profile</h1>
                     <b>
                         新潟県出身・在住　学生　男
                         <br>Niigata-pref, Japan. Student. Male.
@@ -58,6 +45,27 @@
                         <li>趣味：ガジェット,Webサイト製作,ラジオ,音楽,ドラマ観賞etc... </li>
                         <li>苦手なこと：おしゃれ、手先を使う作業(不器用)</li>
                     </ul>
+                    <label class="button" style="display: block;margin: 3px 0;--btn-color:var(--theme-color)"><a href="https://blog.t-asa2000.net/">ブログを読む</a></label>
+                </article>
+                <article id="fediverse">
+                    <h1>SNS (Fediverse)</h1>
+                    <p>Mastodonやmisskeyといった分散型のSNSです。主にこれらから投稿しています。</p>
+                    <label class="button" style="--btn-color:var(--color-misskey-v12)"><a href="https://misskey.io/@asata">misskey.io</a></label>
+                    <label class="button" style="--btn-color:var(--color-misskey)"><a href="https://sushi.ski/@asata">sushi.ski</a></label>
+                    <label class="button" style="--btn-color:#52b03b"><a href="https://qiitadon.com/@t_asa">Qiitadon</a></label>
+                </article>
+                <article id="tech">
+                    <h1>Tech</h1>
+                    <label class="button" style="--btn-color:var(--color-qiita)"><a href="https://qiita.com/t_asa">Qiita</a></label>
+                    <label class="button" style="--btn-color:var(--color-github)"><a href="https://github.com/t-asa2000">GitHub</a></label>                    
+                    <label class="button" style="--btn-color:var(--color-github)"><a href="https://gist.github.com/t-asa2000">Gist</a></label>
+                </article>
+                <article id="others">
+                    <h1>SNS (Others)</h1>
+                    <label class="button" style="--btn-color:var(--color-twitter)"><a href="https://twitter.com/t_asa2000">Twitter</a></label>
+                    <label class="button" style="--btn-color:var(--color-soundcloud)"><a href="https://soundcloud.com/t-asa2000">SoundCloud</a></label>                    
+                    <label class="button" style="--btn-color:var(--color-twitch)"><a href="https://www.twitch.tv/asata2020">Twitch</a></label>
+                    <label class="button" style="--btn-color:var(--color-youtube)"><a href="https://www.youtube.com/channel/UC2l-ub95RdLcfH9Jx7AjSyg">YouTube</a></label>
                 </article>
                 <article id="info">
                     <h1>Information</h1>
@@ -74,16 +82,6 @@
                 </article>
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5deb3f8a13799570"></script>
-            </div>
-            <div class="sidebar">
-                <article id="sns">
-                    <h1>Fediverse(分散型SNS)</h1>                    
-                    <ul class="list">
-                        <li><a href="https://misskey.io/@asata">misskey.io(メイン)</a></li>
-                        <li><a href="https://sushi.ski/@asata">sushi.ski</a></li>
-                        <li><a href="https://qiitadon.com/@t_asa">Qiitadon</a></li>
-                        </ul>
-                </article>
             </div>
         </div>
         <footer>

@@ -1,0 +1,11 @@
+<header class="sp-hide tab-hide">
+    <input type="checkbox" id="sitemenu-openclose" />
+    <label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
+    <label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
+    <div class="sitemenu-background"></div>
+    <ul class="sitemenu">
+        <li class="current"><a href="index.html">Profile</a></li>
+        <li><a href="sns.html">SNS</a></li>
+        <li><a href="http://blog.t-asa2000.net/">Blog</a></li>
+    </ul>
+</header>

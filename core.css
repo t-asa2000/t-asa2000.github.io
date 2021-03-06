@@ -439,6 +439,23 @@ footer{
     .sp-hide{
         display: none !important;
     }
+    header.sp-hide{
+        display: unset !important;
+        visibility: hidden;
+        position: initial;
+    }
+    header.sp-hide *{
+        visibility: initial;
+    }
+    header.sp-hide label.sitemenu-button.open{
+        position: absolute;
+    }
+    header.sp-hide label.sitemenu-button.open.float{
+        position: fixed;
+    }
+    header.sp-hide ~ div.content{
+        margin-top: unset;
+    }
     div.main h1:not([class]){
         padding: 10px;
     }
@@ -468,6 +485,23 @@ footer{
 @media screen and (min-width: 500px) and (max-width: 799px){
     .tab-hide{
         display: none !important;
+    }
+    header.tab-hide{
+        display: unset !important;
+        visibility: hidden;
+        position: initial;
+    }
+    header.tab-hide *{
+        visibility: initial;
+    }
+    header.tab-hide label.sitemenu-button.open{
+        position: absolute;
+    }
+    header.tab-hide label.sitemenu-button.open.float{
+        position: fixed;
+    }
+    header.tab-hide ~ div.content{
+        margin-top: unset;
     }
 }
 
