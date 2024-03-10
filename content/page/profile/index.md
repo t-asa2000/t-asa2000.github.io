@@ -22,10 +22,9 @@ Niigata-pref, Japan. Student. Male.**
 * 趣味：ガジェット,Webサイト製作,ラジオ,音楽,ドラマ観賞etc... 
 * 苦手なこと：おしゃれ、手先を使う作業(不器用)
 
-### メールアドレス (2024.2.17 更新)
-現在諸般の事情によりメールアドレスを非公開とさせていただいております．
+### お問い合わせ
 
-[代替としてこちらの問い合わせフォームをご利用ください．](https://forms.gle/EiWydB9utuZktf4Y6)
+[こちらの問い合わせフォームをご利用ください．](https://forms.gle/EiWydB9utuZktf4Y6)
 
 ## 主な活動
 
@@ -51,10 +50,10 @@ Niigata-pref, Japan. Student. Male.**
 
 ## 使ってるモノ
 
-2023年7月13日現在
+2024年3月10日現在
 
 ### スマートフォン
-AQUOS sense7 SH-M24  
+SHARP AQUOS sense7 SH-M24  
 (2023.7 - )
 
 ### タブレット
@@ -72,6 +71,10 @@ DENON AH-GC30
 
 ### イヤフォン
 
+DENON AH-C720  
+(2024.3 - )
+  
+
 DENON AH-C620R  
 (2021.3 - )
 
@@ -81,8 +84,8 @@ SONY SRS-XB20
 (2018.3 - )
 
 ### モバイル回線
-UQモバイル (音声+データ 4GB)  
-IIJmio (データeSIM 2GB)
+UQ mobile トクトクプラン (音声+データ 15GB)  
+IIJmio ギガプラン (データeSIM 2GB)
 
 ### 自動車
 

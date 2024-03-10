@@ -256,6 +256,21 @@ menu:
           params:
             icon: planet
             newtab: true
+        - identifier: nicovideo
+          name: ニコニコ動画
+          url: "https://www.nicovideo.jp/user/82641779"
+          weight: 106
+          params:
+            icon: movie
+            newtab: true
+        - identifier: x
+          name: X (旧Twitter)
+          url: https://x.com/t_asa2000/
+          weight: 107
+          params:
+              icon: brand-x
+              newtab: true
+
     social:
         - identifier: github
           name: GitHub
@@ -264,27 +279,34 @@ menu:
           params:
               icon: brand-github
               newtab: true
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/t_asa2000/
+        - identifier: rss
+          name: RSS
+          url: /post/index.xml
           weight: 2
           params:
-              icon: brand-twitter
+              icon: rss
               newtab: true
         - identifier: spotify
           name: Spotify
           url: https://open.spotify.com/user/31u5ssruqseukcodexup2ua3lxnm
-          weight: 3
+          weight: 4
           params:
               icon: brand-spotify
               newtab: true
-        - identifier: rss
-          name: RSS
-          url: /post/index.xml
-          weight: 4
+        - identifier: soundcloud
+          name: SoundCloud
+          url: "https://soundcloud.com/t-asa2000"
+          weight: 5
           params:
-              icon: rss
-              newtab: true
+            icon: brand-soundcloud
+            newtab: true
+        - identifier: fedimovie
+          name: FediMovie
+          url: "https://fedimovie.com/c/asatach"
+          weight: 6
+          params:
+            icon: movie
+            newtab: true
 
 related:
     includeNewer: true
