@@ -263,13 +263,6 @@ menu:
           params:
             icon: movie
             newtab: true
-        - identifier: x
-          name: X (旧Twitter)
-          url: https://x.com/t_asa2000/
-          weight: 107
-          params:
-              icon: brand-x
-              newtab: true
 
     social:
         - identifier: github
@@ -278,13 +271,6 @@ menu:
           weight: 1
           params:
               icon: brand-github
-              newtab: true
-        - identifier: rss
-          name: RSS
-          url: /post/index.xml
-          weight: 2
-          params:
-              icon: rss
               newtab: true
         - identifier: spotify
           name: Spotify
@@ -307,6 +293,13 @@ menu:
           params:
             icon: movie
             newtab: true
+        - identifier: rss
+          name: RSS
+          url: /post/index.xml
+          weight: 7
+          params:
+              icon: rss
+              newtab: true
 
 related:
     includeNewer: true

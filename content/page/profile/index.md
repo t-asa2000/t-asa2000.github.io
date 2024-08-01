@@ -73,7 +73,6 @@ DENON AH-GC30
 
 DENON AH-C720  
 (2024.3 - )
-  
 
 DENON AH-C620R  
 (2021.3 - )
