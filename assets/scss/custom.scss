@@ -23,6 +23,10 @@
 	transition: color .5s ease, background-color .5s ease;
 }
 
+.article-content strong {
+	color: #f00;
+}
+
 .related-content article.has-image .article-details{
 	background: rgba(0,0,0,.25);
 }

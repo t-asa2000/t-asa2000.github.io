@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://t-asa2000.net/post/202408_02/</loc>
+    <lastmod>2024-08-15T13:08:27+09:00</lastmod>
+  </url><url>
+    <loc>https://t-asa2000.net/categories/blog/</loc>
+    <lastmod>2024-08-15T13:08:27+09:00</lastmod>
+  </url><url>
+    <loc>https://t-asa2000.net/categories/life/</loc>
+    <lastmod>2024-08-15T13:08:27+09:00</lastmod>
+  </url><url>
+    <loc>https://t-asa2000.net/tags/sns/</loc>
+    <lastmod>2024-08-15T13:08:27+09:00</lastmod>
+  </url><url>
+    <loc>https://t-asa2000.net/tags/web/</loc>
+    <lastmod>2024-08-15T13:08:27+09:00</lastmod>
+  </url><url>
     <loc>https://t-asa2000.net/post/202408_01/</loc>
     <lastmod>2024-08-01T21:07:17+09:00</lastmod>
   </url><url>
@@ -10,12 +25,6 @@
   </url><url>
     <loc>https://t-asa2000.net/categories/diary/</loc>
     <lastmod>2024-08-01T21:07:17+09:00</lastmod>
-  </url><url>
-    <loc>https://t-asa2000.net/categories/life/</loc>
-    <lastmod>2024-08-01T21:07:17+09:00</lastmod>
-  </url><url>
-    <loc>https://t-asa2000.net/categories/blog/</loc>
-    <lastmod>2024-02-17T11:37:57+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/tags/%E7%99%BA%E9%81%94%E9%9A%9C%E5%AE%B3/</loc>
     <lastmod>2024-02-17T11:37:57+09:00</lastmod>
@@ -27,9 +36,6 @@
     <lastmod>2024-02-17T11:37:52+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/categories/tech/</loc>
-    <lastmod>2024-02-17T11:37:57+09:00</lastmod>
-  </url><url>
-    <loc>https://t-asa2000.net/tags/web/</loc>
     <lastmod>2024-02-17T11:37:57+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/post/20230309/</loc>
@@ -51,7 +57,7 @@
     <lastmod>2024-02-17T11:37:57+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/</loc>
-    <lastmod>2024-03-10T15:11:02+09:00</lastmod>
+    <lastmod>2024-08-01T21:21:28+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/archives/</loc>
     <lastmod>2024-02-17T11:37:50+09:00</lastmod>
