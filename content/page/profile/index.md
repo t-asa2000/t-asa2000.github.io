@@ -50,7 +50,7 @@ Niigata-pref, Japan. Student. Male.**
 
 ## 使ってるモノ
 
-2024年3月10日現在
+2024年12月3日現在
 
 ### スマートフォン
 SHARP AQUOS sense7 SH-M24  
@@ -83,8 +83,8 @@ SONY SRS-XB20
 (2018.3 - )
 
 ### モバイル回線
-UQ mobile トクトクプラン (音声+データ 15GB)  
-IIJmio ギガプラン (データeSIM 2GB)
+UQ mobile ミニミニプラン (音声+データ 4GB)  
+IIJmio ギガプラン (データeSIM 20GB, docomo回線網)
 
 ### 自動車
 

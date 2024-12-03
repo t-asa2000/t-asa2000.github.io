@@ -1,25 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel><title>Hugo | t-asa2000.net</title>
-			<description>Recent content in Hugo on t-asa2000.net</description><link>https://t-asa2000.net/tags/hugo/</link>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>ja</language>
-		<lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t-asa2000.net/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
-		<title>Hugoに移行してみた</title>
-		<link>https://t-asa2000.net/post/20220903/</link>
-		<pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
-		
-		<guid>https://t-asa2000.net/post/20220903/</guid>
-		<description>&lt;p&gt;これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong&gt;GitHub Pages + Hugo&lt;/strong&gt; に移行しました．&lt;/p&gt;
-&lt;p&gt;移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2023.3.6 追記&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
-</description>
-		</item>
-		
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | t-asa2000.net</title><description>Recent content in Hugo on t-asa2000.net</description><link>https://t-asa2000.net/tags/hugo/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://t-asa2000.net/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoに移行してみた</title><link>https://t-asa2000.net/post/20220903/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://t-asa2000.net/post/20220903/</guid><description>&lt;p>これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong>GitHub Pages + Hugo&lt;/strong> に移行しました．&lt;/p>
+&lt;p>移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p>
+&lt;p>&lt;del>テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del>&lt;/p>
+&lt;p>&lt;del>（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del>&lt;/p>
+&lt;p>&lt;strong>2023.3.6 追記&lt;/strong>&lt;/p>
+&lt;p>コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>&lt;/p></description></item></channel></rss>
