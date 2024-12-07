@@ -1,6 +1,6 @@
 ---
 title: "MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点"
-date: 2024-12-08T08:00:00+09:00
+date: 2024-12-07T23:28:00+09:00
 draft: false
 categories:
   - Blog
@@ -12,7 +12,7 @@ tags:
 
 >この記事は [**「Misskey Advent Calendar 2024」 8日目**](https://adventar.org/calendars/10208) の記事です．
 
-こんにちは．主に[Misskey.io](https://misskey.io/)で活動している[asata](https://misskey.io/@asata)と申します．
+こんにちは．[Misskey.io](https://misskey.io/)で活動している[asata](https://misskey.io/@asata)と申します．
 
 今回は [Misskey](https://github.com/misskey-dev/misskey) のプラグインを自作していく中で気が付いた **「レジストリAPI」** に関する知見をまとめていけたらなと思っています．
 

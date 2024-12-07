@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech | t-asa2000.net</title><description>Recent content in Tech on t-asa2000.net</description><link>https://t-asa2000.net/categories/tech/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 07 Dec 2024 23:28:00 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title><link>https://t-asa2000.net/post/202412_01/</link><pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate><guid>https://t-asa2000.net/post/202412_01/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Misskey | t-asa2000.net</title><description>Recent content in Misskey on t-asa2000.net</description><link>https://t-asa2000.net/tags/misskey/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 07 Dec 2024 23:28:00 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/misskey/index.xml" rel="self" type="application/rss+xml"/><item><title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title><link>https://t-asa2000.net/post/202412_01/</link><pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate><guid>https://t-asa2000.net/post/202412_01/</guid><description>&lt;blockquote>
 &lt;p>この記事は &lt;a class="link" href="https://adventar.org/calendars/10208" target="_blank" rel="noopener"
 >&lt;strong>「Misskey Advent Calendar 2024」 8日目&lt;/strong>&lt;/a> の記事です．&lt;/p>
 &lt;/blockquote>
@@ -107,90 +107,4 @@
 &lt;li>たまたまサードパーティー同士でドメインが重複してしまう&lt;/li>
 &lt;/ul>
 &lt;p>みたいなケースも十分考えられますからね．&lt;/p>
-&lt;p>最後までお読みいただき，ありがとうございました．&lt;/p></description></item><item><title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title><link>https://t-asa2000.net/post/20230310/</link><pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate><guid>https://t-asa2000.net/post/20230310/</guid><description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" />&lt;h2 id="プロローグ">プロローグ&lt;/h2>
-&lt;p>世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p>
-&lt;p>今の時代&lt;/p>
-&lt;ul>
-&lt;li>Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li>
-&lt;li>Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li>
-&lt;/ul>
-&lt;p>と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p>
-&lt;p>今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p>
-&lt;h2 id="ホームページを作る意味">ホームページを作る意味&lt;/h2>
-&lt;p>一番大きなことは「情報の整理・集約化」だと思います．&lt;/p>
-&lt;p>例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p>
-&lt;p>「&lt;strong>時系列順に写真や文章が並んでいるだけ&lt;/strong>」&lt;/p>
-&lt;p>であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p>
-&lt;p>「&lt;strong>シンプルにお店のメニューだけが見たい&lt;/strong>」&lt;/p>
-&lt;p>と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p>
-&lt;p>そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong>必要な人が必要な時に&lt;/strong>情報を得ることができます．&lt;/p>
-&lt;blockquote>
-&lt;p>※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="ホームページの正体">ホームページの正体&lt;/h2>
-&lt;p>「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p>
-&lt;p>↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p>
-&lt;p>ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p>
-&lt;blockquote>
-&lt;p>Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p>
-&lt;/blockquote>
-&lt;p>簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong>あなたの代わりにやってます．&lt;/strong>&lt;/p>
-&lt;p>勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p>
-&lt;h2 id="ホームページに関わる3つの要素">ホームページに関わる3つの要素&lt;/h2>
-&lt;p>ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p>
-&lt;ol>
-&lt;li>ホームページの中身（を生成するためのツール）&lt;/li>
-&lt;li>サーバー（ホームページの置き場所）&lt;/li>
-&lt;li>ドメイン（置き場所の住所）&lt;/li>
-&lt;/ol>
-&lt;p>ドメインというのは，&lt;strong>&lt;a class="link" href="https://www.google.co.jp" target="_blank" rel="noopener"
->www.google.co.jp&lt;/a>&lt;/strong> みたいなやつのことです．&lt;/p>
-&lt;h3 id="中身サーバードメインが全てセット">中身・サーバー・ドメインが全てセット&lt;/h3>
-&lt;p>1.と2.と3.が全てセットになったのが&lt;a class="link" href="https://ja.wix.com/" target="_blank" rel="noopener"
->「&lt;strong>wix&lt;/strong>」&lt;/a>や&lt;a class="link" href="https://sites.google.com/" target="_blank" rel="noopener"
->「&lt;strong>Google サイト&lt;/strong>」&lt;/a>みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p>
-&lt;p>ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p>
-&lt;p>あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p>
-&lt;h3 id="中身を作ってサーバードメインは別に用意">中身を作ってサーバー・ドメインは別に用意&lt;/h3>
-&lt;p>恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class="link" href="https://www.justsystems.com/jp/products/hpb/" target="_blank" rel="noopener"
->「&lt;strong>ホームページ・ビルダー&lt;/strong>」&lt;/a>などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p>
-&lt;p>中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p>
-&lt;p>このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p>
-&lt;p>お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p>
-&lt;h3 id="wixみたいなシステムをサーバーの中に設置してしまう奥の手">wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3>
-&lt;p>実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p>
-&lt;p>それが「&lt;strong>CMS&lt;/strong>」と呼ばれるツールで，代表的なものが&lt;a class="link" href="https://ja.wordpress.org/" target="_blank" rel="noopener"
->&lt;strong>WordPress&lt;/strong>&lt;/a>です．&lt;/p>
-&lt;p>ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p>
-&lt;p>サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p>
-&lt;h2 id="hp作りを友人知人に委託したい人へ">HP作りを友人・知人に委託したい人へ&lt;/h2>
-&lt;p>私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p>
-&lt;p>ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p>
-&lt;h3 id="更新頻度">更新頻度&lt;/h3>
-&lt;p>最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p>
-&lt;h3 id="どこまでを自分でやるか">どこまでを自分でやるか&lt;/h3>
-&lt;p>本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p>
-&lt;h3 id="どこまで相手に介入させるか">どこまで相手に介入させるか&lt;/h3>
-&lt;p>ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p>
-&lt;h3 id="引き継ぎ">引き継ぎ&lt;/h3>
-&lt;p>これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p>
-&lt;p>例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p>
-&lt;p>もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p>
-&lt;p>さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>という訳で，今回の記事を通して伝えたかったことは&lt;/p>
-&lt;ul>
-&lt;li>HPを作る目的を今一度確認して欲しい&lt;/li>
-&lt;li>中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li>
-&lt;li>誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li>
-&lt;/ul>
-&lt;p>ということでした．最後までご覧いただきありがとうございました．&lt;/p></description></item><item><title>Hugoに移行してみた</title><link>https://t-asa2000.net/post/20220903/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://t-asa2000.net/post/20220903/</guid><description>&lt;p>これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong>GitHub Pages + Hugo&lt;/strong> に移行しました．&lt;/p>
-&lt;p>移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p>
-&lt;p>&lt;del>テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del>&lt;/p>
-&lt;p>&lt;del>（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del>&lt;/p>
-&lt;p>&lt;strong>2023.3.6 追記&lt;/strong>&lt;/p>
-&lt;p>コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
->https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>最後までお読みいただき，ありがとうございました．&lt;/p></description></item></channel></rss>
