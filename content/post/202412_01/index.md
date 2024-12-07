@@ -117,6 +117,12 @@ export default class extends Endpoint<typeof meta, typeof paramDef> { // eslint-
 
 これでようやく **レジストリを使った同期** ができるようになります．
 
+【実際に同期機能を実装したプラグインのスクリーンショット】
+
+{{<rawhtml>}}
+<img src="img4.png" width=400>
+{{</rawhtml>}}
+
 ## 最後に
 
 以上， Misskey プラグインに（無理矢理ですが）同期機能を実装してみたという記事でした．
