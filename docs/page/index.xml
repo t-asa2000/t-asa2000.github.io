@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>t-asa2000.net</title><description>Recent content on t-asa2000.net</description><link>https://t-asa2000.net/page/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://t-asa2000.net/page/index.xml" rel="self" type="application/rss+xml"/><item><title>カスタム絵文字</title><link>https://t-asa2000.net/emoji/</link><pubDate>Mon, 06 Mar 2023 15:48:38 +0900</pubDate><guid>https://t-asa2000.net/emoji/</guid><description>&lt;p>Misskey個人サーバー(運用終了)で使用していた絵文字の一覧です．&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>t-asa2000.net</title><description>Recent content on t-asa2000.net</description><link>https://t-asa2000.net/page/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 06 Mar 2023 15:48:38 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/page/index.xml" rel="self" type="application/rss+xml"/><item><title>カスタム絵文字</title><link>https://t-asa2000.net/emoji/</link><pubDate>Mon, 06 Mar 2023 15:48:38 +0900</pubDate><guid>https://t-asa2000.net/emoji/</guid><description>&lt;p>Misskey個人サーバー(運用終了)で使用していた絵文字の一覧です．&lt;/p>
 &lt;p>&lt;img src="https://t-asa2000.net/misskey-emoji/applenanntokashiro.png">&lt;/p>
 &lt;p>&lt;code>:applenanntokashiro:​&lt;/code>&lt;/p>
 &lt;a href="https://t-asa2000.net/misskey-emoji/applenanntokashiro.png" download="">ダウンロード&lt;/a>
@@ -14,15 +14,54 @@ Niigata-pref, Japan. Student. Male.&lt;/strong>&lt;/p>
 中学校に入学した頃から、自分専用のPCを買ってプログラミングとかをやりはじめました。&lt;/p>
 &lt;ul>
 &lt;li>血液型 : B型&lt;/li>
-&lt;li>主な使用プログラミング言語: C#, PHP, Java&lt;/li>
-&lt;li>好きな食べ物：うどん(丸亀製麺好き)、餃子、エビフライ、寿司&lt;/li>
-&lt;li>趣味：ガジェット,Webサイト製作,ラジオ,音楽,ドラマ観賞etc&amp;hellip;&lt;/li>
+&lt;li>好きな食べ物：うどん,餃子,エビフライ,寿司&lt;/li>
+&lt;li>趣味：ガジェット関係の情報収集,ドライブ,Webサイト製作,ラジオ,音楽,ドラマ観賞etc&amp;hellip;&lt;/li>
 &lt;li>苦手なこと：おしゃれ、手先を使う作業(不器用)&lt;/li>
 &lt;/ul>
 &lt;h3 id="お問い合わせ">お問い合わせ&lt;/h3>
 &lt;p>&lt;a class="link" href="https://forms.gle/EiWydB9utuZktf4Y6" target="_blank" rel="noopener"
 >こちらの問い合わせフォームをご利用ください．&lt;/a>&lt;/p>
-&lt;h2 id="主な活動">主な活動&lt;/h2>
+&lt;h2 id="使用したことのある言語フレームワーク技術スタックなど">使用したことのある言語・フレームワーク・技術スタックなど&lt;/h2>
+&lt;p>※ 1回でも触ったことがあるものを記載しています．現在メインで触っているものは &lt;strong>太字&lt;/strong> にしています．&lt;/p>
+&lt;h3 id="プログラミングマークアップ言語">プログラミング・マークアップ言語&lt;/h3>
+&lt;ul>
+&lt;li>HTML&lt;/li>
+&lt;li>CSS&lt;/li>
+&lt;li>&lt;strong>JavaScript&lt;/strong>&lt;/li>
+&lt;li>PHP&lt;/li>
+&lt;li>Pug&lt;/li>
+&lt;li>SQL&lt;/li>
+&lt;li>C&lt;/li>
+&lt;li>&lt;strong>C#&lt;/strong>&lt;/li>
+&lt;li>Visual Basic .NET&lt;/li>
+&lt;li>Python&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;li>R&lt;/li>
+&lt;/ul>
+&lt;h3 id="フレームワーク技術スタックなど">フレームワーク・技術スタックなど&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Node.js&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Express&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="使用経験のあるライブラリ">使用経験のあるライブラリ&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Sequelize&lt;/strong> (Node.js向けのDBMS操作用ライブラリ)&lt;/li>
+&lt;li>CONTEC API-AIO (VB.NET/C#向けのCONTEC社 AD変換ライブラリ)&lt;/li>
+&lt;/ul>
+&lt;h2 id="これまでにやったこと">これまでにやったこと&lt;/h2>
+&lt;ul>
+&lt;li>WordPress サイトの構築・管理&lt;/li>
+&lt;li>WordPress テーマ・プラグインの開発&lt;/li>
+&lt;li>PHPを言語としたWeb公開コンテンツの開発&lt;/li>
+&lt;li>.NET/.NET Framework を用いた Windows デスクトップアプリケーションの開発&lt;/li>
+&lt;li>Node.js で動作するWebアプリケーション (分散型SNS : &lt;strong>Misskey&lt;/strong>) のセルフホスティング&lt;/li>
+&lt;li>ApacheやNginxの設定作業&lt;/li>
+&lt;li>Node.js を用いたサーバーサイド・フロントエンド分離型のWebアプリケーション開発&lt;/li>
+&lt;li>CONTEC社 API-AIOを用いてAD変換モジュールを操作するWindows デスクトップアプリケーションの開発&lt;/li>
+&lt;li>Fitbit (スマートウォッチ) 上で動作するアプリケーションの開発&lt;/li>
+&lt;/ul>
+&lt;h2 id="プライベートでの開発経験活動実績">プライベートでの開発経験・活動実績&lt;/h2>
 &lt;h3 id="2019">2019&lt;/h3>
 &lt;ul>
 &lt;li>所属していた部活のサイト (WordPress) を作成・維持管理&lt;/li>
@@ -31,11 +70,23 @@ Niigata-pref, Japan. Student. Male.&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>学生ベンチャー企業のサイト (WordPress) を作成・維持管理
 &lt;ul>
-&lt;li>同社のWeb上で閲覧する教材コンテンツ (動画・テキスト) のビューアーをPHPで開発&lt;/li>
+&lt;li>同社がWeb上で展開する教材コンテンツ (動画・テキスト) のビューアーをPHPで開発&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="プライベートでの活動">プライベートでの活動&lt;/h2>
+&lt;h3 id="2022">2022&lt;/h3>
+&lt;ul>
+&lt;li>卒業研究で使用するアプリケーションをC#で開発
+&lt;ul>
+&lt;li>AD変換モジュール向けライブラリ CONTEC API-AIOを使用したデスクトップアプリケーション&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2024">2024&lt;/h3>
+&lt;ul>
+&lt;li>研究で使用するWebシステム (Node.js, Express+Vue) を開発・運用&lt;/li>
+&lt;/ul>
+&lt;h2 id="web-sns-上での活動">Web (SNS) 上での活動&lt;/h2>
 &lt;h3 id="2021-1">2021&lt;/h3>
 &lt;ul>
 &lt;li>初めての個人ドメイン (t-asa2000.net) を購入&lt;/li>
@@ -44,9 +95,13 @@ Niigata-pref, Japan. Student. Male.&lt;/strong>&lt;/p>
 &lt;a class="link" href="https://misskey.t-asa2000.net" target="_blank" rel="noopener"
 >(2023年8月6日運用終了, 跡地はこちら)&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h3 id="2022">2022&lt;/h3>
+&lt;h3 id="2023">2023&lt;/h3>
 &lt;ul>
-&lt;li>卒業研究で使用するアプリケーションをC#で開発&lt;/li>
+&lt;li>個人サイトをリニューアルして現在の形に&lt;/li>
+&lt;/ul>
+&lt;h3 id="2024-1">2024&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://t-asa2000.net/post/202412_01/" >Misskey Advent Calendar 2024&lt;/a> への参加&lt;/li>
 &lt;/ul>
 &lt;h2 id="使ってるモノ">使ってるモノ&lt;/h2>
 &lt;p>2024年12月3日現在&lt;/p>
