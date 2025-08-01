@@ -31,7 +31,7 @@ menu:
 
 ### [Last.fm](https://last.fm/user/t-asa2000)
 
-### [Spotify](https://open.spotify.com/playlist/2QaGyw6rKWDO28LiNnj9T3)
+### [Spotify](https://open.spotify.com/user/31u5ssruqseukcodexup2ua3lxnm)
 
 ### [Fedimovie](https://fedimovie.com/c/asatach/videos)
 
