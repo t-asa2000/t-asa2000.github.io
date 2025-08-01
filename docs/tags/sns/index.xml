@@ -1,38 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SNS | t-asa2000.net</title><description>Recent content in SNS on t-asa2000.net</description><link>https://t-asa2000.net/tags/sns/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 15 Aug 2024 13:07:09 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/sns/index.xml" rel="self" type="application/rss+xml"/><item><title>「SNSは連絡ツールとは別」←この考え方って古い？</title><link>https://t-asa2000.net/post/202408_02/</link><pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate><guid>https://t-asa2000.net/post/202408_02/</guid><description>&lt;h2 id="インターネットとの出会い">インターネットとの出会い&lt;/h2>
-&lt;p>私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong>真の意味でのROM専&lt;/strong> でした．&lt;/p>
-&lt;p>当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong>画面の向こう側にいる知らない人だけに向けて&lt;/strong>，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p>
-&lt;p>アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong>「画面の向こう側の人とやり取りするツール」&lt;/strong> だと思っています．&lt;/p>
-&lt;h2 id="snsと連絡ツールの境界線">SNSと連絡ツールの境界線&lt;/h2>
-&lt;p>まず私の中での定義として以下のように分けてます．&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>SNS&lt;/strong> : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
-&lt;ul>
-&lt;li>X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>連絡ツール&lt;/strong> : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
-&lt;ul>
-&lt;li>LINEなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong>「LINE離れ」&lt;/strong> みたいな話を聞くんですけども，&lt;/p>
-&lt;p>私としては &lt;strong>「公開空間のアカウントで非公開なやり取りをする」&lt;/strong> ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p>
-&lt;p>奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p>
-&lt;h2 id="内輪ネタを書かないリア垢も作らない">内輪ネタを書かない，リア垢も作らない&lt;/h2>
-&lt;p>上述のようにDMだけの運用なら &lt;strong>「連絡ツール」&lt;/strong> という扱いになるので，まだ自分としても許容できます．&lt;/p>
-&lt;p>問題はタイムラインへの投稿です．&lt;/p>
-&lt;p>私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong>「SNS」&lt;/strong> にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p>
-&lt;p>それでも，気を付けていたことは &lt;strong>「内輪ネタをタイムラインに書かない」&lt;/strong> ということです．&lt;/p>
-&lt;p>ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong>私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong> です．&lt;/p>
-&lt;p>「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p>
-&lt;p>これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p>
-&lt;p>例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p>
-&lt;p>「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p>
-&lt;p>そもそも &lt;strong>インターネットは怖い場所&lt;/strong> です．ただ，スマホの普及で&lt;/p>
-&lt;ul>
-&lt;li>周囲がInstagramをやってる&lt;/li>
-&lt;li>電車で隣の人がTwitterを開いてる&lt;/li>
-&lt;/ul>
-&lt;p>これが当たり前になった現代，インターネット上の公開空間に &lt;strong>参加すること&lt;/strong> への抵抗が薄れてきたことで，&lt;br>
-世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>SNS | t-asa2000.net</title>
+			<description>Recent content in SNS on t-asa2000.net</description><link>https://t-asa2000.net/tags/sns/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Thu, 15 Aug 2024 13:07:09 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/sns/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>「SNSは連絡ツールとは別」←この考え方って古い？</title>
+		<link>https://t-asa2000.net/post/202408_02/</link>
+		<pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202408_02/</guid>
+		<description>&lt;h2 id=&#34;インターネットとの出会い&#34;&gt;インターネットとの出会い&lt;/h2&gt;
+&lt;p&gt;私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong&gt;真の意味でのROM専&lt;/strong&gt; でした．&lt;/p&gt;
+&lt;p&gt;当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong&gt;画面の向こう側にいる知らない人だけに向けて&lt;/strong&gt;，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p&gt;
+&lt;p&gt;アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong&gt;「画面の向こう側の人とやり取りするツール」&lt;/strong&gt; だと思っています．&lt;/p&gt;
+&lt;h2 id=&#34;snsと連絡ツールの境界線&#34;&gt;SNSと連絡ツールの境界線&lt;/h2&gt;
+&lt;p&gt;まず私の中での定義として以下のように分けてます．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SNS&lt;/strong&gt; : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
+&lt;ul&gt;
+&lt;li&gt;X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;連絡ツール&lt;/strong&gt; : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
+&lt;ul&gt;
+&lt;li&gt;LINEなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong&gt;「LINE離れ」&lt;/strong&gt; みたいな話を聞くんですけども，&lt;/p&gt;
+&lt;p&gt;私としては &lt;strong&gt;「公開空間のアカウントで非公開なやり取りをする」&lt;/strong&gt; ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p&gt;
+&lt;p&gt;奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p&gt;
+&lt;h2 id=&#34;内輪ネタを書かないリア垢も作らない&#34;&gt;内輪ネタを書かない，リア垢も作らない&lt;/h2&gt;
+&lt;p&gt;上述のようにDMだけの運用なら &lt;strong&gt;「連絡ツール」&lt;/strong&gt; という扱いになるので，まだ自分としても許容できます．&lt;/p&gt;
+&lt;p&gt;問題はタイムラインへの投稿です．&lt;/p&gt;
+&lt;p&gt;私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong&gt;「SNS」&lt;/strong&gt; にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p&gt;
+&lt;p&gt;それでも，気を付けていたことは &lt;strong&gt;「内輪ネタをタイムラインに書かない」&lt;/strong&gt; ということです．&lt;/p&gt;
+&lt;p&gt;ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong&gt;私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong&gt; です．&lt;/p&gt;
+&lt;p&gt;「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p&gt;
+&lt;p&gt;これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p&gt;
+&lt;p&gt;例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p&gt;
+&lt;p&gt;「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p&gt;
+&lt;p&gt;そもそも &lt;strong&gt;インターネットは怖い場所&lt;/strong&gt; です．ただ，スマホの普及で&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;周囲がInstagramをやってる&lt;/li&gt;
+&lt;li&gt;電車で隣の人がTwitterを開いてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これが当たり前になった現代，インターネット上の公開空間に &lt;strong&gt;参加すること&lt;/strong&gt; への抵抗が薄れてきたことで，&lt;br&gt;
+世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

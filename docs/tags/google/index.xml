@@ -1,99 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google | t-asa2000.net</title><description>Recent content in Google on t-asa2000.net</description><link>https://t-asa2000.net/tags/google/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 19 Dec 2024 22:42:24 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title><link>https://t-asa2000.net/post/202412_02/</link><pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate><guid>https://t-asa2000.net/post/202412_02/</guid><description>&lt;p>今回のブログはかなり &lt;strong>「思想強め」&lt;/strong> です．&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p>
-&lt;/blockquote>
-&lt;p>手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br>
-&lt;a class="link" href="https://president.jp/articles/-/89180" target="_blank" rel="noopener"
->https://president.jp/articles/-/89180&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>要はGoogleが大きくなりすぎたから，&lt;strong>分割してそれぞれの分野で競争促しましょうね&lt;/strong> っていう話ですね．&lt;/p>
-&lt;p>私の感想ですがハッキリ言って &lt;b style="font-size:1.5em">今更遅すぎるし無駄&lt;/b> だと思ってます．&lt;/p>
-&lt;p>私はあくまで寡占そのものに賛成というのではなく，&lt;strong>「一度寡占させてしまったものは諦めろ」&lt;/strong> 派です．&lt;/p>
-&lt;p>もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong>早期に芽を摘んでおく&lt;/strong> 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p>
-&lt;p>確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p>
-&lt;p>力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong>「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong> じゃないですか．&lt;/p>
-&lt;hr>
-&lt;p>と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p>
-&lt;h2 id="chromeブラウザの売却">Chromeブラウザの売却&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>1. Chromeブラウザの売却&lt;/strong>&lt;/p>
-&lt;p>（目的）&lt;br>
-・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p>
-&lt;p>（具体的措置）&lt;br>
-・グーグルはChromeを第三者に売却する義務を負う。&lt;br>
-・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>「競争を促進」&lt;/strong> なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p>
-&lt;p>&lt;strong>「知名度」&lt;/strong> というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p>
-&lt;p>結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p>
-&lt;p>これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong>消費者の利便性を阻害していること&lt;/strong>に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong>Chrome アカウント&lt;/strong>なる独自の同期アカウントが誕生するかもしれません．&lt;/p>
-&lt;h2 id="androidに関する規制">Androidに関する規制&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>2. Androidに関する規制&lt;/strong>&lt;/p>
-&lt;p>（選択肢1）Androidの分割&lt;br>
-・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br>
-・Androidを完全に分離・売却する。&lt;/p>
-&lt;p>（選択肢2）行動上の是正措置&lt;br>
-・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br>
-・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p>
-&lt;p>あとAndroidに&lt;strong>Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong>のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p>
-&lt;h2 id="デフォルト検索エンジン契約の禁止">デフォルト検索エンジン契約の禁止&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>3. デフォルト検索エンジン契約の禁止&lt;/strong>&lt;/p>
-&lt;p>・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p>
-&lt;p>Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br>
-&lt;a class="link" href="https://gigazine.net/news/20241219-mozilla-google-browsers/" target="_blank" rel="noopener"
->https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a>&lt;/p>
-&lt;p>（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p>
-&lt;p>拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p>
-&lt;h2 id="データ共有と透明性の向上">データ共有と透明性の向上&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>4. データ共有と透明性の向上&lt;/strong>&lt;/p>
-&lt;p>（データの提供）&lt;br>
-・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br>
-・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p>
-&lt;p>（広告データの透明性）&lt;br>
-・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br>
-・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p>
-&lt;p>そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p>
-&lt;p>むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong>アメリカの経済的な国益&lt;/strong>になると思います．&lt;/p>
-&lt;h2 id="競争を促進する仕組み">競争を促進する仕組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>5. 競争を促進する仕組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br>
-・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ最初にも書きましたが，&lt;strong>米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong>こんなことやる必要なかったんですよ．&lt;/p>
-&lt;p>「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p>
-&lt;p>競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong>「恥ずかしいこと」&lt;/strong> だと認識した方が良いと思います．&lt;/p>
-&lt;h2 id="競争の妨害行為を防止するための管理">競争の妨害行為を防止するための管理&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>6．競争の妨害行為を防止するための管理&lt;/strong>&lt;br>
-（技術委員会の設置）&lt;br>
-・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br>
-・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p>
-&lt;p>（違反の防止）&lt;br>
-・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p>
-&lt;/blockquote>
-&lt;p>ごくごく普通の競争健全化施策なので飛ばします．&lt;/p>
-&lt;h2 id="ユーザー選択を増やすための取り組み">ユーザー選択を増やすための取り組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>7. ユーザー選択を増やすための取り組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br>
-・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p>
-&lt;/blockquote>
-&lt;p>そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p>
-&lt;p>&lt;strong>1.&lt;/strong> でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p>
-&lt;p>ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong>検索エンジンを一切搭載せずに，&lt;/strong> 以下のようにユーザーに一から手動設定させるべきです．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>え？ &lt;strong>「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong> だって？&lt;/p>
-&lt;p>甘えたこと言わないでください．&lt;del>&lt;strong>「公平」&lt;/strong> が大事なんでしょ．これくらいやれよ．&lt;/del>&lt;/p>
-&lt;hr>
-&lt;p>若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong>「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong> ということを言いたかっただけです．&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Google | t-asa2000.net</title>
+			<description>Recent content in Google on t-asa2000.net</description><link>https://t-asa2000.net/tags/google/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Thu, 19 Dec 2024 22:42:24 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/google/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title>
+		<link>https://t-asa2000.net/post/202412_02/</link>
+		<pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_02/</guid>
+		<description>&lt;p&gt;今回のブログはかなり &lt;strong&gt;「思想強め」&lt;/strong&gt; です．&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://president.jp/articles/-/89180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://president.jp/articles/-/89180&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;要はGoogleが大きくなりすぎたから，&lt;strong&gt;分割してそれぞれの分野で競争促しましょうね&lt;/strong&gt; っていう話ですね．&lt;/p&gt;
+
+&lt;p&gt;私の感想ですがハッキリ言って &lt;b style=&#34;font-size:1.5em&#34;&gt;今更遅すぎるし無駄&lt;/b&gt; だと思ってます．&lt;/p&gt;
+
+&lt;p&gt;私はあくまで寡占そのものに賛成というのではなく，&lt;strong&gt;「一度寡占させてしまったものは諦めろ」&lt;/strong&gt; 派です．&lt;/p&gt;
+&lt;p&gt;もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong&gt;早期に芽を摘んでおく&lt;/strong&gt; 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p&gt;
+&lt;p&gt;確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p&gt;
+&lt;p&gt;力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong&gt;「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong&gt; じゃないですか．&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p&gt;
+&lt;h2 id=&#34;chromeブラウザの売却&#34;&gt;Chromeブラウザの売却&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1. Chromeブラウザの売却&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（目的）&lt;br&gt;
+・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p&gt;
+&lt;p&gt;（具体的措置）&lt;br&gt;
+・グーグルはChromeを第三者に売却する義務を負う。&lt;br&gt;
+・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;「競争を促進」&lt;/strong&gt; なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「知名度」&lt;/strong&gt; というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p&gt;
+&lt;p&gt;結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p&gt;
+&lt;p&gt;これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong&gt;消費者の利便性を阻害していること&lt;/strong&gt;に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong&gt;Chrome アカウント&lt;/strong&gt;なる独自の同期アカウントが誕生するかもしれません．&lt;/p&gt;
+&lt;h2 id=&#34;androidに関する規制&#34;&gt;Androidに関する規制&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2. Androidに関する規制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（選択肢1）Androidの分割&lt;br&gt;
+・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br&gt;
+・Androidを完全に分離・売却する。&lt;/p&gt;
+&lt;p&gt;（選択肢2）行動上の是正措置&lt;br&gt;
+・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br&gt;
+・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p&gt;
+&lt;p&gt;あとAndroidに&lt;strong&gt;Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong&gt;のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p&gt;
+&lt;h2 id=&#34;デフォルト検索エンジン契約の禁止&#34;&gt;デフォルト検索エンジン契約の禁止&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3. デフォルト検索エンジン契約の禁止&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p&gt;
+&lt;p&gt;Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gigazine.net/news/20241219-mozilla-google-browsers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p&gt;
+&lt;p&gt;拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p&gt;
+&lt;h2 id=&#34;データ共有と透明性の向上&#34;&gt;データ共有と透明性の向上&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4. データ共有と透明性の向上&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（データの提供）&lt;br&gt;
+・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br&gt;
+・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p&gt;
+&lt;p&gt;（広告データの透明性）&lt;br&gt;
+・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br&gt;
+・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p&gt;
+&lt;p&gt;そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p&gt;
+&lt;p&gt;むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong&gt;アメリカの経済的な国益&lt;/strong&gt;になると思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争を促進する仕組み&#34;&gt;競争を促進する仕組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5. 競争を促進する仕組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br&gt;
+・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ最初にも書きましたが，&lt;strong&gt;米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong&gt;こんなことやる必要なかったんですよ．&lt;/p&gt;
+&lt;p&gt;「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p&gt;
+&lt;p&gt;競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong&gt;「恥ずかしいこと」&lt;/strong&gt; だと認識した方が良いと思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争の妨害行為を防止するための管理&#34;&gt;競争の妨害行為を防止するための管理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6．競争の妨害行為を防止するための管理&lt;/strong&gt;&lt;br&gt;
+（技術委員会の設置）&lt;br&gt;
+・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br&gt;
+・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p&gt;
+&lt;p&gt;（違反の防止）&lt;br&gt;
+・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ごくごく普通の競争健全化施策なので飛ばします．&lt;/p&gt;
+&lt;h2 id=&#34;ユーザー選択を増やすための取り組み&#34;&gt;ユーザー選択を増やすための取り組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7. ユーザー選択を増やすための取り組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br&gt;
+・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p&gt;
+&lt;p&gt;ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong&gt;検索エンジンを一切搭載せずに，&lt;/strong&gt; 以下のようにユーザーに一から手動設定させるべきです．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;え？ &lt;strong&gt;「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong&gt; だって？&lt;/p&gt;
+&lt;p&gt;甘えたこと言わないでください．&lt;del&gt;&lt;strong&gt;「公平」&lt;/strong&gt; が大事なんでしょ．これくらいやれよ．&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong&gt;「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong&gt; ということを言いたかっただけです．&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

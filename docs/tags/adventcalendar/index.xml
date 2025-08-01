@@ -1,112 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AdventCalendar | t-asa2000.net</title><description>Recent content in AdventCalendar on t-asa2000.net</description><link>https://t-asa2000.net/tags/adventcalendar/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 07 Dec 2024 23:28:00 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/adventcalendar/index.xml" rel="self" type="application/rss+xml"/><item><title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title><link>https://t-asa2000.net/post/202412_01/</link><pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate><guid>https://t-asa2000.net/post/202412_01/</guid><description>&lt;blockquote>
-&lt;p>この記事は &lt;a class="link" href="https://adventar.org/calendars/10208" target="_blank" rel="noopener"
->&lt;strong>「Misskey Advent Calendar 2024」 8日目&lt;/strong>&lt;/a> の記事です．&lt;/p>
-&lt;/blockquote>
-&lt;p>こんにちは．&lt;a class="link" href="https://misskey.io/" target="_blank" rel="noopener"
->Misskey.io&lt;/a>で活動している&lt;a class="link" href="https://misskey.io/@asata" target="_blank" rel="noopener"
->asata&lt;/a>と申します．&lt;/p>
-&lt;p>今回は &lt;a class="link" href="https://github.com/misskey-dev/misskey" target="_blank" rel="noopener"
->Misskey&lt;/a> のプラグインを自作していく中で気が付いた &lt;strong>「レジストリAPI」&lt;/strong> に関する知見をまとめていけたらなと思っています．&lt;/p>
-&lt;h2 id="自作したプラグイン">自作したプラグイン&lt;/h2>
-&lt;p>私が今回作成したのは &lt;strong>「ノート非表示プラグイン」&lt;/strong> というもので，これは個別のノート単位で疑似的なミュートができるというものになります．&lt;/p>
-&lt;p>タイムライン上に不快に思うような内容が流れてきて，&lt;strong>「その人自体は嫌いじゃないけどこのノートだけはもう目に入れたくない」&lt;/strong> みたいな場面を想定して作りました．（単純に自分がそういう時にあったらいいな・・・と思ってたので）&lt;/p>
-&lt;p>&lt;a class="link" href="https://misskey.io/@asata/pages/notemuteplugin" target="_blank" rel="noopener"
->https://misskey.io/@asata/pages/notemuteplugin&lt;/a>&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;h2 id="プラグインのデータをサーバー上で同期させたかった">プラグインのデータをサーバー上で同期させたかった&lt;/h2>
-&lt;p>Misskeyでは，クライアントに関する情報は基本的にクライアントに保存されます．&lt;/p>
-&lt;p>なので，どういうプラグインを入れたとか，そのプラグインの設定やデータはサーバー上に保存されません．&lt;/p>
-&lt;p>同じプラグインをスマホとPCで使いたければ，それぞれのデバイスにインストールすることになります．しかし，両方のデバイスで&lt;strong>常に同じ状態をキープするということはできない&lt;/strong>わけです．&lt;/p>
-&lt;p>ただ私は，できることなら実際のミュート機能の使い勝手に近づけたいと &lt;strong>「ミュート設定したノートIDのリストをデバイス間で同期したい」&lt;/strong> と考えていました．そんな中，タイムラインで教えて頂いたのが &lt;strong>「レジストリAPI」&lt;/strong> です．&lt;/p>
-&lt;h2 id="レジストリって何">レジストリって何？&lt;/h2>
-&lt;p>Misskeyにおける「レジストリ」とは，&lt;strong>「キー」と「値」の組み合わせ&lt;/strong> で自由な値をサーバー上に保存しておける機能です．値の型は，文字列・数値・配列・オブジェクト，どれでもOKみたいです．&lt;/p>
-&lt;p>Misskey自体も，各種設定を保存するためにレジストリを使用しています．&lt;/p>
-&lt;img src="img2.png" width=400>
-&lt;p>レジストリは階層構造となっており，「ドメイン」⇒「スコープ」⇒「キー」という形となっています．「スコープ」は client/aaa のように多重構造（入れ子）にすることも可能です．&lt;/p>
-&lt;h2 id="レジストリを使えば設定が同期できるはずだった">レジストリを使えば設定が同期できる・・・はずだった&lt;/h2>
-&lt;p>これを踏まえて，私は &lt;strong>「同じドメイン・スコープ・キーでレジストリを読み書きすれば，ミュート設定したノートを同期できる」&lt;/strong> と考え実装に入りました．&lt;/p>
-&lt;p>Misskey プラグインは，&lt;a class="link" href="https://github.com/aiscript-dev/aiscript" target="_blank" rel="noopener"
->&lt;strong>AiScript&lt;/strong>&lt;/a> というJavaScriptベースの言語で記述します．また，Misskey内でAiScriptを使用する場合は &lt;a class="link" href="https://misskey-hub.net/ja/docs/for-developers/plugin/plugin-api-reference/" target="_blank" rel="noopener"
->&lt;strong>「AiScript Misskey 拡張API」&lt;/strong>&lt;/a>と呼ばれる専用のAPIが使用できます．今回はこちらを使ってプラグインからMisskeyのAPIを叩きます．&lt;/p>
-&lt;p>↓こんな感じでMisskeyのレジストリAPIを叩きます．&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 非表示ノートの設定(サーバー)
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="nx">setMutedNotesServer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">notes&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Mk&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">api&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;i/registry/set&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">key&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;mutedNotes&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">scope&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;asataPlugin&amp;#39;&lt;/span>&lt;span class="p">],&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">notes&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">domain&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;asata&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">})&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>さて，ここで問題が生じました．上記のコード内ではドメインを &lt;strong>「asata」&lt;/strong> としていますが，実際のレジストリでは &lt;strong>全く関係のない文字列をドメインとして&lt;/strong> 読み書き操作が行われていたのです．&lt;/p>
-&lt;img src="img3.png" width=400>
-&lt;p>しかも，この文字列，プラグインをインストールし直すごとに変わってしまいます．つまりこれは &lt;strong>「異なるデバイス間で同じレジストリのキーを参照できない」＝「同期ができない」&lt;/strong> ということになります．&lt;/p>
-&lt;h2 id="外部からレジストリapiを叩くとドメインは無視される">外部からレジストリAPIを叩くとドメインは無視される&lt;/h2>
-&lt;p>Misskeyのバックエンドのソースコードを見てみると，その原因が分かりました．&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/misskey-dev/misskey/blob/dac3b1f40591cb697cf650bff7e4cb99cc964f89/packages/backend/src/server/api/endpoints/i/registry/set.ts" target="_blank" rel="noopener"
->packages/backend/src/server/api/endpoints/i/registry/set.ts&lt;/a> より引用&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-ts" data-lang="ts">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">@Injectable&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="kr">class&lt;/span> &lt;span class="kr">extends&lt;/span> &lt;span class="nx">Endpoint&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">typeof&lt;/span> &lt;span class="na">meta&lt;/span>&lt;span class="err">,&lt;/span> &lt;span class="na">typeof&lt;/span> &lt;span class="na">paramDef&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="c1">// eslint-disable-line import/no-default-export
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">constructor&lt;/span>&lt;span class="p">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">private&lt;/span> &lt;span class="nx">registryApiService&lt;/span>: &lt;span class="kt">RegistryApiService&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">super&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">meta&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">paramDef&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">async&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">ps&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">me&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">accessToken&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">await&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">registryApiService&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="kr">set&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">me&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">id&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">accessToken&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="nx">accessToken&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">id&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">domain&lt;/span> &lt;span class="o">??&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">scope&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">key&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">value&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>スマホ等では少し見辛いかもしれませんが，レジストリAPI用の関数に投げる第2引数が &lt;code>accessToken ? accessToken.id : (ps.domain ?? null)&lt;/code> となっています．&lt;/p>
-&lt;p>どうやら外部からレジストリAPIを叩く場合は &lt;strong>「指定したドメイン名を無視してアクセストークンのIDをドメインにする」&lt;/strong> という仕様のようです．ドメイン名となっていた謎の文字列は，インストール時にプラグイン用に生成されたアクセストークンのIDだったみたいですね．&lt;/p>
-&lt;h2 id="レジストリを使った同期をするための方法">レジストリを使った同期をするための方法&lt;/h2>
-&lt;p>ただ，プラグインのデータをレジストリ経由で同期できないという訳ではありません．各デバイスにインストールされたプラグインが &lt;strong>同じアクセストークンを使用すれば&lt;/strong> 同期を行うことができます．&lt;/p>
-&lt;p>残念ながら，プラグインの実装ではこの問題をどうにかすることは不可能なので， &lt;strong>プラグインを使うユーザーに対して&lt;/strong> 以下の操作を促すことになります．&lt;/p>
-&lt;p>2つの &lt;strong>デバイス「A」と「B」&lt;/strong> でMisskeyをしていると仮定して説明します．&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>デバイスA&lt;/strong> でプラグインをインストールする．&lt;/li>
-&lt;li>「設定のバックアップ」機能で，インストール直後のクライアントの状態をバックアップする．&lt;/li>
-&lt;li>&lt;strong>デバイスB&lt;/strong> 上で「設定のバックアップ」機能から &lt;strong>デバイスA&lt;/strong> で作成したバックアップをクライアントに適用する．&lt;/li>
-&lt;/ol>
-&lt;p>これにより，2つのデバイス上で同じプラグインがインストールされます．しかも，&lt;strong>デバイスA&lt;/strong> のインストール時に生成したアクセストークンが &lt;strong>紐づいた&lt;/strong> 状態でインストールされます．&lt;/p>
-&lt;p>これでようやく &lt;strong>レジストリを使った同期&lt;/strong> ができるようになります．&lt;/p>
-&lt;p>【実際に同期機能を実装したプラグインのスクリーンショット】&lt;/p>
-&lt;img src="img4.png" width=400>
-&lt;h2 id="最後に">最後に&lt;/h2>
-&lt;p>以上， Misskey プラグインに（無理矢理ですが）同期機能を実装してみたという記事でした．&lt;/p>
-&lt;p>ドメイン名を強制的に書き換えるという仕様は，セキュリティ的にやむを得ないんじゃないかなと思っています．&lt;/p>
-&lt;ul>
-&lt;li>悪意のあるプログラムがドメインを偽装してレジストリ書き換える&lt;/li>
-&lt;li>たまたまサードパーティー同士でドメインが重複してしまう&lt;/li>
-&lt;/ul>
-&lt;p>みたいなケースも十分考えられますからね．&lt;/p>
-&lt;p>最後までお読みいただき，ありがとうございました．&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>AdventCalendar | t-asa2000.net</title>
+			<description>Recent content in AdventCalendar on t-asa2000.net</description><link>https://t-asa2000.net/tags/adventcalendar/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Sat, 07 Dec 2024 23:28:00 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/adventcalendar/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title>
+		<link>https://t-asa2000.net/post/202412_01/</link>
+		<pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_01/</guid>
+		<description>&lt;blockquote&gt;
+&lt;p&gt;この記事は &lt;a class=&#34;link&#34; href=&#34;https://adventar.org/calendars/10208&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;「Misskey Advent Calendar 2024」 8日目&lt;/strong&gt;&lt;/a&gt; の記事です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;こんにちは．&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Misskey.io&lt;/a&gt;で活動している&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/@asata&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;asata&lt;/a&gt;と申します．&lt;/p&gt;
+&lt;p&gt;今回は &lt;a class=&#34;link&#34; href=&#34;https://github.com/misskey-dev/misskey&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Misskey&lt;/a&gt; のプラグインを自作していく中で気が付いた &lt;strong&gt;「レジストリAPI」&lt;/strong&gt; に関する知見をまとめていけたらなと思っています．&lt;/p&gt;
+&lt;h2 id=&#34;自作したプラグイン&#34;&gt;自作したプラグイン&lt;/h2&gt;
+&lt;p&gt;私が今回作成したのは &lt;strong&gt;「ノート非表示プラグイン」&lt;/strong&gt; というもので，これは個別のノート単位で疑似的なミュートができるというものになります．&lt;/p&gt;
+&lt;p&gt;タイムライン上に不快に思うような内容が流れてきて，&lt;strong&gt;「その人自体は嫌いじゃないけどこのノートだけはもう目に入れたくない」&lt;/strong&gt; みたいな場面を想定して作りました．（単純に自分がそういう時にあったらいいな・・・と思ってたので）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/@asata/pages/notemuteplugin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://misskey.io/@asata/pages/notemuteplugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;h2 id=&#34;プラグインのデータをサーバー上で同期させたかった&#34;&gt;プラグインのデータをサーバー上で同期させたかった&lt;/h2&gt;
+&lt;p&gt;Misskeyでは，クライアントに関する情報は基本的にクライアントに保存されます．&lt;/p&gt;
+&lt;p&gt;なので，どういうプラグインを入れたとか，そのプラグインの設定やデータはサーバー上に保存されません．&lt;/p&gt;
+&lt;p&gt;同じプラグインをスマホとPCで使いたければ，それぞれのデバイスにインストールすることになります．しかし，両方のデバイスで&lt;strong&gt;常に同じ状態をキープするということはできない&lt;/strong&gt;わけです．&lt;/p&gt;
+&lt;p&gt;ただ私は，できることなら実際のミュート機能の使い勝手に近づけたいと &lt;strong&gt;「ミュート設定したノートIDのリストをデバイス間で同期したい」&lt;/strong&gt; と考えていました．そんな中，タイムラインで教えて頂いたのが &lt;strong&gt;「レジストリAPI」&lt;/strong&gt; です．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリって何&#34;&gt;レジストリって何？&lt;/h2&gt;
+&lt;p&gt;Misskeyにおける「レジストリ」とは，&lt;strong&gt;「キー」と「値」の組み合わせ&lt;/strong&gt; で自由な値をサーバー上に保存しておける機能です．値の型は，文字列・数値・配列・オブジェクト，どれでもOKみたいです．&lt;/p&gt;
+&lt;p&gt;Misskey自体も，各種設定を保存するためにレジストリを使用しています．&lt;/p&gt;
+
+&lt;img src=&#34;img2.png&#34; width=400&gt;
+
+&lt;p&gt;レジストリは階層構造となっており，「ドメイン」⇒「スコープ」⇒「キー」という形となっています．「スコープ」は client/aaa のように多重構造（入れ子）にすることも可能です．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリを使えば設定が同期できるはずだった&#34;&gt;レジストリを使えば設定が同期できる・・・はずだった&lt;/h2&gt;
+&lt;p&gt;これを踏まえて，私は &lt;strong&gt;「同じドメイン・スコープ・キーでレジストリを読み書きすれば，ミュート設定したノートを同期できる」&lt;/strong&gt; と考え実装に入りました．&lt;/p&gt;
+&lt;p&gt;Misskey プラグインは，&lt;a class=&#34;link&#34; href=&#34;https://github.com/aiscript-dev/aiscript&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;AiScript&lt;/strong&gt;&lt;/a&gt; というJavaScriptベースの言語で記述します．また，Misskey内でAiScriptを使用する場合は &lt;a class=&#34;link&#34; href=&#34;https://misskey-hub.net/ja/docs/for-developers/plugin/plugin-api-reference/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;「AiScript Misskey 拡張API」&lt;/strong&gt;&lt;/a&gt;と呼ばれる専用のAPIが使用できます．今回はこちらを使ってプラグインからMisskeyのAPIを叩きます．&lt;/p&gt;
+&lt;p&gt;↓こんな感じでMisskeyのレジストリAPIを叩きます．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 非表示ノートの設定(サーバー)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setMutedNotesServer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;notes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;Mk&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;i/registry/set&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;mutedNotes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;asataPlugin&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;notes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;domain&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;asata&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;さて，ここで問題が生じました．上記のコード内ではドメインを &lt;strong&gt;「asata」&lt;/strong&gt; としていますが，実際のレジストリでは &lt;strong&gt;全く関係のない文字列をドメインとして&lt;/strong&gt; 読み書き操作が行われていたのです．&lt;/p&gt;
+
+&lt;img src=&#34;img3.png&#34; width=400&gt;
+
+&lt;p&gt;しかも，この文字列，プラグインをインストールし直すごとに変わってしまいます．つまりこれは &lt;strong&gt;「異なるデバイス間で同じレジストリのキーを参照できない」＝「同期ができない」&lt;/strong&gt; ということになります．&lt;/p&gt;
+&lt;h2 id=&#34;外部からレジストリapiを叩くとドメインは無視される&#34;&gt;外部からレジストリAPIを叩くとドメインは無視される&lt;/h2&gt;
+&lt;p&gt;Misskeyのバックエンドのソースコードを見てみると，その原因が分かりました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/misskey-dev/misskey/blob/dac3b1f40591cb697cf650bff7e4cb99cc964f89/packages/backend/src/server/api/endpoints/i/registry/set.ts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;packages/backend/src/server/api/endpoints/i/registry/set.ts&lt;/a&gt; より引用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;@Injectable&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Endpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;typeof&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;typeof&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;paramDef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// eslint-disable-line import/no-default-export
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;kr&#34;&gt;constructor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;registryApiService&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;RegistryApiService&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;paramDef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;me&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;k&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;registryApiService&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;me&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;id&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;domain&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;スマホ等では少し見辛いかもしれませんが，レジストリAPI用の関数に投げる第2引数が &lt;code&gt;accessToken ? accessToken.id : (ps.domain ?? null)&lt;/code&gt; となっています．&lt;/p&gt;
+&lt;p&gt;どうやら外部からレジストリAPIを叩く場合は &lt;strong&gt;「指定したドメイン名を無視してアクセストークンのIDをドメインにする」&lt;/strong&gt; という仕様のようです．ドメイン名となっていた謎の文字列は，インストール時にプラグイン用に生成されたアクセストークンのIDだったみたいですね．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリを使った同期をするための方法&#34;&gt;レジストリを使った同期をするための方法&lt;/h2&gt;
+&lt;p&gt;ただ，プラグインのデータをレジストリ経由で同期できないという訳ではありません．各デバイスにインストールされたプラグインが &lt;strong&gt;同じアクセストークンを使用すれば&lt;/strong&gt; 同期を行うことができます．&lt;/p&gt;
+&lt;p&gt;残念ながら，プラグインの実装ではこの問題をどうにかすることは不可能なので， &lt;strong&gt;プラグインを使うユーザーに対して&lt;/strong&gt; 以下の操作を促すことになります．&lt;/p&gt;
+&lt;p&gt;2つの &lt;strong&gt;デバイス「A」と「B」&lt;/strong&gt; でMisskeyをしていると仮定して説明します．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;デバイスA&lt;/strong&gt; でプラグインをインストールする．&lt;/li&gt;
+&lt;li&gt;「設定のバックアップ」機能で，インストール直後のクライアントの状態をバックアップする．&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;デバイスB&lt;/strong&gt; 上で「設定のバックアップ」機能から &lt;strong&gt;デバイスA&lt;/strong&gt; で作成したバックアップをクライアントに適用する．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これにより，2つのデバイス上で同じプラグインがインストールされます．しかも，&lt;strong&gt;デバイスA&lt;/strong&gt; のインストール時に生成したアクセストークンが &lt;strong&gt;紐づいた&lt;/strong&gt; 状態でインストールされます．&lt;/p&gt;
+&lt;p&gt;これでようやく &lt;strong&gt;レジストリを使った同期&lt;/strong&gt; ができるようになります．&lt;/p&gt;
+&lt;p&gt;【実際に同期機能を実装したプラグインのスクリーンショット】&lt;/p&gt;
+
+&lt;img src=&#34;img4.png&#34; width=400&gt;
+
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;以上， Misskey プラグインに（無理矢理ですが）同期機能を実装してみたという記事でした．&lt;/p&gt;
+&lt;p&gt;ドメイン名を強制的に書き換えるという仕様は，セキュリティ的にやむを得ないんじゃないかなと思っています．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;悪意のあるプログラムがドメインを偽装してレジストリ書き換える&lt;/li&gt;
+&lt;li&gt;たまたまサードパーティー同士でドメインが重複してしまう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいなケースも十分考えられますからね．&lt;/p&gt;
+&lt;p&gt;最後までお読みいただき，ありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

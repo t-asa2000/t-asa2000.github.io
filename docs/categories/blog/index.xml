@@ -1,418 +1,506 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | t-asa2000.net</title><description>Recent content in Blog on t-asa2000.net</description><link>https://t-asa2000.net/categories/blog/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 27 Dec 2024 09:17:12 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>【個人的振り返り】2024年ありがとうございました・来年の目標など</title><link>https://t-asa2000.net/post/202412_03/</link><pubDate>Fri, 27 Dec 2024 09:17:12 +0900</pubDate><guid>https://t-asa2000.net/post/202412_03/</guid><description>&lt;p>こんな記事今まで書いてなかったのですが，ブログへのモチベが高まってる時期なので書いていきます．（多分しばらくしたらまた更新が止まるので）&lt;/p>
-&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>2024年もブログしかりSNS投稿しかり，色々な媒体でお世話になりました．&lt;/p>
-&lt;p>今年1年，&lt;strong>「自分に起きたこと，成長できたこと，そして来年の目標」&lt;/strong> 書いていけたらと思います．&lt;/p>
-&lt;h2 id="自分に起きたこと">自分に起きたこと&lt;/h2>
-&lt;h3 id="大学院への進学が決まった">大学院への進学が決まった&lt;/h3>
-&lt;p>一時は卒業すらちょっと怪しかったんですが，おかげさまで無事大学院に進学できることが決まりました．&lt;/p>
-&lt;h3 id="車に関する悪い出来事が多かった">車に関する悪い出来事が多かった&lt;/h3>
-&lt;p>今年は車に関する悪い出来事が多かったですね．&lt;/p>
-&lt;ul>
-&lt;li>4月 : もらい事故で修理&lt;/li>
-&lt;li>9月 : ステアリングの不具合で修理 (人生初の代車)&lt;/li>
-&lt;li>10月 : 朝起きたら家の駐車場でタイヤがパンクして潰れてた&lt;/li>
-&lt;/ul>
-&lt;p>ただ，こういう経験をしておくことでいざという時どこに連絡して何をすれば良いのか，学ぶことができたので今となってはまあ良かったのかなとも思っています．&lt;/p>
-&lt;h3 id="その他">その他&lt;/h3>
-&lt;ul>
-&lt;li>後輩ができた&lt;/li>
-&lt;li>人生初の学会発表をした&lt;/li>
-&lt;li>&lt;a class="link" href="https://t-asa2000.net/post/202412_01/" >&lt;strong>「Misskey Advent Calendar 2024」&lt;/strong>&lt;/a>に参加した&lt;/li>
-&lt;/ul>
-&lt;h2 id="成長できたこと">成長できたこと&lt;/h2>
-&lt;h3 id="開発技術の大幅な向上">開発技術の大幅な向上&lt;/h3>
-&lt;p>今年の4月頃から，とあるWebシステムの開発に携わらせていただいていて（といいつつ既存のソースコードを頂いて，フォークとして独自に開発を進めてるんですが），そこで開発力を大幅に向上させることができたなと思います．&lt;/p>
-&lt;p>Node.jsで動くサーバーサイドとフロントエンドが分離してる（それこそMisskeyみたいなタイプの）アプリケーションを開発することで， &lt;strong>Expressでのルーティング，Vueによるフロントエンド開発，APIやデータベースの設計&lt;/strong> などなど色々なことを自分でやったことは大きな経験になりましたね．&lt;/p>
-&lt;p>また，実際に業界で働いてらっしゃる方のソースコードを見れたこと，一緒に沢山お話しできたことが自分の人生において大きな財産になりました．&lt;/p>
-&lt;h3 id="他に">他に&lt;/h3>
-&lt;p>書くことがねぇ・・・（こいつの人生コードしか書いてない？）&lt;/p>
-&lt;h2 id="来年の目標">来年の目標&lt;/h2>
-&lt;h3 id="体調管理">体調管理&lt;/h3>
-&lt;p>来年は就活も始まりますし，今のように &lt;strong>「学校行くだけで体力全消耗」&lt;/strong> だと死んでしまうので疲れにくい身体を作っていきたいなと思っています．&lt;/p>
-&lt;h3 id="コミュニケーション能力を鍛えたい">コミュニケーション能力を鍛えたい&lt;/h3>
-&lt;p>これも就活のためですね．特に瞬発的な考察力が弱い．会話のキャッチボールで，自分が想定していないことを言われると何も返せなくなってしまうので．&lt;/p>
-&lt;h3 id="ブログの更新頻度が上がったので維持したい">ブログの更新頻度が上がったので維持したい&lt;/h3>
-&lt;p>2024年12月のアドベントカレンダー参加を機に，実はブログもプチリニューアルさせました．そしたら&lt;strong>急にモチベが出て更新頻度が上がった&lt;/strong>（笑）&lt;/p>
-&lt;p>&lt;strong>「とりあえずUDフォント使えばええやろ」&lt;/strong> とか思ってBIZ UDPゴシックを採用してたら，クッソ見辛かったのでNoto Sans JPに変えてみたり&lt;/p>
-&lt;p>&lt;a class="link" href="https://t-asa2000.net/profile/" >&lt;strong>プロフィール&lt;/strong>&lt;/a>をちゃんと（？）整備したり，どんな環境でも見やすいようにCSSを調整したりしました．&lt;/p>
-&lt;p>MisskeyやMastodonで好きな時に好きなこと吐き出すよりも，こういう場所で1～2時間かけて自分の頭の中を整理する作業が，&lt;strong>面倒だけど自分には必要な時間&lt;/strong> なんじゃないかと思うようになりました．&lt;/p>
-&lt;p>今年は8月に1回，12月にはこれも含めて3回更新したことになるので，月1～2回程度の更新を今後も続けていきたいですね．&lt;/p>
-&lt;h2 id="挨拶">挨拶&lt;/h2>
-&lt;p>今年も本当にありがとうございました．来年も私のことをどうか見守っていただければと思っています．&lt;/p>
-&lt;p>それでは，&lt;strong>良いお年を！！！&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>追記&lt;/strong>&lt;/p>
-&lt;p>マジで思ったより書くことなかった&lt;/p></description></item><item><title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title><link>https://t-asa2000.net/post/202412_02/</link><pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate><guid>https://t-asa2000.net/post/202412_02/</guid><description>&lt;p>今回のブログはかなり &lt;strong>「思想強め」&lt;/strong> です．&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p>
-&lt;/blockquote>
-&lt;p>手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br>
-&lt;a class="link" href="https://president.jp/articles/-/89180" target="_blank" rel="noopener"
->https://president.jp/articles/-/89180&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>要はGoogleが大きくなりすぎたから，&lt;strong>分割してそれぞれの分野で競争促しましょうね&lt;/strong> っていう話ですね．&lt;/p>
-&lt;p>私の感想ですがハッキリ言って &lt;b style="font-size:1.5em">今更遅すぎるし無駄&lt;/b> だと思ってます．&lt;/p>
-&lt;p>私はあくまで寡占そのものに賛成というのではなく，&lt;strong>「一度寡占させてしまったものは諦めろ」&lt;/strong> 派です．&lt;/p>
-&lt;p>もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong>早期に芽を摘んでおく&lt;/strong> 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p>
-&lt;p>確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p>
-&lt;p>力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong>「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong> じゃないですか．&lt;/p>
-&lt;hr>
-&lt;p>と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p>
-&lt;h2 id="chromeブラウザの売却">Chromeブラウザの売却&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>1. Chromeブラウザの売却&lt;/strong>&lt;/p>
-&lt;p>（目的）&lt;br>
-・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p>
-&lt;p>（具体的措置）&lt;br>
-・グーグルはChromeを第三者に売却する義務を負う。&lt;br>
-・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>「競争を促進」&lt;/strong> なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p>
-&lt;p>&lt;strong>「知名度」&lt;/strong> というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p>
-&lt;p>結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p>
-&lt;p>これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong>消費者の利便性を阻害していること&lt;/strong>に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong>Chrome アカウント&lt;/strong>なる独自の同期アカウントが誕生するかもしれません．&lt;/p>
-&lt;h2 id="androidに関する規制">Androidに関する規制&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>2. Androidに関する規制&lt;/strong>&lt;/p>
-&lt;p>（選択肢1）Androidの分割&lt;br>
-・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br>
-・Androidを完全に分離・売却する。&lt;/p>
-&lt;p>（選択肢2）行動上の是正措置&lt;br>
-・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br>
-・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p>
-&lt;p>あとAndroidに&lt;strong>Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong>のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p>
-&lt;h2 id="デフォルト検索エンジン契約の禁止">デフォルト検索エンジン契約の禁止&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>3. デフォルト検索エンジン契約の禁止&lt;/strong>&lt;/p>
-&lt;p>・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p>
-&lt;p>Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br>
-&lt;a class="link" href="https://gigazine.net/news/20241219-mozilla-google-browsers/" target="_blank" rel="noopener"
->https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a>&lt;/p>
-&lt;p>（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p>
-&lt;p>拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p>
-&lt;h2 id="データ共有と透明性の向上">データ共有と透明性の向上&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>4. データ共有と透明性の向上&lt;/strong>&lt;/p>
-&lt;p>（データの提供）&lt;br>
-・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br>
-・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p>
-&lt;p>（広告データの透明性）&lt;br>
-・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br>
-・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p>
-&lt;p>そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p>
-&lt;p>むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong>アメリカの経済的な国益&lt;/strong>になると思います．&lt;/p>
-&lt;h2 id="競争を促進する仕組み">競争を促進する仕組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>5. 競争を促進する仕組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br>
-・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ最初にも書きましたが，&lt;strong>米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong>こんなことやる必要なかったんですよ．&lt;/p>
-&lt;p>「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p>
-&lt;p>競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong>「恥ずかしいこと」&lt;/strong> だと認識した方が良いと思います．&lt;/p>
-&lt;h2 id="競争の妨害行為を防止するための管理">競争の妨害行為を防止するための管理&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>6．競争の妨害行為を防止するための管理&lt;/strong>&lt;br>
-（技術委員会の設置）&lt;br>
-・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br>
-・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p>
-&lt;p>（違反の防止）&lt;br>
-・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p>
-&lt;/blockquote>
-&lt;p>ごくごく普通の競争健全化施策なので飛ばします．&lt;/p>
-&lt;h2 id="ユーザー選択を増やすための取り組み">ユーザー選択を増やすための取り組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>7. ユーザー選択を増やすための取り組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br>
-・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p>
-&lt;/blockquote>
-&lt;p>そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p>
-&lt;p>&lt;strong>1.&lt;/strong> でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p>
-&lt;p>ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong>検索エンジンを一切搭載せずに，&lt;/strong> 以下のようにユーザーに一から手動設定させるべきです．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>え？ &lt;strong>「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong> だって？&lt;/p>
-&lt;p>甘えたこと言わないでください．&lt;del>&lt;strong>「公平」&lt;/strong> が大事なんでしょ．これくらいやれよ．&lt;/del>&lt;/p>
-&lt;hr>
-&lt;p>若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong>「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong> ということを言いたかっただけです．&lt;/p></description></item><item><title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title><link>https://t-asa2000.net/post/202412_01/</link><pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate><guid>https://t-asa2000.net/post/202412_01/</guid><description>&lt;blockquote>
-&lt;p>この記事は &lt;a class="link" href="https://adventar.org/calendars/10208" target="_blank" rel="noopener"
->&lt;strong>「Misskey Advent Calendar 2024」 8日目&lt;/strong>&lt;/a> の記事です．&lt;/p>
-&lt;/blockquote>
-&lt;p>こんにちは．&lt;a class="link" href="https://misskey.io/" target="_blank" rel="noopener"
->Misskey.io&lt;/a>で活動している&lt;a class="link" href="https://misskey.io/@asata" target="_blank" rel="noopener"
->asata&lt;/a>と申します．&lt;/p>
-&lt;p>今回は &lt;a class="link" href="https://github.com/misskey-dev/misskey" target="_blank" rel="noopener"
->Misskey&lt;/a> のプラグインを自作していく中で気が付いた &lt;strong>「レジストリAPI」&lt;/strong> に関する知見をまとめていけたらなと思っています．&lt;/p>
-&lt;h2 id="自作したプラグイン">自作したプラグイン&lt;/h2>
-&lt;p>私が今回作成したのは &lt;strong>「ノート非表示プラグイン」&lt;/strong> というもので，これは個別のノート単位で疑似的なミュートができるというものになります．&lt;/p>
-&lt;p>タイムライン上に不快に思うような内容が流れてきて，&lt;strong>「その人自体は嫌いじゃないけどこのノートだけはもう目に入れたくない」&lt;/strong> みたいな場面を想定して作りました．（単純に自分がそういう時にあったらいいな・・・と思ってたので）&lt;/p>
-&lt;p>&lt;a class="link" href="https://misskey.io/@asata/pages/notemuteplugin" target="_blank" rel="noopener"
->https://misskey.io/@asata/pages/notemuteplugin&lt;/a>&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;h2 id="プラグインのデータをサーバー上で同期させたかった">プラグインのデータをサーバー上で同期させたかった&lt;/h2>
-&lt;p>Misskeyでは，クライアントに関する情報は基本的にクライアントに保存されます．&lt;/p>
-&lt;p>なので，どういうプラグインを入れたとか，そのプラグインの設定やデータはサーバー上に保存されません．&lt;/p>
-&lt;p>同じプラグインをスマホとPCで使いたければ，それぞれのデバイスにインストールすることになります．しかし，両方のデバイスで&lt;strong>常に同じ状態をキープするということはできない&lt;/strong>わけです．&lt;/p>
-&lt;p>ただ私は，できることなら実際のミュート機能の使い勝手に近づけたいと &lt;strong>「ミュート設定したノートIDのリストをデバイス間で同期したい」&lt;/strong> と考えていました．そんな中，タイムラインで教えて頂いたのが &lt;strong>「レジストリAPI」&lt;/strong> です．&lt;/p>
-&lt;h2 id="レジストリって何">レジストリって何？&lt;/h2>
-&lt;p>Misskeyにおける「レジストリ」とは，&lt;strong>「キー」と「値」の組み合わせ&lt;/strong> で自由な値をサーバー上に保存しておける機能です．値の型は，文字列・数値・配列・オブジェクト，どれでもOKみたいです．&lt;/p>
-&lt;p>Misskey自体も，各種設定を保存するためにレジストリを使用しています．&lt;/p>
-&lt;img src="img2.png" width=400>
-&lt;p>レジストリは階層構造となっており，「ドメイン」⇒「スコープ」⇒「キー」という形となっています．「スコープ」は client/aaa のように多重構造（入れ子）にすることも可能です．&lt;/p>
-&lt;h2 id="レジストリを使えば設定が同期できるはずだった">レジストリを使えば設定が同期できる・・・はずだった&lt;/h2>
-&lt;p>これを踏まえて，私は &lt;strong>「同じドメイン・スコープ・キーでレジストリを読み書きすれば，ミュート設定したノートを同期できる」&lt;/strong> と考え実装に入りました．&lt;/p>
-&lt;p>Misskey プラグインは，&lt;a class="link" href="https://github.com/aiscript-dev/aiscript" target="_blank" rel="noopener"
->&lt;strong>AiScript&lt;/strong>&lt;/a> というJavaScriptベースの言語で記述します．また，Misskey内でAiScriptを使用する場合は &lt;a class="link" href="https://misskey-hub.net/ja/docs/for-developers/plugin/plugin-api-reference/" target="_blank" rel="noopener"
->&lt;strong>「AiScript Misskey 拡張API」&lt;/strong>&lt;/a>と呼ばれる専用のAPIが使用できます．今回はこちらを使ってプラグインからMisskeyのAPIを叩きます．&lt;/p>
-&lt;p>↓こんな感じでMisskeyのレジストリAPIを叩きます．&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 非表示ノートの設定(サーバー)
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="nx">setMutedNotesServer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">notes&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Mk&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="nx">api&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;i/registry/set&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">key&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;mutedNotes&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">scope&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;asataPlugin&amp;#39;&lt;/span>&lt;span class="p">],&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">notes&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">domain&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;asata&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">})&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>さて，ここで問題が生じました．上記のコード内ではドメインを &lt;strong>「asata」&lt;/strong> としていますが，実際のレジストリでは &lt;strong>全く関係のない文字列をドメインとして&lt;/strong> 読み書き操作が行われていたのです．&lt;/p>
-&lt;img src="img3.png" width=400>
-&lt;p>しかも，この文字列，プラグインをインストールし直すごとに変わってしまいます．つまりこれは &lt;strong>「異なるデバイス間で同じレジストリのキーを参照できない」＝「同期ができない」&lt;/strong> ということになります．&lt;/p>
-&lt;h2 id="外部からレジストリapiを叩くとドメインは無視される">外部からレジストリAPIを叩くとドメインは無視される&lt;/h2>
-&lt;p>Misskeyのバックエンドのソースコードを見てみると，その原因が分かりました．&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/misskey-dev/misskey/blob/dac3b1f40591cb697cf650bff7e4cb99cc964f89/packages/backend/src/server/api/endpoints/i/registry/set.ts" target="_blank" rel="noopener"
->packages/backend/src/server/api/endpoints/i/registry/set.ts&lt;/a> より引用&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-ts" data-lang="ts">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">@Injectable&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="kr">class&lt;/span> &lt;span class="kr">extends&lt;/span> &lt;span class="nx">Endpoint&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">typeof&lt;/span> &lt;span class="na">meta&lt;/span>&lt;span class="err">,&lt;/span> &lt;span class="na">typeof&lt;/span> &lt;span class="na">paramDef&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="c1">// eslint-disable-line import/no-default-export
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">constructor&lt;/span>&lt;span class="p">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">private&lt;/span> &lt;span class="nx">registryApiService&lt;/span>: &lt;span class="kt">RegistryApiService&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">super&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">meta&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">paramDef&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">async&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">ps&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">me&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">accessToken&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">await&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">registryApiService&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="kr">set&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">me&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">id&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">accessToken&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="nx">accessToken&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">id&lt;/span> &lt;span class="o">:&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">domain&lt;/span> &lt;span class="o">??&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">scope&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">key&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">ps&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">value&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>スマホ等では少し見辛いかもしれませんが，レジストリAPI用の関数に投げる第2引数が &lt;code>accessToken ? accessToken.id : (ps.domain ?? null)&lt;/code> となっています．&lt;/p>
-&lt;p>どうやら外部からレジストリAPIを叩く場合は &lt;strong>「指定したドメイン名を無視してアクセストークンのIDをドメインにする」&lt;/strong> という仕様のようです．ドメイン名となっていた謎の文字列は，インストール時にプラグイン用に生成されたアクセストークンのIDだったみたいですね．&lt;/p>
-&lt;h2 id="レジストリを使った同期をするための方法">レジストリを使った同期をするための方法&lt;/h2>
-&lt;p>ただ，プラグインのデータをレジストリ経由で同期できないという訳ではありません．各デバイスにインストールされたプラグインが &lt;strong>同じアクセストークンを使用すれば&lt;/strong> 同期を行うことができます．&lt;/p>
-&lt;p>残念ながら，プラグインの実装ではこの問題をどうにかすることは不可能なので， &lt;strong>プラグインを使うユーザーに対して&lt;/strong> 以下の操作を促すことになります．&lt;/p>
-&lt;p>2つの &lt;strong>デバイス「A」と「B」&lt;/strong> でMisskeyをしていると仮定して説明します．&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>デバイスA&lt;/strong> でプラグインをインストールする．&lt;/li>
-&lt;li>「設定のバックアップ」機能で，インストール直後のクライアントの状態をバックアップする．&lt;/li>
-&lt;li>&lt;strong>デバイスB&lt;/strong> 上で「設定のバックアップ」機能から &lt;strong>デバイスA&lt;/strong> で作成したバックアップをクライアントに適用する．&lt;/li>
-&lt;/ol>
-&lt;p>これにより，2つのデバイス上で同じプラグインがインストールされます．しかも，&lt;strong>デバイスA&lt;/strong> のインストール時に生成したアクセストークンが &lt;strong>紐づいた&lt;/strong> 状態でインストールされます．&lt;/p>
-&lt;p>これでようやく &lt;strong>レジストリを使った同期&lt;/strong> ができるようになります．&lt;/p>
-&lt;p>【実際に同期機能を実装したプラグインのスクリーンショット】&lt;/p>
-&lt;img src="img4.png" width=400>
-&lt;h2 id="最後に">最後に&lt;/h2>
-&lt;p>以上， Misskey プラグインに（無理矢理ですが）同期機能を実装してみたという記事でした．&lt;/p>
-&lt;p>ドメイン名を強制的に書き換えるという仕様は，セキュリティ的にやむを得ないんじゃないかなと思っています．&lt;/p>
-&lt;ul>
-&lt;li>悪意のあるプログラムがドメインを偽装してレジストリ書き換える&lt;/li>
-&lt;li>たまたまサードパーティー同士でドメインが重複してしまう&lt;/li>
-&lt;/ul>
-&lt;p>みたいなケースも十分考えられますからね．&lt;/p>
-&lt;p>最後までお読みいただき，ありがとうございました．&lt;/p></description></item><item><title>「SNSは連絡ツールとは別」←この考え方って古い？</title><link>https://t-asa2000.net/post/202408_02/</link><pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate><guid>https://t-asa2000.net/post/202408_02/</guid><description>&lt;h2 id="インターネットとの出会い">インターネットとの出会い&lt;/h2>
-&lt;p>私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong>真の意味でのROM専&lt;/strong> でした．&lt;/p>
-&lt;p>当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong>画面の向こう側にいる知らない人だけに向けて&lt;/strong>，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p>
-&lt;p>アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong>「画面の向こう側の人とやり取りするツール」&lt;/strong> だと思っています．&lt;/p>
-&lt;h2 id="snsと連絡ツールの境界線">SNSと連絡ツールの境界線&lt;/h2>
-&lt;p>まず私の中での定義として以下のように分けてます．&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>SNS&lt;/strong> : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
-&lt;ul>
-&lt;li>X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>連絡ツール&lt;/strong> : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
-&lt;ul>
-&lt;li>LINEなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong>「LINE離れ」&lt;/strong> みたいな話を聞くんですけども，&lt;/p>
-&lt;p>私としては &lt;strong>「公開空間のアカウントで非公開なやり取りをする」&lt;/strong> ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p>
-&lt;p>奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p>
-&lt;h2 id="内輪ネタを書かないリア垢も作らない">内輪ネタを書かない，リア垢も作らない&lt;/h2>
-&lt;p>上述のようにDMだけの運用なら &lt;strong>「連絡ツール」&lt;/strong> という扱いになるので，まだ自分としても許容できます．&lt;/p>
-&lt;p>問題はタイムラインへの投稿です．&lt;/p>
-&lt;p>私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong>「SNS」&lt;/strong> にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p>
-&lt;p>それでも，気を付けていたことは &lt;strong>「内輪ネタをタイムラインに書かない」&lt;/strong> ということです．&lt;/p>
-&lt;p>ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong>私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong> です．&lt;/p>
-&lt;p>「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p>
-&lt;p>これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p>
-&lt;p>例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p>
-&lt;p>「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p>
-&lt;p>そもそも &lt;strong>インターネットは怖い場所&lt;/strong> です．ただ，スマホの普及で&lt;/p>
-&lt;ul>
-&lt;li>周囲がInstagramをやってる&lt;/li>
-&lt;li>電車で隣の人がTwitterを開いてる&lt;/li>
-&lt;/ul>
-&lt;p>これが当たり前になった現代，インターネット上の公開空間に &lt;strong>参加すること&lt;/strong> への抵抗が薄れてきたことで，&lt;br>
-世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p></description></item><item><title>発達障害持ちの僕がこまること「荷物が上手く捌けない」</title><link>https://t-asa2000.net/post/202303_02/</link><pubDate>Sat, 11 Mar 2023 10:07:46 +0900</pubDate><guid>https://t-asa2000.net/post/202303_02/</guid><description>&lt;img src="https://t-asa2000.net/img/pakutaso/Nimotsu1.jpg" alt="Featured image of post 発達障害持ちの僕がこまること「荷物が上手く捌けない」" />&lt;p>カバー写真: &lt;a class="link" href="https://www.pakutaso.com/" target="_blank" rel="noopener"
->ぱくたそ&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>～おことわり～&lt;/strong>&lt;br>
-この記事の筆者は，幼少期から広汎性発達障害（のグレーゾーン）の傾向が見られたものの，その当時は医師による正式な診断は受けていませんでした．ただし，執筆時点では心療内科より正式にADHDの診断をもらっています．また，この手の話題は個人による症状差が大きいため，あくまで私個人のケースとして捉えてもらえると幸いです．&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="普段の荷物">普段の荷物&lt;/h2>
-&lt;p>皆さんがいつも外出する時，絶対に必要なものって何でしょうか．少なくとも以下の3つは，どんな場合でも常に携帯してないといけないと思います．&lt;/p>
-&lt;ul>
-&lt;li>家の鍵（＋車の鍵）&lt;/li>
-&lt;li>財布&lt;/li>
-&lt;li>携帯電話&lt;/li>
-&lt;/ul>
-&lt;p>私は基本，ズボンの左前ポケットに財布，右前ポケットに携帯電話を入れてます．ただ，鍵などを入れる場所がないので，それらを持ち運ぶためだけに&lt;strong>ショルダーポーチ&lt;/strong>を携帯します．定期券や交通系ICカードも，ショルダーポーチにくっつけてます．&lt;/p>
-&lt;p>加えて，私は学生ですので教科書などを&lt;strong>バックパック&lt;/strong>で持ち歩きます．&lt;/p>
-&lt;p>さらに，悪天候時には傘が必要です．&lt;/p>
-&lt;p>ここまでの荷物の構成は以下のようになります．ついでに，写真も撮っておきました（床が汚くてごめんなさい）．&lt;/p>
-&lt;ul>
-&lt;li>財布（左ポケット）&lt;/li>
-&lt;li>携帯電話（右ポケット）&lt;/li>
-&lt;li>ショルダーポーチ&lt;/li>
-&lt;li>バックパック&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://t-asa2000.net/post/202303_02/img1.jpg"
-width="1318"
-height="859"
-srcset="https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_480x0_resize_q75_box.jpg 480w, https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_1024x0_resize_q75_box.jpg 1024w"
-loading="lazy"
-class="gallery-image"
-data-flex-grow="153"
-data-flex-basis="368px"
->&lt;/p>
-&lt;p>さて，ここから実体験の話をしていきます．&lt;/p>
-&lt;h2 id="困りごと1-ショルダーポーチとバックパックの紐が絡まる">困りごと1: ショルダーポーチとバックパックの紐が絡まる&lt;/h2>
-&lt;p>ショルダーポーチとバックパックを体から降ろすときに，身に着けた順番と逆順で外していかなくてはいけませんが，順番を間違えて紐が絡まってオロオロしてしまうときが多々あります．特に，バスや電車などの公共交通に乗って席に着いた際に，荷物をどかしたいなと思って人前でこれをやらかすのが，本当に恥ずかしい．&lt;/p>
-&lt;h2 id="困りごと2-傘を持ち歩いているとき">困りごと2: 傘を持ち歩いているとき&lt;/h2>
-&lt;p>傘を持ち歩いているときは最悪です．片手が塞がっているので，例えば土足禁止の空間（傘立てがない場所）に入ったとき，靴の履き替えで時間がかかります．というか，手先が不器用なのでただでさえ時間がかかるのに・・・&lt;/p>
-&lt;p>後ろに人がいると，自分で詰まってしまって，ただただ申し訳なく切ない気持ちになります．&lt;/p>
-&lt;h2 id="外出時以外でも">外出時以外でも&lt;/h2>
-&lt;p>夕飯の支度とか，食器の片づけとか，普段のちょっとした動作の中で，今手に持っているものをどこにどかせば良いのか，次に何を手に持てば良いのか，うまく脳内で計算できません．普通の人ならすぐ終わる作業が，2～3倍くらいの時間がかかってしまいます．&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>とにかく日頃の生活において，カバン類や手に持っている荷物を瞬間的に捌くのが，本当に苦手です．全体的な動作が，周囲から見てもちょっと「子供っぽい」「もたもたしている」「変な人っぽい」って感じになって，「この人変だよね」って思われて距離を置かれる（もしくは自分でそう見られてると思い込んで距離を置いてしまう）ことがあります．&lt;/p>
-&lt;p>もっと要領良く生きていきたいですね・・・&lt;/p></description></item><item><title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title><link>https://t-asa2000.net/post/20230310/</link><pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate><guid>https://t-asa2000.net/post/20230310/</guid><description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" />&lt;h2 id="プロローグ">プロローグ&lt;/h2>
-&lt;p>世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p>
-&lt;p>今の時代&lt;/p>
-&lt;ul>
-&lt;li>Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li>
-&lt;li>Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li>
-&lt;/ul>
-&lt;p>と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p>
-&lt;p>今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p>
-&lt;h2 id="ホームページを作る意味">ホームページを作る意味&lt;/h2>
-&lt;p>一番大きなことは「情報の整理・集約化」だと思います．&lt;/p>
-&lt;p>例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p>
-&lt;p>「&lt;strong>時系列順に写真や文章が並んでいるだけ&lt;/strong>」&lt;/p>
-&lt;p>であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p>
-&lt;p>「&lt;strong>シンプルにお店のメニューだけが見たい&lt;/strong>」&lt;/p>
-&lt;p>と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p>
-&lt;p>そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong>必要な人が必要な時に&lt;/strong>情報を得ることができます．&lt;/p>
-&lt;blockquote>
-&lt;p>※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="ホームページの正体">ホームページの正体&lt;/h2>
-&lt;p>「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p>
-&lt;p>↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p>
-&lt;p>ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p>
-&lt;blockquote>
-&lt;p>Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p>
-&lt;/blockquote>
-&lt;p>簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong>あなたの代わりにやってます．&lt;/strong>&lt;/p>
-&lt;p>勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p>
-&lt;h2 id="ホームページに関わる3つの要素">ホームページに関わる3つの要素&lt;/h2>
-&lt;p>ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p>
-&lt;ol>
-&lt;li>ホームページの中身（を生成するためのツール）&lt;/li>
-&lt;li>サーバー（ホームページの置き場所）&lt;/li>
-&lt;li>ドメイン（置き場所の住所）&lt;/li>
-&lt;/ol>
-&lt;p>ドメインというのは，&lt;strong>&lt;a class="link" href="https://www.google.co.jp" target="_blank" rel="noopener"
->www.google.co.jp&lt;/a>&lt;/strong> みたいなやつのことです．&lt;/p>
-&lt;h3 id="中身サーバードメインが全てセット">中身・サーバー・ドメインが全てセット&lt;/h3>
-&lt;p>1.と2.と3.が全てセットになったのが&lt;a class="link" href="https://ja.wix.com/" target="_blank" rel="noopener"
->「&lt;strong>wix&lt;/strong>」&lt;/a>や&lt;a class="link" href="https://sites.google.com/" target="_blank" rel="noopener"
->「&lt;strong>Google サイト&lt;/strong>」&lt;/a>みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p>
-&lt;p>ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p>
-&lt;p>あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p>
-&lt;h3 id="中身を作ってサーバードメインは別に用意">中身を作ってサーバー・ドメインは別に用意&lt;/h3>
-&lt;p>恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class="link" href="https://www.justsystems.com/jp/products/hpb/" target="_blank" rel="noopener"
->「&lt;strong>ホームページ・ビルダー&lt;/strong>」&lt;/a>などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p>
-&lt;p>中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p>
-&lt;p>このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p>
-&lt;p>お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p>
-&lt;h3 id="wixみたいなシステムをサーバーの中に設置してしまう奥の手">wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3>
-&lt;p>実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p>
-&lt;p>それが「&lt;strong>CMS&lt;/strong>」と呼ばれるツールで，代表的なものが&lt;a class="link" href="https://ja.wordpress.org/" target="_blank" rel="noopener"
->&lt;strong>WordPress&lt;/strong>&lt;/a>です．&lt;/p>
-&lt;p>ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p>
-&lt;p>サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p>
-&lt;h2 id="hp作りを友人知人に委託したい人へ">HP作りを友人・知人に委託したい人へ&lt;/h2>
-&lt;p>私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p>
-&lt;p>ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p>
-&lt;h3 id="更新頻度">更新頻度&lt;/h3>
-&lt;p>最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p>
-&lt;h3 id="どこまでを自分でやるか">どこまでを自分でやるか&lt;/h3>
-&lt;p>本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p>
-&lt;h3 id="どこまで相手に介入させるか">どこまで相手に介入させるか&lt;/h3>
-&lt;p>ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p>
-&lt;h3 id="引き継ぎ">引き継ぎ&lt;/h3>
-&lt;p>これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p>
-&lt;p>例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p>
-&lt;p>もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p>
-&lt;p>さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>という訳で，今回の記事を通して伝えたかったことは&lt;/p>
-&lt;ul>
-&lt;li>HPを作る目的を今一度確認して欲しい&lt;/li>
-&lt;li>中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li>
-&lt;li>誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li>
-&lt;/ul>
-&lt;p>ということでした．最後までご覧いただきありがとうございました．&lt;/p></description></item><item><title>Hugoに移行してみた</title><link>https://t-asa2000.net/post/20220903/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://t-asa2000.net/post/20220903/</guid><description>&lt;p>これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong>GitHub Pages + Hugo&lt;/strong> に移行しました．&lt;/p>
-&lt;p>移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p>
-&lt;p>&lt;del>テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del>&lt;/p>
-&lt;p>&lt;del>（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del>&lt;/p>
-&lt;p>&lt;strong>2023.3.6 追記&lt;/strong>&lt;/p>
-&lt;p>コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
->https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Blog | t-asa2000.net</title>
+			<description>Recent content in Blog on t-asa2000.net</description><link>https://t-asa2000.net/categories/blog/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Fri, 27 Dec 2024 09:17:12 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/categories/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>【個人的振り返り】2024年ありがとうございました・来年の目標など</title>
+		<link>https://t-asa2000.net/post/202412_03/</link>
+		<pubDate>Fri, 27 Dec 2024 09:17:12 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_03/</guid>
+		<description>&lt;p&gt;こんな記事今まで書いてなかったのですが，ブログへのモチベが高まってる時期なので書いていきます．（多分しばらくしたらまた更新が止まるので）&lt;/p&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;2024年もブログしかりSNS投稿しかり，色々な媒体でお世話になりました．&lt;/p&gt;
+&lt;p&gt;今年1年，&lt;strong&gt;「自分に起きたこと，成長できたこと，そして来年の目標」&lt;/strong&gt; 書いていけたらと思います．&lt;/p&gt;
+&lt;h2 id=&#34;自分に起きたこと&#34;&gt;自分に起きたこと&lt;/h2&gt;
+&lt;h3 id=&#34;大学院への進学が決まった&#34;&gt;大学院への進学が決まった&lt;/h3&gt;
+&lt;p&gt;一時は卒業すらちょっと怪しかったんですが，おかげさまで無事大学院に進学できることが決まりました．&lt;/p&gt;
+&lt;h3 id=&#34;車に関する悪い出来事が多かった&#34;&gt;車に関する悪い出来事が多かった&lt;/h3&gt;
+&lt;p&gt;今年は車に関する悪い出来事が多かったですね．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4月 : もらい事故で修理&lt;/li&gt;
+&lt;li&gt;9月 : ステアリングの不具合で修理 (人生初の代車)&lt;/li&gt;
+&lt;li&gt;10月 : 朝起きたら家の駐車場でタイヤがパンクして潰れてた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただ，こういう経験をしておくことでいざという時どこに連絡して何をすれば良いのか，学ぶことができたので今となってはまあ良かったのかなとも思っています．&lt;/p&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;後輩ができた&lt;/li&gt;
+&lt;li&gt;人生初の学会発表をした&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t-asa2000.net/post/202412_01/&#34; &gt;&lt;strong&gt;「Misskey Advent Calendar 2024」&lt;/strong&gt;&lt;/a&gt;に参加した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;成長できたこと&#34;&gt;成長できたこと&lt;/h2&gt;
+&lt;h3 id=&#34;開発技術の大幅な向上&#34;&gt;開発技術の大幅な向上&lt;/h3&gt;
+&lt;p&gt;今年の4月頃から，とあるWebシステムの開発に携わらせていただいていて（といいつつ既存のソースコードを頂いて，フォークとして独自に開発を進めてるんですが），そこで開発力を大幅に向上させることができたなと思います．&lt;/p&gt;
+&lt;p&gt;Node.jsで動くサーバーサイドとフロントエンドが分離してる（それこそMisskeyみたいなタイプの）アプリケーションを開発することで， &lt;strong&gt;Expressでのルーティング，Vueによるフロントエンド開発，APIやデータベースの設計&lt;/strong&gt; などなど色々なことを自分でやったことは大きな経験になりましたね．&lt;/p&gt;
+&lt;p&gt;また，実際に業界で働いてらっしゃる方のソースコードを見れたこと，一緒に沢山お話しできたことが自分の人生において大きな財産になりました．&lt;/p&gt;
+&lt;h3 id=&#34;他に&#34;&gt;他に&lt;/h3&gt;
+&lt;p&gt;書くことがねぇ・・・（こいつの人生コードしか書いてない？）&lt;/p&gt;
+&lt;h2 id=&#34;来年の目標&#34;&gt;来年の目標&lt;/h2&gt;
+&lt;h3 id=&#34;体調管理&#34;&gt;体調管理&lt;/h3&gt;
+&lt;p&gt;来年は就活も始まりますし，今のように &lt;strong&gt;「学校行くだけで体力全消耗」&lt;/strong&gt; だと死んでしまうので疲れにくい身体を作っていきたいなと思っています．&lt;/p&gt;
+&lt;h3 id=&#34;コミュニケーション能力を鍛えたい&#34;&gt;コミュニケーション能力を鍛えたい&lt;/h3&gt;
+&lt;p&gt;これも就活のためですね．特に瞬発的な考察力が弱い．会話のキャッチボールで，自分が想定していないことを言われると何も返せなくなってしまうので．&lt;/p&gt;
+&lt;h3 id=&#34;ブログの更新頻度が上がったので維持したい&#34;&gt;ブログの更新頻度が上がったので維持したい&lt;/h3&gt;
+&lt;p&gt;2024年12月のアドベントカレンダー参加を機に，実はブログもプチリニューアルさせました．そしたら&lt;strong&gt;急にモチベが出て更新頻度が上がった&lt;/strong&gt;（笑）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「とりあえずUDフォント使えばええやろ」&lt;/strong&gt; とか思ってBIZ UDPゴシックを採用してたら，クッソ見辛かったのでNoto Sans JPに変えてみたり&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t-asa2000.net/profile/&#34; &gt;&lt;strong&gt;プロフィール&lt;/strong&gt;&lt;/a&gt;をちゃんと（？）整備したり，どんな環境でも見やすいようにCSSを調整したりしました．&lt;/p&gt;
+&lt;p&gt;MisskeyやMastodonで好きな時に好きなこと吐き出すよりも，こういう場所で1～2時間かけて自分の頭の中を整理する作業が，&lt;strong&gt;面倒だけど自分には必要な時間&lt;/strong&gt; なんじゃないかと思うようになりました．&lt;/p&gt;
+&lt;p&gt;今年は8月に1回，12月にはこれも含めて3回更新したことになるので，月1～2回程度の更新を今後も続けていきたいですね．&lt;/p&gt;
+&lt;h2 id=&#34;挨拶&#34;&gt;挨拶&lt;/h2&gt;
+&lt;p&gt;今年も本当にありがとうございました．来年も私のことをどうか見守っていただければと思っています．&lt;/p&gt;
+&lt;p&gt;それでは，&lt;strong&gt;良いお年を！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;マジで思ったより書くことなかった&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title>
+		<link>https://t-asa2000.net/post/202412_02/</link>
+		<pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_02/</guid>
+		<description>&lt;p&gt;今回のブログはかなり &lt;strong&gt;「思想強め」&lt;/strong&gt; です．&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://president.jp/articles/-/89180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://president.jp/articles/-/89180&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;要はGoogleが大きくなりすぎたから，&lt;strong&gt;分割してそれぞれの分野で競争促しましょうね&lt;/strong&gt; っていう話ですね．&lt;/p&gt;
+
+&lt;p&gt;私の感想ですがハッキリ言って &lt;b style=&#34;font-size:1.5em&#34;&gt;今更遅すぎるし無駄&lt;/b&gt; だと思ってます．&lt;/p&gt;
+
+&lt;p&gt;私はあくまで寡占そのものに賛成というのではなく，&lt;strong&gt;「一度寡占させてしまったものは諦めろ」&lt;/strong&gt; 派です．&lt;/p&gt;
+&lt;p&gt;もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong&gt;早期に芽を摘んでおく&lt;/strong&gt; 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p&gt;
+&lt;p&gt;確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p&gt;
+&lt;p&gt;力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong&gt;「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong&gt; じゃないですか．&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p&gt;
+&lt;h2 id=&#34;chromeブラウザの売却&#34;&gt;Chromeブラウザの売却&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1. Chromeブラウザの売却&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（目的）&lt;br&gt;
+・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p&gt;
+&lt;p&gt;（具体的措置）&lt;br&gt;
+・グーグルはChromeを第三者に売却する義務を負う。&lt;br&gt;
+・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;「競争を促進」&lt;/strong&gt; なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「知名度」&lt;/strong&gt; というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p&gt;
+&lt;p&gt;結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p&gt;
+&lt;p&gt;これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong&gt;消費者の利便性を阻害していること&lt;/strong&gt;に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong&gt;Chrome アカウント&lt;/strong&gt;なる独自の同期アカウントが誕生するかもしれません．&lt;/p&gt;
+&lt;h2 id=&#34;androidに関する規制&#34;&gt;Androidに関する規制&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2. Androidに関する規制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（選択肢1）Androidの分割&lt;br&gt;
+・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br&gt;
+・Androidを完全に分離・売却する。&lt;/p&gt;
+&lt;p&gt;（選択肢2）行動上の是正措置&lt;br&gt;
+・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br&gt;
+・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p&gt;
+&lt;p&gt;あとAndroidに&lt;strong&gt;Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong&gt;のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p&gt;
+&lt;h2 id=&#34;デフォルト検索エンジン契約の禁止&#34;&gt;デフォルト検索エンジン契約の禁止&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3. デフォルト検索エンジン契約の禁止&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p&gt;
+&lt;p&gt;Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gigazine.net/news/20241219-mozilla-google-browsers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p&gt;
+&lt;p&gt;拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p&gt;
+&lt;h2 id=&#34;データ共有と透明性の向上&#34;&gt;データ共有と透明性の向上&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4. データ共有と透明性の向上&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（データの提供）&lt;br&gt;
+・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br&gt;
+・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p&gt;
+&lt;p&gt;（広告データの透明性）&lt;br&gt;
+・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br&gt;
+・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p&gt;
+&lt;p&gt;そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p&gt;
+&lt;p&gt;むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong&gt;アメリカの経済的な国益&lt;/strong&gt;になると思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争を促進する仕組み&#34;&gt;競争を促進する仕組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5. 競争を促進する仕組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br&gt;
+・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ最初にも書きましたが，&lt;strong&gt;米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong&gt;こんなことやる必要なかったんですよ．&lt;/p&gt;
+&lt;p&gt;「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p&gt;
+&lt;p&gt;競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong&gt;「恥ずかしいこと」&lt;/strong&gt; だと認識した方が良いと思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争の妨害行為を防止するための管理&#34;&gt;競争の妨害行為を防止するための管理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6．競争の妨害行為を防止するための管理&lt;/strong&gt;&lt;br&gt;
+（技術委員会の設置）&lt;br&gt;
+・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br&gt;
+・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p&gt;
+&lt;p&gt;（違反の防止）&lt;br&gt;
+・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ごくごく普通の競争健全化施策なので飛ばします．&lt;/p&gt;
+&lt;h2 id=&#34;ユーザー選択を増やすための取り組み&#34;&gt;ユーザー選択を増やすための取り組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7. ユーザー選択を増やすための取り組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br&gt;
+・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p&gt;
+&lt;p&gt;ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong&gt;検索エンジンを一切搭載せずに，&lt;/strong&gt; 以下のようにユーザーに一から手動設定させるべきです．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;え？ &lt;strong&gt;「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong&gt; だって？&lt;/p&gt;
+&lt;p&gt;甘えたこと言わないでください．&lt;del&gt;&lt;strong&gt;「公平」&lt;/strong&gt; が大事なんでしょ．これくらいやれよ．&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong&gt;「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong&gt; ということを言いたかっただけです．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>MisskeyプラグインでレジストリAPIを使った同期機能の実装と注意点</title>
+		<link>https://t-asa2000.net/post/202412_01/</link>
+		<pubDate>Sat, 07 Dec 2024 23:28:00 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_01/</guid>
+		<description>&lt;blockquote&gt;
+&lt;p&gt;この記事は &lt;a class=&#34;link&#34; href=&#34;https://adventar.org/calendars/10208&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;「Misskey Advent Calendar 2024」 8日目&lt;/strong&gt;&lt;/a&gt; の記事です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;こんにちは．&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Misskey.io&lt;/a&gt;で活動している&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/@asata&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;asata&lt;/a&gt;と申します．&lt;/p&gt;
+&lt;p&gt;今回は &lt;a class=&#34;link&#34; href=&#34;https://github.com/misskey-dev/misskey&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Misskey&lt;/a&gt; のプラグインを自作していく中で気が付いた &lt;strong&gt;「レジストリAPI」&lt;/strong&gt; に関する知見をまとめていけたらなと思っています．&lt;/p&gt;
+&lt;h2 id=&#34;自作したプラグイン&#34;&gt;自作したプラグイン&lt;/h2&gt;
+&lt;p&gt;私が今回作成したのは &lt;strong&gt;「ノート非表示プラグイン」&lt;/strong&gt; というもので，これは個別のノート単位で疑似的なミュートができるというものになります．&lt;/p&gt;
+&lt;p&gt;タイムライン上に不快に思うような内容が流れてきて，&lt;strong&gt;「その人自体は嫌いじゃないけどこのノートだけはもう目に入れたくない」&lt;/strong&gt; みたいな場面を想定して作りました．（単純に自分がそういう時にあったらいいな・・・と思ってたので）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/@asata/pages/notemuteplugin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://misskey.io/@asata/pages/notemuteplugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;h2 id=&#34;プラグインのデータをサーバー上で同期させたかった&#34;&gt;プラグインのデータをサーバー上で同期させたかった&lt;/h2&gt;
+&lt;p&gt;Misskeyでは，クライアントに関する情報は基本的にクライアントに保存されます．&lt;/p&gt;
+&lt;p&gt;なので，どういうプラグインを入れたとか，そのプラグインの設定やデータはサーバー上に保存されません．&lt;/p&gt;
+&lt;p&gt;同じプラグインをスマホとPCで使いたければ，それぞれのデバイスにインストールすることになります．しかし，両方のデバイスで&lt;strong&gt;常に同じ状態をキープするということはできない&lt;/strong&gt;わけです．&lt;/p&gt;
+&lt;p&gt;ただ私は，できることなら実際のミュート機能の使い勝手に近づけたいと &lt;strong&gt;「ミュート設定したノートIDのリストをデバイス間で同期したい」&lt;/strong&gt; と考えていました．そんな中，タイムラインで教えて頂いたのが &lt;strong&gt;「レジストリAPI」&lt;/strong&gt; です．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリって何&#34;&gt;レジストリって何？&lt;/h2&gt;
+&lt;p&gt;Misskeyにおける「レジストリ」とは，&lt;strong&gt;「キー」と「値」の組み合わせ&lt;/strong&gt; で自由な値をサーバー上に保存しておける機能です．値の型は，文字列・数値・配列・オブジェクト，どれでもOKみたいです．&lt;/p&gt;
+&lt;p&gt;Misskey自体も，各種設定を保存するためにレジストリを使用しています．&lt;/p&gt;
+
+&lt;img src=&#34;img2.png&#34; width=400&gt;
+
+&lt;p&gt;レジストリは階層構造となっており，「ドメイン」⇒「スコープ」⇒「キー」という形となっています．「スコープ」は client/aaa のように多重構造（入れ子）にすることも可能です．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリを使えば設定が同期できるはずだった&#34;&gt;レジストリを使えば設定が同期できる・・・はずだった&lt;/h2&gt;
+&lt;p&gt;これを踏まえて，私は &lt;strong&gt;「同じドメイン・スコープ・キーでレジストリを読み書きすれば，ミュート設定したノートを同期できる」&lt;/strong&gt; と考え実装に入りました．&lt;/p&gt;
+&lt;p&gt;Misskey プラグインは，&lt;a class=&#34;link&#34; href=&#34;https://github.com/aiscript-dev/aiscript&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;AiScript&lt;/strong&gt;&lt;/a&gt; というJavaScriptベースの言語で記述します．また，Misskey内でAiScriptを使用する場合は &lt;a class=&#34;link&#34; href=&#34;https://misskey-hub.net/ja/docs/for-developers/plugin/plugin-api-reference/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;「AiScript Misskey 拡張API」&lt;/strong&gt;&lt;/a&gt;と呼ばれる専用のAPIが使用できます．今回はこちらを使ってプラグインからMisskeyのAPIを叩きます．&lt;/p&gt;
+&lt;p&gt;↓こんな感じでMisskeyのレジストリAPIを叩きます．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 非表示ノートの設定(サーバー)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setMutedNotesServer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;notes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;Mk&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;i/registry/set&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;mutedNotes&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;asataPlugin&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;notes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;domain&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;asata&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;さて，ここで問題が生じました．上記のコード内ではドメインを &lt;strong&gt;「asata」&lt;/strong&gt; としていますが，実際のレジストリでは &lt;strong&gt;全く関係のない文字列をドメインとして&lt;/strong&gt; 読み書き操作が行われていたのです．&lt;/p&gt;
+
+&lt;img src=&#34;img3.png&#34; width=400&gt;
+
+&lt;p&gt;しかも，この文字列，プラグインをインストールし直すごとに変わってしまいます．つまりこれは &lt;strong&gt;「異なるデバイス間で同じレジストリのキーを参照できない」＝「同期ができない」&lt;/strong&gt; ということになります．&lt;/p&gt;
+&lt;h2 id=&#34;外部からレジストリapiを叩くとドメインは無視される&#34;&gt;外部からレジストリAPIを叩くとドメインは無視される&lt;/h2&gt;
+&lt;p&gt;Misskeyのバックエンドのソースコードを見てみると，その原因が分かりました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/misskey-dev/misskey/blob/dac3b1f40591cb697cf650bff7e4cb99cc964f89/packages/backend/src/server/api/endpoints/i/registry/set.ts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;packages/backend/src/server/api/endpoints/i/registry/set.ts&lt;/a&gt; より引用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;@Injectable&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Endpoint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;typeof&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;typeof&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;paramDef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// eslint-disable-line import/no-default-export
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;kr&#34;&gt;constructor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;registryApiService&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;RegistryApiService&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;paramDef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;me&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;k&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;registryApiService&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;me&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;accessToken&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;id&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;domain&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;スマホ等では少し見辛いかもしれませんが，レジストリAPI用の関数に投げる第2引数が &lt;code&gt;accessToken ? accessToken.id : (ps.domain ?? null)&lt;/code&gt; となっています．&lt;/p&gt;
+&lt;p&gt;どうやら外部からレジストリAPIを叩く場合は &lt;strong&gt;「指定したドメイン名を無視してアクセストークンのIDをドメインにする」&lt;/strong&gt; という仕様のようです．ドメイン名となっていた謎の文字列は，インストール時にプラグイン用に生成されたアクセストークンのIDだったみたいですね．&lt;/p&gt;
+&lt;h2 id=&#34;レジストリを使った同期をするための方法&#34;&gt;レジストリを使った同期をするための方法&lt;/h2&gt;
+&lt;p&gt;ただ，プラグインのデータをレジストリ経由で同期できないという訳ではありません．各デバイスにインストールされたプラグインが &lt;strong&gt;同じアクセストークンを使用すれば&lt;/strong&gt; 同期を行うことができます．&lt;/p&gt;
+&lt;p&gt;残念ながら，プラグインの実装ではこの問題をどうにかすることは不可能なので， &lt;strong&gt;プラグインを使うユーザーに対して&lt;/strong&gt; 以下の操作を促すことになります．&lt;/p&gt;
+&lt;p&gt;2つの &lt;strong&gt;デバイス「A」と「B」&lt;/strong&gt; でMisskeyをしていると仮定して説明します．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;デバイスA&lt;/strong&gt; でプラグインをインストールする．&lt;/li&gt;
+&lt;li&gt;「設定のバックアップ」機能で，インストール直後のクライアントの状態をバックアップする．&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;デバイスB&lt;/strong&gt; 上で「設定のバックアップ」機能から &lt;strong&gt;デバイスA&lt;/strong&gt; で作成したバックアップをクライアントに適用する．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これにより，2つのデバイス上で同じプラグインがインストールされます．しかも，&lt;strong&gt;デバイスA&lt;/strong&gt; のインストール時に生成したアクセストークンが &lt;strong&gt;紐づいた&lt;/strong&gt; 状態でインストールされます．&lt;/p&gt;
+&lt;p&gt;これでようやく &lt;strong&gt;レジストリを使った同期&lt;/strong&gt; ができるようになります．&lt;/p&gt;
+&lt;p&gt;【実際に同期機能を実装したプラグインのスクリーンショット】&lt;/p&gt;
+
+&lt;img src=&#34;img4.png&#34; width=400&gt;
+
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;以上， Misskey プラグインに（無理矢理ですが）同期機能を実装してみたという記事でした．&lt;/p&gt;
+&lt;p&gt;ドメイン名を強制的に書き換えるという仕様は，セキュリティ的にやむを得ないんじゃないかなと思っています．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;悪意のあるプログラムがドメインを偽装してレジストリ書き換える&lt;/li&gt;
+&lt;li&gt;たまたまサードパーティー同士でドメインが重複してしまう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいなケースも十分考えられますからね．&lt;/p&gt;
+&lt;p&gt;最後までお読みいただき，ありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>「SNSは連絡ツールとは別」←この考え方って古い？</title>
+		<link>https://t-asa2000.net/post/202408_02/</link>
+		<pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202408_02/</guid>
+		<description>&lt;h2 id=&#34;インターネットとの出会い&#34;&gt;インターネットとの出会い&lt;/h2&gt;
+&lt;p&gt;私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong&gt;真の意味でのROM専&lt;/strong&gt; でした．&lt;/p&gt;
+&lt;p&gt;当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong&gt;画面の向こう側にいる知らない人だけに向けて&lt;/strong&gt;，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p&gt;
+&lt;p&gt;アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong&gt;「画面の向こう側の人とやり取りするツール」&lt;/strong&gt; だと思っています．&lt;/p&gt;
+&lt;h2 id=&#34;snsと連絡ツールの境界線&#34;&gt;SNSと連絡ツールの境界線&lt;/h2&gt;
+&lt;p&gt;まず私の中での定義として以下のように分けてます．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SNS&lt;/strong&gt; : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
+&lt;ul&gt;
+&lt;li&gt;X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;連絡ツール&lt;/strong&gt; : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
+&lt;ul&gt;
+&lt;li&gt;LINEなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong&gt;「LINE離れ」&lt;/strong&gt; みたいな話を聞くんですけども，&lt;/p&gt;
+&lt;p&gt;私としては &lt;strong&gt;「公開空間のアカウントで非公開なやり取りをする」&lt;/strong&gt; ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p&gt;
+&lt;p&gt;奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p&gt;
+&lt;h2 id=&#34;内輪ネタを書かないリア垢も作らない&#34;&gt;内輪ネタを書かない，リア垢も作らない&lt;/h2&gt;
+&lt;p&gt;上述のようにDMだけの運用なら &lt;strong&gt;「連絡ツール」&lt;/strong&gt; という扱いになるので，まだ自分としても許容できます．&lt;/p&gt;
+&lt;p&gt;問題はタイムラインへの投稿です．&lt;/p&gt;
+&lt;p&gt;私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong&gt;「SNS」&lt;/strong&gt; にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p&gt;
+&lt;p&gt;それでも，気を付けていたことは &lt;strong&gt;「内輪ネタをタイムラインに書かない」&lt;/strong&gt; ということです．&lt;/p&gt;
+&lt;p&gt;ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong&gt;私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong&gt; です．&lt;/p&gt;
+&lt;p&gt;「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p&gt;
+&lt;p&gt;これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p&gt;
+&lt;p&gt;例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p&gt;
+&lt;p&gt;「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p&gt;
+&lt;p&gt;そもそも &lt;strong&gt;インターネットは怖い場所&lt;/strong&gt; です．ただ，スマホの普及で&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;周囲がInstagramをやってる&lt;/li&gt;
+&lt;li&gt;電車で隣の人がTwitterを開いてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これが当たり前になった現代，インターネット上の公開空間に &lt;strong&gt;参加すること&lt;/strong&gt; への抵抗が薄れてきたことで，&lt;br&gt;
+世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>発達障害持ちの僕がこまること「荷物が上手く捌けない」</title>
+		<link>https://t-asa2000.net/post/202303_02/</link>
+		<pubDate>Sat, 11 Mar 2023 10:07:46 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202303_02/</guid>
+		<description>&lt;img src="https://t-asa2000.net/img/pakutaso/Nimotsu1.jpg" alt="Featured image of post 発達障害持ちの僕がこまること「荷物が上手く捌けない」" /&gt;&lt;p&gt;カバー写真: &lt;a class=&#34;link&#34; href=&#34;https://www.pakutaso.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ぱくたそ&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;～おことわり～&lt;/strong&gt;&lt;br&gt;
+この記事の筆者は，幼少期から広汎性発達障害（のグレーゾーン）の傾向が見られたものの，その当時は医師による正式な診断は受けていませんでした．ただし，執筆時点では心療内科より正式にADHDの診断をもらっています．また，この手の話題は個人による症状差が大きいため，あくまで私個人のケースとして捉えてもらえると幸いです．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;普段の荷物&#34;&gt;普段の荷物&lt;/h2&gt;
+&lt;p&gt;皆さんがいつも外出する時，絶対に必要なものって何でしょうか．少なくとも以下の3つは，どんな場合でも常に携帯してないといけないと思います．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;家の鍵（＋車の鍵）&lt;/li&gt;
+&lt;li&gt;財布&lt;/li&gt;
+&lt;li&gt;携帯電話&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;私は基本，ズボンの左前ポケットに財布，右前ポケットに携帯電話を入れてます．ただ，鍵などを入れる場所がないので，それらを持ち運ぶためだけに&lt;strong&gt;ショルダーポーチ&lt;/strong&gt;を携帯します．定期券や交通系ICカードも，ショルダーポーチにくっつけてます．&lt;/p&gt;
+&lt;p&gt;加えて，私は学生ですので教科書などを&lt;strong&gt;バックパック&lt;/strong&gt;で持ち歩きます．&lt;/p&gt;
+&lt;p&gt;さらに，悪天候時には傘が必要です．&lt;/p&gt;
+&lt;p&gt;ここまでの荷物の構成は以下のようになります．ついでに，写真も撮っておきました（床が汚くてごめんなさい）．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;財布（左ポケット）&lt;/li&gt;
+&lt;li&gt;携帯電話（右ポケット）&lt;/li&gt;
+&lt;li&gt;ショルダーポーチ&lt;/li&gt;
+&lt;li&gt;バックパック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/post/202303_02/img1.jpg&#34;
+	width=&#34;1318&#34;
+	height=&#34;859&#34;
+	srcset=&#34;https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_480x0_resize_q75_box.jpg 480w, https://t-asa2000.net/post/202303_02/img1_hu058885b34620def91fc97ee0b5ecc309_324414_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;368px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;さて，ここから実体験の話をしていきます．&lt;/p&gt;
+&lt;h2 id=&#34;困りごと1-ショルダーポーチとバックパックの紐が絡まる&#34;&gt;困りごと1: ショルダーポーチとバックパックの紐が絡まる&lt;/h2&gt;
+&lt;p&gt;ショルダーポーチとバックパックを体から降ろすときに，身に着けた順番と逆順で外していかなくてはいけませんが，順番を間違えて紐が絡まってオロオロしてしまうときが多々あります．特に，バスや電車などの公共交通に乗って席に着いた際に，荷物をどかしたいなと思って人前でこれをやらかすのが，本当に恥ずかしい．&lt;/p&gt;
+&lt;h2 id=&#34;困りごと2-傘を持ち歩いているとき&#34;&gt;困りごと2: 傘を持ち歩いているとき&lt;/h2&gt;
+&lt;p&gt;傘を持ち歩いているときは最悪です．片手が塞がっているので，例えば土足禁止の空間（傘立てがない場所）に入ったとき，靴の履き替えで時間がかかります．というか，手先が不器用なのでただでさえ時間がかかるのに・・・&lt;/p&gt;
+&lt;p&gt;後ろに人がいると，自分で詰まってしまって，ただただ申し訳なく切ない気持ちになります．&lt;/p&gt;
+&lt;h2 id=&#34;外出時以外でも&#34;&gt;外出時以外でも&lt;/h2&gt;
+&lt;p&gt;夕飯の支度とか，食器の片づけとか，普段のちょっとした動作の中で，今手に持っているものをどこにどかせば良いのか，次に何を手に持てば良いのか，うまく脳内で計算できません．普通の人ならすぐ終わる作業が，2～3倍くらいの時間がかかってしまいます．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;とにかく日頃の生活において，カバン類や手に持っている荷物を瞬間的に捌くのが，本当に苦手です．全体的な動作が，周囲から見てもちょっと「子供っぽい」「もたもたしている」「変な人っぽい」って感じになって，「この人変だよね」って思われて距離を置かれる（もしくは自分でそう見られてると思い込んで距離を置いてしまう）ことがあります．&lt;/p&gt;
+&lt;p&gt;もっと要領良く生きていきたいですね・・・&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title>
+		<link>https://t-asa2000.net/post/20230310/</link>
+		<pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20230310/</guid>
+		<description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" /&gt;&lt;h2 id=&#34;プロローグ&#34;&gt;プロローグ&lt;/h2&gt;
+&lt;p&gt;世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p&gt;
+&lt;p&gt;今の時代&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li&gt;
+&lt;li&gt;Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p&gt;
+&lt;p&gt;今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページを作る意味&#34;&gt;ホームページを作る意味&lt;/h2&gt;
+&lt;p&gt;一番大きなことは「情報の整理・集約化」だと思います．&lt;/p&gt;
+&lt;p&gt;例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;時系列順に写真や文章が並んでいるだけ&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;シンプルにお店のメニューだけが見たい&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p&gt;
+&lt;p&gt;そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong&gt;必要な人が必要な時に&lt;/strong&gt;情報を得ることができます．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ホームページの正体&#34;&gt;ホームページの正体&lt;/h2&gt;
+&lt;p&gt;「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p&gt;
+&lt;p&gt;↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p&gt;
+&lt;p&gt;ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong&gt;あなたの代わりにやってます．&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページに関わる3つの要素&#34;&gt;ホームページに関わる3つの要素&lt;/h2&gt;
+&lt;p&gt;ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームページの中身（を生成するためのツール）&lt;/li&gt;
+&lt;li&gt;サーバー（ホームページの置き場所）&lt;/li&gt;
+&lt;li&gt;ドメイン（置き場所の住所）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ドメインというのは，&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.co.jp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.google.co.jp&lt;/a&gt;&lt;/strong&gt; みたいなやつのことです．&lt;/p&gt;
+&lt;h3 id=&#34;中身サーバードメインが全てセット&#34;&gt;中身・サーバー・ドメインが全てセット&lt;/h3&gt;
+&lt;p&gt;1.と2.と3.が全てセットになったのが&lt;a class=&#34;link&#34; href=&#34;https://ja.wix.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;wix&lt;/strong&gt;」&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;https://sites.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;Google サイト&lt;/strong&gt;」&lt;/a&gt;みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p&gt;
+&lt;p&gt;ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p&gt;
+&lt;p&gt;あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p&gt;
+&lt;h3 id=&#34;中身を作ってサーバードメインは別に用意&#34;&gt;中身を作ってサーバー・ドメインは別に用意&lt;/h3&gt;
+&lt;p&gt;恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class=&#34;link&#34; href=&#34;https://www.justsystems.com/jp/products/hpb/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;ホームページ・ビルダー&lt;/strong&gt;」&lt;/a&gt;などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p&gt;
+&lt;p&gt;中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p&gt;
+&lt;p&gt;このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p&gt;
+&lt;p&gt;お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;wixみたいなシステムをサーバーの中に設置してしまう奥の手&#34;&gt;wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3&gt;
+&lt;p&gt;実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p&gt;
+&lt;p&gt;それが「&lt;strong&gt;CMS&lt;/strong&gt;」と呼ばれるツールで，代表的なものが&lt;a class=&#34;link&#34; href=&#34;https://ja.wordpress.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;WordPress&lt;/strong&gt;&lt;/a&gt;です．&lt;/p&gt;
+&lt;p&gt;ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p&gt;
+&lt;p&gt;サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p&gt;
+&lt;h2 id=&#34;hp作りを友人知人に委託したい人へ&#34;&gt;HP作りを友人・知人に委託したい人へ&lt;/h2&gt;
+&lt;p&gt;私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p&gt;
+&lt;p&gt;ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p&gt;
+&lt;h3 id=&#34;更新頻度&#34;&gt;更新頻度&lt;/h3&gt;
+&lt;p&gt;最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまでを自分でやるか&#34;&gt;どこまでを自分でやるか&lt;/h3&gt;
+&lt;p&gt;本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまで相手に介入させるか&#34;&gt;どこまで相手に介入させるか&lt;/h3&gt;
+&lt;p&gt;ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p&gt;
+&lt;h3 id=&#34;引き継ぎ&#34;&gt;引き継ぎ&lt;/h3&gt;
+&lt;p&gt;これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p&gt;
+&lt;p&gt;例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p&gt;
+&lt;p&gt;もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p&gt;
+&lt;p&gt;さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;という訳で，今回の記事を通して伝えたかったことは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HPを作る目的を今一度確認して欲しい&lt;/li&gt;
+&lt;li&gt;中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li&gt;
+&lt;li&gt;誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ということでした．最後までご覧いただきありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>Hugoに移行してみた</title>
+		<link>https://t-asa2000.net/post/20220903/</link>
+		<pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20220903/</guid>
+		<description>&lt;p&gt;これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong&gt;GitHub Pages + Hugo&lt;/strong&gt; に移行しました．&lt;/p&gt;
+&lt;p&gt;移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023.3.6 追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

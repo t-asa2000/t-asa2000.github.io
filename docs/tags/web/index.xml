@@ -1,222 +1,272 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web | t-asa2000.net</title><description>Recent content in Web on t-asa2000.net</description><link>https://t-asa2000.net/tags/web/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 19 Dec 2024 22:42:24 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title><link>https://t-asa2000.net/post/202412_02/</link><pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate><guid>https://t-asa2000.net/post/202412_02/</guid><description>&lt;p>今回のブログはかなり &lt;strong>「思想強め」&lt;/strong> です．&lt;/p>
-&lt;hr>
-&lt;blockquote>
-&lt;p>11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p>
-&lt;/blockquote>
-&lt;p>手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br>
-&lt;a class="link" href="https://president.jp/articles/-/89180" target="_blank" rel="noopener"
->https://president.jp/articles/-/89180&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>要はGoogleが大きくなりすぎたから，&lt;strong>分割してそれぞれの分野で競争促しましょうね&lt;/strong> っていう話ですね．&lt;/p>
-&lt;p>私の感想ですがハッキリ言って &lt;b style="font-size:1.5em">今更遅すぎるし無駄&lt;/b> だと思ってます．&lt;/p>
-&lt;p>私はあくまで寡占そのものに賛成というのではなく，&lt;strong>「一度寡占させてしまったものは諦めろ」&lt;/strong> 派です．&lt;/p>
-&lt;p>もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong>早期に芽を摘んでおく&lt;/strong> 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p>
-&lt;p>確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p>
-&lt;p>力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong>「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong> じゃないですか．&lt;/p>
-&lt;hr>
-&lt;p>と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p>
-&lt;h2 id="chromeブラウザの売却">Chromeブラウザの売却&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>1. Chromeブラウザの売却&lt;/strong>&lt;/p>
-&lt;p>（目的）&lt;br>
-・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p>
-&lt;p>（具体的措置）&lt;br>
-・グーグルはChromeを第三者に売却する義務を負う。&lt;br>
-・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;strong>「競争を促進」&lt;/strong> なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p>
-&lt;p>&lt;strong>「知名度」&lt;/strong> というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p>
-&lt;p>結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p>
-&lt;p>これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong>消費者の利便性を阻害していること&lt;/strong>に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong>Chrome アカウント&lt;/strong>なる独自の同期アカウントが誕生するかもしれません．&lt;/p>
-&lt;h2 id="androidに関する規制">Androidに関する規制&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>2. Androidに関する規制&lt;/strong>&lt;/p>
-&lt;p>（選択肢1）Androidの分割&lt;br>
-・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br>
-・Androidを完全に分離・売却する。&lt;/p>
-&lt;p>（選択肢2）行動上の是正措置&lt;br>
-・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br>
-・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p>
-&lt;p>あとAndroidに&lt;strong>Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong>のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p>
-&lt;h2 id="デフォルト検索エンジン契約の禁止">デフォルト検索エンジン契約の禁止&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>3. デフォルト検索エンジン契約の禁止&lt;/strong>&lt;/p>
-&lt;p>・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p>
-&lt;p>Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br>
-&lt;a class="link" href="https://gigazine.net/news/20241219-mozilla-google-browsers/" target="_blank" rel="noopener"
->https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a>&lt;/p>
-&lt;p>（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p>
-&lt;p>拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p>
-&lt;h2 id="データ共有と透明性の向上">データ共有と透明性の向上&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>4. データ共有と透明性の向上&lt;/strong>&lt;/p>
-&lt;p>（データの提供）&lt;br>
-・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br>
-・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p>
-&lt;p>（広告データの透明性）&lt;br>
-・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br>
-・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p>
-&lt;p>そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p>
-&lt;p>むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong>アメリカの経済的な国益&lt;/strong>になると思います．&lt;/p>
-&lt;h2 id="競争を促進する仕組み">競争を促進する仕組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>5. 競争を促進する仕組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br>
-・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p>
-&lt;/blockquote>
-&lt;p>これ最初にも書きましたが，&lt;strong>米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong>こんなことやる必要なかったんですよ．&lt;/p>
-&lt;p>「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p>
-&lt;p>競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong>「恥ずかしいこと」&lt;/strong> だと認識した方が良いと思います．&lt;/p>
-&lt;h2 id="競争の妨害行為を防止するための管理">競争の妨害行為を防止するための管理&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>6．競争の妨害行為を防止するための管理&lt;/strong>&lt;br>
-（技術委員会の設置）&lt;br>
-・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br>
-・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p>
-&lt;p>（違反の防止）&lt;br>
-・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p>
-&lt;/blockquote>
-&lt;p>ごくごく普通の競争健全化施策なので飛ばします．&lt;/p>
-&lt;h2 id="ユーザー選択を増やすための取り組み">ユーザー選択を増やすための取り組み&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>7. ユーザー選択を増やすための取り組み&lt;/strong>&lt;/p>
-&lt;p>・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br>
-・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p>
-&lt;/blockquote>
-&lt;p>そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p>
-&lt;p>&lt;strong>1.&lt;/strong> でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p>
-&lt;p>ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong>検索エンジンを一切搭載せずに，&lt;/strong> 以下のようにユーザーに一から手動設定させるべきです．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>え？ &lt;strong>「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong> だって？&lt;/p>
-&lt;p>甘えたこと言わないでください．&lt;del>&lt;strong>「公平」&lt;/strong> が大事なんでしょ．これくらいやれよ．&lt;/del>&lt;/p>
-&lt;hr>
-&lt;p>若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong>「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong> ということを言いたかっただけです．&lt;/p></description></item><item><title>「SNSは連絡ツールとは別」←この考え方って古い？</title><link>https://t-asa2000.net/post/202408_02/</link><pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate><guid>https://t-asa2000.net/post/202408_02/</guid><description>&lt;h2 id="インターネットとの出会い">インターネットとの出会い&lt;/h2>
-&lt;p>私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong>真の意味でのROM専&lt;/strong> でした．&lt;/p>
-&lt;p>当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong>画面の向こう側にいる知らない人だけに向けて&lt;/strong>，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p>
-&lt;p>アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong>「画面の向こう側の人とやり取りするツール」&lt;/strong> だと思っています．&lt;/p>
-&lt;h2 id="snsと連絡ツールの境界線">SNSと連絡ツールの境界線&lt;/h2>
-&lt;p>まず私の中での定義として以下のように分けてます．&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>SNS&lt;/strong> : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
-&lt;ul>
-&lt;li>X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>連絡ツール&lt;/strong> : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
-&lt;ul>
-&lt;li>LINEなど&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong>「LINE離れ」&lt;/strong> みたいな話を聞くんですけども，&lt;/p>
-&lt;p>私としては &lt;strong>「公開空間のアカウントで非公開なやり取りをする」&lt;/strong> ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p>
-&lt;p>奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p>
-&lt;h2 id="内輪ネタを書かないリア垢も作らない">内輪ネタを書かない，リア垢も作らない&lt;/h2>
-&lt;p>上述のようにDMだけの運用なら &lt;strong>「連絡ツール」&lt;/strong> という扱いになるので，まだ自分としても許容できます．&lt;/p>
-&lt;p>問題はタイムラインへの投稿です．&lt;/p>
-&lt;p>私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong>「SNS」&lt;/strong> にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p>
-&lt;p>それでも，気を付けていたことは &lt;strong>「内輪ネタをタイムラインに書かない」&lt;/strong> ということです．&lt;/p>
-&lt;p>ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong>私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong> です．&lt;/p>
-&lt;p>「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p>
-&lt;p>これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p>
-&lt;p>例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p>
-&lt;p>「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p>
-&lt;p>そもそも &lt;strong>インターネットは怖い場所&lt;/strong> です．ただ，スマホの普及で&lt;/p>
-&lt;ul>
-&lt;li>周囲がInstagramをやってる&lt;/li>
-&lt;li>電車で隣の人がTwitterを開いてる&lt;/li>
-&lt;/ul>
-&lt;p>これが当たり前になった現代，インターネット上の公開空間に &lt;strong>参加すること&lt;/strong> への抵抗が薄れてきたことで，&lt;br>
-世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p></description></item><item><title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title><link>https://t-asa2000.net/post/20230310/</link><pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate><guid>https://t-asa2000.net/post/20230310/</guid><description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" />&lt;h2 id="プロローグ">プロローグ&lt;/h2>
-&lt;p>世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p>
-&lt;p>今の時代&lt;/p>
-&lt;ul>
-&lt;li>Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li>
-&lt;li>Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li>
-&lt;/ul>
-&lt;p>と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p>
-&lt;p>今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p>
-&lt;h2 id="ホームページを作る意味">ホームページを作る意味&lt;/h2>
-&lt;p>一番大きなことは「情報の整理・集約化」だと思います．&lt;/p>
-&lt;p>例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p>
-&lt;p>「&lt;strong>時系列順に写真や文章が並んでいるだけ&lt;/strong>」&lt;/p>
-&lt;p>であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p>
-&lt;p>「&lt;strong>シンプルにお店のメニューだけが見たい&lt;/strong>」&lt;/p>
-&lt;p>と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p>
-&lt;p>そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong>必要な人が必要な時に&lt;/strong>情報を得ることができます．&lt;/p>
-&lt;blockquote>
-&lt;p>※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="ホームページの正体">ホームページの正体&lt;/h2>
-&lt;p>「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p>
-&lt;p>↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p>
-&lt;img src="img1.png" width=500>
-&lt;p>信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p>
-&lt;p>ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p>
-&lt;blockquote>
-&lt;p>Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p>
-&lt;/blockquote>
-&lt;p>簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong>あなたの代わりにやってます．&lt;/strong>&lt;/p>
-&lt;p>勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p>
-&lt;h2 id="ホームページに関わる3つの要素">ホームページに関わる3つの要素&lt;/h2>
-&lt;p>ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p>
-&lt;ol>
-&lt;li>ホームページの中身（を生成するためのツール）&lt;/li>
-&lt;li>サーバー（ホームページの置き場所）&lt;/li>
-&lt;li>ドメイン（置き場所の住所）&lt;/li>
-&lt;/ol>
-&lt;p>ドメインというのは，&lt;strong>&lt;a class="link" href="https://www.google.co.jp" target="_blank" rel="noopener"
->www.google.co.jp&lt;/a>&lt;/strong> みたいなやつのことです．&lt;/p>
-&lt;h3 id="中身サーバードメインが全てセット">中身・サーバー・ドメインが全てセット&lt;/h3>
-&lt;p>1.と2.と3.が全てセットになったのが&lt;a class="link" href="https://ja.wix.com/" target="_blank" rel="noopener"
->「&lt;strong>wix&lt;/strong>」&lt;/a>や&lt;a class="link" href="https://sites.google.com/" target="_blank" rel="noopener"
->「&lt;strong>Google サイト&lt;/strong>」&lt;/a>みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p>
-&lt;p>ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p>
-&lt;p>あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p>
-&lt;h3 id="中身を作ってサーバードメインは別に用意">中身を作ってサーバー・ドメインは別に用意&lt;/h3>
-&lt;p>恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class="link" href="https://www.justsystems.com/jp/products/hpb/" target="_blank" rel="noopener"
->「&lt;strong>ホームページ・ビルダー&lt;/strong>」&lt;/a>などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p>
-&lt;p>中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p>
-&lt;p>このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p>
-&lt;p>お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p>
-&lt;h3 id="wixみたいなシステムをサーバーの中に設置してしまう奥の手">wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3>
-&lt;p>実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p>
-&lt;p>それが「&lt;strong>CMS&lt;/strong>」と呼ばれるツールで，代表的なものが&lt;a class="link" href="https://ja.wordpress.org/" target="_blank" rel="noopener"
->&lt;strong>WordPress&lt;/strong>&lt;/a>です．&lt;/p>
-&lt;p>ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p>
-&lt;p>サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p>
-&lt;h2 id="hp作りを友人知人に委託したい人へ">HP作りを友人・知人に委託したい人へ&lt;/h2>
-&lt;p>私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p>
-&lt;p>ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p>
-&lt;h3 id="更新頻度">更新頻度&lt;/h3>
-&lt;p>最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p>
-&lt;h3 id="どこまでを自分でやるか">どこまでを自分でやるか&lt;/h3>
-&lt;p>本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p>
-&lt;h3 id="どこまで相手に介入させるか">どこまで相手に介入させるか&lt;/h3>
-&lt;p>ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p>
-&lt;h3 id="引き継ぎ">引き継ぎ&lt;/h3>
-&lt;p>これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p>
-&lt;p>例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p>
-&lt;p>もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p>
-&lt;p>さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p>
-&lt;h2 id="まとめ">まとめ&lt;/h2>
-&lt;p>という訳で，今回の記事を通して伝えたかったことは&lt;/p>
-&lt;ul>
-&lt;li>HPを作る目的を今一度確認して欲しい&lt;/li>
-&lt;li>中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li>
-&lt;li>誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li>
-&lt;/ul>
-&lt;p>ということでした．最後までご覧いただきありがとうございました．&lt;/p></description></item><item><title>Hugoに移行してみた</title><link>https://t-asa2000.net/post/20220903/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://t-asa2000.net/post/20220903/</guid><description>&lt;p>これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong>GitHub Pages + Hugo&lt;/strong> に移行しました．&lt;/p>
-&lt;p>移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p>
-&lt;p>&lt;del>テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del>&lt;/p>
-&lt;p>&lt;del>（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del>&lt;/p>
-&lt;p>&lt;strong>2023.3.6 追記&lt;/strong>&lt;/p>
-&lt;p>コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
->https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Web | t-asa2000.net</title>
+			<description>Recent content in Web on t-asa2000.net</description><link>https://t-asa2000.net/tags/web/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Thu, 19 Dec 2024 22:42:24 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>【Google 解体とか言われてるけど】ビッグテック寡占黙認（というより諦め）派なのでその理由を書いていく</title>
+		<link>https://t-asa2000.net/post/202412_02/</link>
+		<pubDate>Thu, 19 Dec 2024 22:42:24 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_02/</guid>
+		<description>&lt;p&gt;今回のブログはかなり &lt;strong&gt;「思想強め」&lt;/strong&gt; です．&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;11月20日、アメリカの司法省は、グーグルの検索サービスの独占を解消するためとして、インターネット閲覧ソフト（ブラウザ）「Chrome（クローム）」事業の売却を含む是正案を裁判所に提出した。立教大学ビジネススクールの田中道昭教授は「アメリカには、公正な自由競争に対する信念が強く根付いており、資本の独占に対して厳しく臨んできた歴史がある。今回の訴訟により、グーグルは戦略の転換を迫られている」という――。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;手軽に｢ググる｣はもうできなくなる?…米司法省がグーグルに｢Chrome売却｣を要求した本当の理由 | PRESIDENT Online&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://president.jp/articles/-/89180&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://president.jp/articles/-/89180&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;要はGoogleが大きくなりすぎたから，&lt;strong&gt;分割してそれぞれの分野で競争促しましょうね&lt;/strong&gt; っていう話ですね．&lt;/p&gt;
+
+&lt;p&gt;私の感想ですがハッキリ言って &lt;b style=&#34;font-size:1.5em&#34;&gt;今更遅すぎるし無駄&lt;/b&gt; だと思ってます．&lt;/p&gt;
+
+&lt;p&gt;私はあくまで寡占そのものに賛成というのではなく，&lt;strong&gt;「一度寡占させてしまったものは諦めろ」&lt;/strong&gt; 派です．&lt;/p&gt;
+&lt;p&gt;もし一社による寡占が問題だと思うなら，ここまで大きくなる前に &lt;strong&gt;早期に芽を摘んでおく&lt;/strong&gt; 必要があったんです．消費者がすでにそのサービスを使用するのが定着してしまったものを破壊するのは，それが果たして本当に多くの人々にとって良いことなのか疑問に思います．&lt;/p&gt;
+&lt;p&gt;確かに競争を促して市場が健全化されるのは良いことだと思います．しかし，最終消費者（エンドユーザー）に利益か還元されなければ意味がないですよね．&lt;/p&gt;
+&lt;p&gt;力の弱い生産者のためだけに，大多数の消費者の利便性を犠牲にするならば，それこそ &lt;strong&gt;「公的機関に泣きつくことで得をする弱者ビジネス」&lt;/strong&gt; じゃないですか．&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;と感情的に批判しても何も始まらないので，米司法省の提案1個1個について自分なりの意見を書いていこうと思います．&lt;/p&gt;
+&lt;h2 id=&#34;chromeブラウザの売却&#34;&gt;Chromeブラウザの売却&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1. Chromeブラウザの売却&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（目的）&lt;br&gt;
+・グーグルが検索市場での支配力を維持するためにChromeを利用しているため、その売却によって競争を促進。&lt;/p&gt;
+&lt;p&gt;（具体的措置）&lt;br&gt;
+・グーグルはChromeを第三者に売却する義務を負う。&lt;br&gt;
+・売却後、グーグルは5年間ブラウザ市場に再参入することを禁止される。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;「競争を促進」&lt;/strong&gt; なんて無理だと思います．分離したところで多くのユーザーは「Google」っていう検索エンジンを知ってしまったのですから，自分らでChromeをインストールして検索エンジンをGoogleに設定することでしょう．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「知名度」&lt;/strong&gt; というものは恐ろしい物です．だってそれを知ってしまったら，他の検索エンジンを知る必要がないのですから．(Googleに不満がない限り)&lt;/p&gt;
+&lt;p&gt;結果が出ないと分かっていても，他のプラットフォーマーが感じる不公平を放置することが，公的機関として問題だから形だけでも対処しておいた方が良いのはわかります．立場上やらなくてはいけないのでしょう．&lt;/p&gt;
+&lt;p&gt;これによって，例えばGoogle アカウントによる同期ができなくなるなど，&lt;strong&gt;消費者の利便性を阻害していること&lt;/strong&gt;に関してはどうでもいいのでしょうか．まあ実際売却してもどこまで技術協力を許可するかにもよりますし，もしかしたら&lt;strong&gt;Chrome アカウント&lt;/strong&gt;なる独自の同期アカウントが誕生するかもしれません．&lt;/p&gt;
+&lt;h2 id=&#34;androidに関する規制&#34;&gt;Androidに関する規制&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2. Androidに関する規制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（選択肢1）Androidの分割&lt;br&gt;
+・グーグルがAndroidを使用して検索市場の競争を妨害する行為を防止。&lt;br&gt;
+・Androidを完全に分離・売却する。&lt;/p&gt;
+&lt;p&gt;（選択肢2）行動上の是正措置&lt;br&gt;
+・グーグルがAndroidを利用して自社の検索エンジンを優遇する行為を制限。&lt;br&gt;
+・プラットフォーム上での公平性を確保するための監視と規制の導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Androidの場合は，Googleとエンドユーザーの間にベンダーが挟まりますので，ベンダーが自由に検索エンジンを選べるようにするというのは良いことだと思います．&lt;/p&gt;
+&lt;p&gt;あとAndroidに&lt;strong&gt;Google Playストアをプリインストールして端末を売るためには，他のGoogle アプリも抱き合わせにしないといけない&lt;/strong&gt;のも規制したら効果的だと思います．というかむしろこっちの方が寡占としては問題なんじゃないんでしょうか．&lt;/p&gt;
+&lt;h2 id=&#34;デフォルト検索エンジン契約の禁止&#34;&gt;デフォルト検索エンジン契約の禁止&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3. デフォルト検索エンジン契約の禁止&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルが他社デバイスやブラウザで検索エンジンをデフォルトに設定するために金銭的価値を提供する契約を禁止。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ自体は良いことだと思うんですけど，それによってFirefoxが死滅しそうになってることについてはなんとも思わないんでしょうか．&lt;/p&gt;
+&lt;p&gt;Firefoxを開発するMozillaがGoogleの独禁法訴訟でGoogleの各種事業が破壊されると運営資金がピンチになると訴える&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gigazine.net/news/20241219-mozilla-google-browsers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gigazine.net/news/20241219-mozilla-google-browsers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（Safariは自社OSでしか使えないからほっておいて）ブラウザの寡占状態になったら，それこそ独立したChromeが暴走して，ブラウザ界のGoogleになる危険性も十分にあります．&lt;/p&gt;
+&lt;p&gt;拡張機能への締め付けとか，(オープンソースとはいえ) 自社が有利になるようなChromiumへの改変を平気でやるようになると思う．&lt;/p&gt;
+&lt;h2 id=&#34;データ共有と透明性の向上&#34;&gt;データ共有と透明性の向上&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4. データ共有と透明性の向上&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（データの提供）&lt;br&gt;
+・グーグルが収集した検索データや広告データをライバル企業に共有。&lt;br&gt;
+・共有は無償で、プライバシーを保護したうえで行われる。&lt;/p&gt;
+&lt;p&gt;（広告データの透明性）&lt;br&gt;
+・広告主に対し、検索広告のパフォーマンスやコストに関する詳細情報を提供。&lt;br&gt;
+・広告データをライバルプラットフォームで利用可能にする仕組みを導入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ例えば何かしらのパラダイムシフトで，Bingがシェア1位になったらMicrosoftにも同じことを要求するんでしょうか．&lt;/p&gt;
+&lt;p&gt;そうじゃなきゃ不公平ですよね．もしGoogle一社にこれを許して前例ができてしまったら，どのプラットフォーマーもビジネスに少し慎重になってしまう気がします．&lt;/p&gt;
+&lt;p&gt;むしろそれぞれのプラットフォーマーがデータ収集・活用技術を向上させガンガン稼がせた方が，競争促進にもなるし何より&lt;strong&gt;アメリカの経済的な国益&lt;/strong&gt;になると思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争を促進する仕組み&#34;&gt;競争を促進する仕組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5. 競争を促進する仕組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルの検索結果データ（インデックスやランキングシグナル）をライバルが利用できる形で提供。&lt;br&gt;
+・10年間、グーグルの検索結果や広告の一部をサードパーティが利用可能にする。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これ最初にも書きましたが，&lt;strong&gt;米司法省が早期に規制をして肥大化を抑止していれば&lt;/strong&gt;こんなことやる必要なかったんですよ．&lt;/p&gt;
+&lt;p&gt;「お前ら大きくなりすぎたから，一時的にボランティアになれ」って言ってるようなもんですよね．&lt;/p&gt;
+&lt;p&gt;競争促進には効果的だと思いますが，米司法省はこのような時間調整をしないといけない状況を作ったことを &lt;strong&gt;「恥ずかしいこと」&lt;/strong&gt; だと認識した方が良いと思います．&lt;/p&gt;
+&lt;h2 id=&#34;競争の妨害行為を防止するための管理&#34;&gt;競争の妨害行為を防止するための管理&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6．競争の妨害行為を防止するための管理&lt;/strong&gt;&lt;br&gt;
+（技術委員会の設置）&lt;br&gt;
+・グーグルの是正措置の履行を監視するために独立した技術委員会を設置。&lt;br&gt;
+・コンプライアンスオフィサーの任命：グーグル内部に、是正措置の遵守を保証する責任者を設置。&lt;/p&gt;
+&lt;p&gt;（違反の防止）&lt;br&gt;
+・グーグルが裁判所の是正措置を回避したり、競争を妨害する行為をしたりした場合の罰則を規定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ごくごく普通の競争健全化施策なので飛ばします．&lt;/p&gt;
+&lt;h2 id=&#34;ユーザー選択を増やすための取り組み&#34;&gt;ユーザー選択を増やすための取り組み&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7. ユーザー選択を増やすための取り組み&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;・グーグルブラウザやAndroidデバイスでの「検索エンジン選択画面（choice screen）」の導入。&lt;br&gt;
+・選択画面を通じて、ユーザーが公平に他の検索エンジンを選択できる仕組みを確立。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そもそもその選択画面ですら，Googleが認知しているサービスだけが一覧に載るんでしょ．一部のプラットフォーマーを優遇してることに変わりないじゃないですか．(EUのInternet Explorerへの規制でも同じこと思ってた)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; でも言いましたけど，Google の知名度とシェアが広がってしまった以上大半のユーザーが「Google」を選ぶことに変わりありません．やらないよりはマシってことなんでしょうけど．&lt;/p&gt;
+&lt;p&gt;ユーザーにとって公平に検索エンジンを選択できるようにするならば，デフォルトで&lt;strong&gt;検索エンジンを一切搭載せずに，&lt;/strong&gt; 以下のようにユーザーに一から手動設定させるべきです．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;え？ &lt;strong&gt;「デジタル慣れしてない一般ユーザーに負担が大きすぎる」&lt;/strong&gt; だって？&lt;/p&gt;
+&lt;p&gt;甘えたこと言わないでください．&lt;del&gt;&lt;strong&gt;「公平」&lt;/strong&gt; が大事なんでしょ．これくらいやれよ．&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;若干，というかほぼ屁理屈みたいなことしか言ってませんが，要は &lt;strong&gt;「大きくなりすぎてからの規制は消費者に負担と混乱を招くだけ」&lt;/strong&gt; ということを言いたかっただけです．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>「SNSは連絡ツールとは別」←この考え方って古い？</title>
+		<link>https://t-asa2000.net/post/202408_02/</link>
+		<pubDate>Thu, 15 Aug 2024 13:07:09 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202408_02/</guid>
+		<description>&lt;h2 id=&#34;インターネットとの出会い&#34;&gt;インターネットとの出会い&lt;/h2&gt;
+&lt;p&gt;私がインターネットを触り始めたのは小学生の頃(2008年)．当時は当然のことながら，自分から何かを発信するためのアカウントや場所は持っていませんでした．Twitterもアカウントなしで，その都度見たい人のユーザーページに飛んで見てたので，&lt;strong&gt;真の意味でのROM専&lt;/strong&gt; でした．&lt;/p&gt;
+&lt;p&gt;当時はTwitterなどのSNSは人口が少なく，必然的に &lt;strong&gt;画面の向こう側にいる知らない人だけに向けて&lt;/strong&gt;，発信やコミュニケーションを取らざるを得なかったわけです．&lt;/p&gt;
+&lt;p&gt;アカウントこそ持っていなかったのですが，その当時のイメージが強いので，私は未だにSNSを &lt;strong&gt;「画面の向こう側の人とやり取りするツール」&lt;/strong&gt; だと思っています．&lt;/p&gt;
+&lt;h2 id=&#34;snsと連絡ツールの境界線&#34;&gt;SNSと連絡ツールの境界線&lt;/h2&gt;
+&lt;p&gt;まず私の中での定義として以下のように分けてます．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SNS&lt;/strong&gt; : 世界中の誰に見られても良い前提で短い発信を行うもの(基本的に一方向)
+&lt;ul&gt;
+&lt;li&gt;X(旧Twitter)，Mastodon，Misskey，Threads，Instagramなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;連絡ツール&lt;/strong&gt; : 現実の友人知人・家族との生活上必要な双方向のやり取りを行うもの
+&lt;ul&gt;
+&lt;li&gt;LINEなど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;昨今，自分と同世代の若者達の一部が，InstagramのDMしか使わないとか，俗に言う &lt;strong&gt;「LINE離れ」&lt;/strong&gt; みたいな話を聞くんですけども，&lt;/p&gt;
+&lt;p&gt;私としては &lt;strong&gt;「公開空間のアカウントで非公開なやり取りをする」&lt;/strong&gt; ということにすごく気持ち悪さ，セキュリティやプライバシー上の危険性を感じてしまうのです．&lt;/p&gt;
+&lt;p&gt;奇跡的にも自分はこれまで，インスタのDMでやり取りするような人間関係に遭遇しなかったのですが，万が一そうせざるを得なかった場合はDM専用のアカウントを作って運用していたと思います．&lt;/p&gt;
+&lt;h2 id=&#34;内輪ネタを書かないリア垢も作らない&#34;&gt;内輪ネタを書かない，リア垢も作らない&lt;/h2&gt;
+&lt;p&gt;上述のようにDMだけの運用なら &lt;strong&gt;「連絡ツール」&lt;/strong&gt; という扱いになるので，まだ自分としても許容できます．&lt;/p&gt;
+&lt;p&gt;問題はタイムラインへの投稿です．&lt;/p&gt;
+&lt;p&gt;私も高専時代，Twitterを使っていて内輪のフォロイー・フォロワーの割合が8割くらいになってしまい，&lt;strong&gt;「SNS」&lt;/strong&gt; にも拘わらず内輪寄りのコミュニケーションになりかけてしまったことがあります．&lt;/p&gt;
+&lt;p&gt;それでも，気を付けていたことは &lt;strong&gt;「内輪ネタをタイムラインに書かない」&lt;/strong&gt; ということです．&lt;/p&gt;
+&lt;p&gt;ここで言う内輪ネタとは，当時の学校の独自の教科名や授業内容についてのこと，現実の友人との間で起きた出来事，つまり &lt;strong&gt;私と物理的に同じ空間にいる人じゃないと分からない情報&lt;/strong&gt; です．&lt;/p&gt;
+&lt;p&gt;「だったらフォロー承認制のリア垢を作れば良いじゃん」&lt;/p&gt;
+&lt;p&gt;これを見てそう思った人もいるかもしれません．しかし，鍵垢にしてようが間違って知らない人のフォローを承認してしまう可能性もゼロではありません．&lt;/p&gt;
+&lt;p&gt;例えば私が何かの投稿がバズったor炎上した時に，過去の投稿やフォロイー・フォロワーから辿られて，身元を特定されたり他の現実の友人達がトラブルに巻き込まれるかもしれません．私はリスクを負ったり他人に迷惑をかけてまで，SNSに本腰を入れるつもりはありません．&lt;/p&gt;
+&lt;p&gt;「インターネットを警戒し過ぎなのでは」って思われるかもしれない．でも，それが正解だと思います．&lt;/p&gt;
+&lt;p&gt;そもそも &lt;strong&gt;インターネットは怖い場所&lt;/strong&gt; です．ただ，スマホの普及で&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;周囲がInstagramをやってる&lt;/li&gt;
+&lt;li&gt;電車で隣の人がTwitterを開いてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これが当たり前になった現代，インターネット上の公開空間に &lt;strong&gt;参加すること&lt;/strong&gt; への抵抗が薄れてきたことで，&lt;br&gt;
+世の中の風潮も「リアルとネットの壁を無くす＝SNSも連絡手段の一つだと捉える」という風に変わっていったのだと考えています．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>「ホームページを作って欲しい」って言ってきた人に見せる記事</title>
+		<link>https://t-asa2000.net/post/20230310/</link>
+		<pubDate>Fri, 10 Mar 2023 01:36:26 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20230310/</guid>
+		<description>&lt;img src="https://t-asa2000.net/post/20230310/img1.png" alt="Featured image of post 「ホームページを作って欲しい」って言ってきた人に見せる記事" /&gt;&lt;h2 id=&#34;プロローグ&#34;&gt;プロローグ&lt;/h2&gt;
+&lt;p&gt;世間一般よりもほんの少しだけPCスキルがある・・・そんな感じの中途半端なデジタルの素質を持ってる筆者なんですが，人生で何回かHPを作ってくれと頼まれたりしてきました．&lt;/p&gt;
+&lt;p&gt;今の時代&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wixで誰でも作れるから人に頼まなくても良くね？&lt;/li&gt;
+&lt;li&gt;Twitterやインスタで宣伝できるからHPなんか要らなくね？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と言われてもおかしくない時代なんですが，それでも「ホームページ」という物への需要はまだ完全に無くなってはいないみたいです．&lt;/p&gt;
+&lt;p&gt;今回の記事は，あまり技術関係に詳しくない方向けに書いたものです．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページを作る意味&#34;&gt;ホームページを作る意味&lt;/h2&gt;
+&lt;p&gt;一番大きなことは「情報の整理・集約化」だと思います．&lt;/p&gt;
+&lt;p&gt;例えば，あなたが飲食店の経営者で，毎日，TwitterやInstagramにお店のメニューを写真付きで投稿しているとします．拡散効果は期待できるでしょう．ですが，その情報は&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;時系列順に写真や文章が並んでいるだけ&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;であり，その情報の中にはお店からのお知らせや店主の独り言など，&amp;ldquo;他のカテゴリの情報&amp;rdquo; も含まれていますね．&lt;/p&gt;
+&lt;p&gt;「&lt;strong&gt;シンプルにお店のメニューだけが見たい&lt;/strong&gt;」&lt;/p&gt;
+&lt;p&gt;と思ったお客さんが，過去の投稿を遡って色んなメニューの説明を見ていくのは非常に利便性(ユーザビリティ)が悪いです．&lt;/p&gt;
+&lt;p&gt;そんな時にホームページという，ググれば誰でも見つけられる場所（※）に料理の一覧を置いておくことで，&lt;strong&gt;必要な人が必要な時に&lt;/strong&gt;情報を得ることができます．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ググれば誰でも見つけられる場所といいましたが，Google 検索で上位に表示されるにはある程度の閲覧数が必要です．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ホームページの正体&#34;&gt;ホームページの正体&lt;/h2&gt;
+&lt;p&gt;「ホームページの正体」と言うと語弊があるので「Webページの正体」の方が適切かもしれません．&lt;/p&gt;
+&lt;p&gt;↓ざっくり言ってしまうとこれが「Webページの正体」です．&lt;/p&gt;
+
+&lt;img src=&#34;img1.png&#34; width=500&gt;
+
+&lt;p&gt;信じられないかもしれませんが，このダラダラと長いコードが「Webページ」です．極端な話，皆さんが普段見てるTwitter(アプリではなくブラウザ版)の正体もこれです．&lt;/p&gt;
+&lt;p&gt;ここで，恐らく皆さんの頭にこんな疑問が出てくると思います．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q. でもwixとかホームページ・ビルダーって見た目そのままに作れるよ？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;簡潔に言います．コードに起こす作業をwixやホームページ・ビルダーが&lt;strong&gt;あなたの代わりにやってます．&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勿論，今どきのWeb屋さんもケースバイケースですが，人の手で書くコードは最小限に減らすための色々な工夫をしています．あの長いコード全てを自分で書くことはごく稀でしょう．&lt;/p&gt;
+&lt;h2 id=&#34;ホームページに関わる3つの要素&#34;&gt;ホームページに関わる3つの要素&lt;/h2&gt;
+&lt;p&gt;ホームページを作るうえで抑えておきたいのが，以下の3つの要素です．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームページの中身（を生成するためのツール）&lt;/li&gt;
+&lt;li&gt;サーバー（ホームページの置き場所）&lt;/li&gt;
+&lt;li&gt;ドメイン（置き場所の住所）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ドメインというのは，&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.google.co.jp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.google.co.jp&lt;/a&gt;&lt;/strong&gt; みたいなやつのことです．&lt;/p&gt;
+&lt;h3 id=&#34;中身サーバードメインが全てセット&#34;&gt;中身・サーバー・ドメインが全てセット&lt;/h3&gt;
+&lt;p&gt;1.と2.と3.が全てセットになったのが&lt;a class=&#34;link&#34; href=&#34;https://ja.wix.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;wix&lt;/strong&gt;」&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;https://sites.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;Google サイト&lt;/strong&gt;」&lt;/a&gt;みたいなものです．パワポ感覚でHPが作れます．業者に頼めないし簡易的なものでいいから作りたい，という用途には最適です．&lt;/p&gt;
+&lt;p&gt;ただもちろん無料なので制約は色々あります．一番大きいのが「ドメイン」の制約だと思います．wix使ったことがないので分かりませんが，ドメインは「〇〇.wix.com」みたいな形式になると思います．間違ってたらごめんなさい．&lt;/p&gt;
+&lt;p&gt;あと，wixの場合は画面内に「wixを使いませんか」みたいな広告が常駐するので，見栄えは悪くなりますね．&lt;/p&gt;
+&lt;h3 id=&#34;中身を作ってサーバードメインは別に用意&#34;&gt;中身を作ってサーバー・ドメインは別に用意&lt;/h3&gt;
+&lt;p&gt;恐らく2000年代まで個人で作るホームページの主流がこれ．&lt;a class=&#34;link&#34; href=&#34;https://www.justsystems.com/jp/products/hpb/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「&lt;strong&gt;ホームページ・ビルダー&lt;/strong&gt;」&lt;/a&gt;などのソフトウェアを使って，見た目通りに作成します．その後，生成されたファイルをサーバーに手動でアップロード(コピー)します．&lt;/p&gt;
+&lt;p&gt;中身をパソコンの中で作ってから，サーバーに持っていくイメージです．&lt;/p&gt;
+&lt;p&gt;このサイトも，ホームページ・ビルダーとは全く別物ですが，「静的サイトジェネレーター」と呼ばれるツールを使って，PCの中でファイルを作ってから公開しています．&lt;/p&gt;
+&lt;p&gt;お金払ってサーバー契約すれば，広告も勝手に載りませんし，ドメインも自分で契約したものを自由に使えるので，これが一番ホームページらしいホームページが作れるかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;wixみたいなシステムをサーバーの中に設置してしまう奥の手&#34;&gt;wixみたいなシステムをサーバーの中に設置してしまう(奥の手)&lt;/h3&gt;
+&lt;p&gt;実は，先ほどの1+2+3の方法のように，ブラウザ上で更新してそのまま公開するシステムを，wixなどの大手サービスに頼らなくても，自分のサーバー内に設置することができます．&lt;/p&gt;
+&lt;p&gt;それが「&lt;strong&gt;CMS&lt;/strong&gt;」と呼ばれるツールで，代表的なものが&lt;a class=&#34;link&#34; href=&#34;https://ja.wordpress.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;WordPress&lt;/strong&gt;&lt;/a&gt;です．&lt;/p&gt;
+&lt;p&gt;ただこれは環境構築が専門の知識がいることと，サーバーの中にデータベースを作成したりするため，システムが煩雑になりやすいという欠点があります．また，セキュリティ的なリスクもあり，万全な体制と人的余裕がなければ基本おすすめできません．&lt;/p&gt;
+&lt;p&gt;サーバー周りの管理をする専門の知識・技術を持った人がいて，それと別に内容を更新する人がいるのであれば，最適な方法だと思います．&lt;/p&gt;
+&lt;h2 id=&#34;hp作りを友人知人に委託したい人へ&#34;&gt;HP作りを友人・知人に委託したい人へ&lt;/h2&gt;
+&lt;p&gt;私はちゃんとした仕事としてWeb屋をやっている訳ではないので，世の中のWeb屋さん達がどういう風に仕事をしているのかは分かりません．&lt;/p&gt;
+&lt;p&gt;ただ，個人的に今まで色々HPを作って来て思うのが，以下の点については，委託側と受託側で認識を共有して置いた方がいいような気がしました．&lt;/p&gt;
+&lt;h3 id=&#34;更新頻度&#34;&gt;更新頻度&lt;/h3&gt;
+&lt;p&gt;最初に基本的な情報(飲食店の例:アクセス，メニューなど)を書いたら後は放置する，あるいは最初の更新以降も定期的にお知らせなどを発信する，どれくらいのペースで更新していきたいのかは，予めイメージしておいた方がいいと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまでを自分でやるか&#34;&gt;どこまでを自分でやるか&lt;/h3&gt;
+&lt;p&gt;本当に何も分からないと言う場合は，載せたい内容をWordファイルにまとめたり簡単なメモにして送ったり，という感じで良いと思いますし，逆に自分でも直接手を加えたい場合は，相手にもその旨伝えておいた方が良いかと思います．&lt;/p&gt;
+&lt;h3 id=&#34;どこまで相手に介入させるか&#34;&gt;どこまで相手に介入させるか&lt;/h3&gt;
+&lt;p&gt;ホームページの中身だけを作って欲しいか，サーバー内のファイルの操作も許可するか，そこら辺のルールもしっかりと決めておいた方がいいかもしれません．&lt;/p&gt;
+&lt;h3 id=&#34;引き継ぎ&#34;&gt;引き継ぎ&lt;/h3&gt;
+&lt;p&gt;これが一番難しいかなと思いました．先述の通り，我々も全てのコードを手打ちしている訳ではなく「ツール」に頼っているのですが，そのツールもホームページ・ビルダーのような初心者向けではなく，そこそこのスキルが求められる上級者向けのツールだったりします．&lt;/p&gt;
+&lt;p&gt;例えば，このサイトは「Hugo」というツールを使って作ったのですが，この更新を後任者に引き継ぐのであれば，Hugoが使える人を引っ張ってくるか，最低限使い方をレクチャーするかしないといけない訳です．&lt;/p&gt;
+&lt;p&gt;もっと面倒くさいのが「WordPress」のようなCMSで，例えばシステムがぶっ壊れた時の応急措置やら，データベース周りのパスワードやら，引き継がないといけない内容が多いこと，&lt;/p&gt;
+&lt;p&gt;さらに，プラグインを使って機能を拡張していくのでシステムが煩雑になって・・・面倒くさいです．正直言ってあまり手を出したくないのです(使っている最中は楽だけど)&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;という訳で，今回の記事を通して伝えたかったことは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HPを作る目的を今一度確認して欲しい&lt;/li&gt;
+&lt;li&gt;中身＋サーバー＋ドメインの組み合わせを理解して欲しい&lt;/li&gt;
+&lt;li&gt;誰かに頼むなら色々なルール決めや認識共有をして欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ということでした．最後までご覧いただきありがとうございました．&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>Hugoに移行してみた</title>
+		<link>https://t-asa2000.net/post/20220903/</link>
+		<pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20220903/</guid>
+		<description>&lt;p&gt;これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 &lt;strong&gt;GitHub Pages + Hugo&lt;/strong&gt; に移行しました．&lt;/p&gt;
+&lt;p&gt;移行と言ってもめんどくさかったので過去記事は全て消滅させました（笑）&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2023.3.6 追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;コードブロックが使いたかったので，テーマを採用しました．個人サイトとブログを統合しました．&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

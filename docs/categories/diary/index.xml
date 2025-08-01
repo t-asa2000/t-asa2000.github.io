@@ -1,48 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary | t-asa2000.net</title><description>Recent content in Diary on t-asa2000.net</description><link>https://t-asa2000.net/categories/diary/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 27 Dec 2024 09:17:12 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/categories/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>【個人的振り返り】2024年ありがとうございました・来年の目標など</title><link>https://t-asa2000.net/post/202412_03/</link><pubDate>Fri, 27 Dec 2024 09:17:12 +0900</pubDate><guid>https://t-asa2000.net/post/202412_03/</guid><description>&lt;p>こんな記事今まで書いてなかったのですが，ブログへのモチベが高まってる時期なので書いていきます．（多分しばらくしたらまた更新が止まるので）&lt;/p>
-&lt;h2 id="はじめに">はじめに&lt;/h2>
-&lt;p>2024年もブログしかりSNS投稿しかり，色々な媒体でお世話になりました．&lt;/p>
-&lt;p>今年1年，&lt;strong>「自分に起きたこと，成長できたこと，そして来年の目標」&lt;/strong> 書いていけたらと思います．&lt;/p>
-&lt;h2 id="自分に起きたこと">自分に起きたこと&lt;/h2>
-&lt;h3 id="大学院への進学が決まった">大学院への進学が決まった&lt;/h3>
-&lt;p>一時は卒業すらちょっと怪しかったんですが，おかげさまで無事大学院に進学できることが決まりました．&lt;/p>
-&lt;h3 id="車に関する悪い出来事が多かった">車に関する悪い出来事が多かった&lt;/h3>
-&lt;p>今年は車に関する悪い出来事が多かったですね．&lt;/p>
-&lt;ul>
-&lt;li>4月 : もらい事故で修理&lt;/li>
-&lt;li>9月 : ステアリングの不具合で修理 (人生初の代車)&lt;/li>
-&lt;li>10月 : 朝起きたら家の駐車場でタイヤがパンクして潰れてた&lt;/li>
-&lt;/ul>
-&lt;p>ただ，こういう経験をしておくことでいざという時どこに連絡して何をすれば良いのか，学ぶことができたので今となってはまあ良かったのかなとも思っています．&lt;/p>
-&lt;h3 id="その他">その他&lt;/h3>
-&lt;ul>
-&lt;li>後輩ができた&lt;/li>
-&lt;li>人生初の学会発表をした&lt;/li>
-&lt;li>&lt;a class="link" href="https://t-asa2000.net/post/202412_01/" >&lt;strong>「Misskey Advent Calendar 2024」&lt;/strong>&lt;/a>に参加した&lt;/li>
-&lt;/ul>
-&lt;h2 id="成長できたこと">成長できたこと&lt;/h2>
-&lt;h3 id="開発技術の大幅な向上">開発技術の大幅な向上&lt;/h3>
-&lt;p>今年の4月頃から，とあるWebシステムの開発に携わらせていただいていて（といいつつ既存のソースコードを頂いて，フォークとして独自に開発を進めてるんですが），そこで開発力を大幅に向上させることができたなと思います．&lt;/p>
-&lt;p>Node.jsで動くサーバーサイドとフロントエンドが分離してる（それこそMisskeyみたいなタイプの）アプリケーションを開発することで， &lt;strong>Expressでのルーティング，Vueによるフロントエンド開発，APIやデータベースの設計&lt;/strong> などなど色々なことを自分でやったことは大きな経験になりましたね．&lt;/p>
-&lt;p>また，実際に業界で働いてらっしゃる方のソースコードを見れたこと，一緒に沢山お話しできたことが自分の人生において大きな財産になりました．&lt;/p>
-&lt;h3 id="他に">他に&lt;/h3>
-&lt;p>書くことがねぇ・・・（こいつの人生コードしか書いてない？）&lt;/p>
-&lt;h2 id="来年の目標">来年の目標&lt;/h2>
-&lt;h3 id="体調管理">体調管理&lt;/h3>
-&lt;p>来年は就活も始まりますし，今のように &lt;strong>「学校行くだけで体力全消耗」&lt;/strong> だと死んでしまうので疲れにくい身体を作っていきたいなと思っています．&lt;/p>
-&lt;h3 id="コミュニケーション能力を鍛えたい">コミュニケーション能力を鍛えたい&lt;/h3>
-&lt;p>これも就活のためですね．特に瞬発的な考察力が弱い．会話のキャッチボールで，自分が想定していないことを言われると何も返せなくなってしまうので．&lt;/p>
-&lt;h3 id="ブログの更新頻度が上がったので維持したい">ブログの更新頻度が上がったので維持したい&lt;/h3>
-&lt;p>2024年12月のアドベントカレンダー参加を機に，実はブログもプチリニューアルさせました．そしたら&lt;strong>急にモチベが出て更新頻度が上がった&lt;/strong>（笑）&lt;/p>
-&lt;p>&lt;strong>「とりあえずUDフォント使えばええやろ」&lt;/strong> とか思ってBIZ UDPゴシックを採用してたら，クッソ見辛かったのでNoto Sans JPに変えてみたり&lt;/p>
-&lt;p>&lt;a class="link" href="https://t-asa2000.net/profile/" >&lt;strong>プロフィール&lt;/strong>&lt;/a>をちゃんと（？）整備したり，どんな環境でも見やすいようにCSSを調整したりしました．&lt;/p>
-&lt;p>MisskeyやMastodonで好きな時に好きなこと吐き出すよりも，こういう場所で1～2時間かけて自分の頭の中を整理する作業が，&lt;strong>面倒だけど自分には必要な時間&lt;/strong> なんじゃないかと思うようになりました．&lt;/p>
-&lt;p>今年は8月に1回，12月にはこれも含めて3回更新したことになるので，月1～2回程度の更新を今後も続けていきたいですね．&lt;/p>
-&lt;h2 id="挨拶">挨拶&lt;/h2>
-&lt;p>今年も本当にありがとうございました．来年も私のことをどうか見守っていただければと思っています．&lt;/p>
-&lt;p>それでは，&lt;strong>良いお年を！！！&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>追記&lt;/strong>&lt;/p>
-&lt;p>マジで思ったより書くことなかった&lt;/p></description></item><item><title>ネタ切れ</title><link>https://t-asa2000.net/post/20230309/</link><pubDate>Thu, 09 Mar 2023 18:46:26 +0900</pubDate><guid>https://t-asa2000.net/post/20230309/</guid><description>&lt;p>ネタがない 町内&lt;br>
-なななな なななな&lt;/p>
-&lt;p>　終&lt;br>
-ーーー&lt;br>
-ＮＨＫ&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>Diary | t-asa2000.net</title>
+			<description>Recent content in Diary on t-asa2000.net</description><link>https://t-asa2000.net/categories/diary/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Fri, 27 Dec 2024 09:17:12 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/categories/diary/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>【個人的振り返り】2024年ありがとうございました・来年の目標など</title>
+		<link>https://t-asa2000.net/post/202412_03/</link>
+		<pubDate>Fri, 27 Dec 2024 09:17:12 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/202412_03/</guid>
+		<description>&lt;p&gt;こんな記事今まで書いてなかったのですが，ブログへのモチベが高まってる時期なので書いていきます．（多分しばらくしたらまた更新が止まるので）&lt;/p&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;2024年もブログしかりSNS投稿しかり，色々な媒体でお世話になりました．&lt;/p&gt;
+&lt;p&gt;今年1年，&lt;strong&gt;「自分に起きたこと，成長できたこと，そして来年の目標」&lt;/strong&gt; 書いていけたらと思います．&lt;/p&gt;
+&lt;h2 id=&#34;自分に起きたこと&#34;&gt;自分に起きたこと&lt;/h2&gt;
+&lt;h3 id=&#34;大学院への進学が決まった&#34;&gt;大学院への進学が決まった&lt;/h3&gt;
+&lt;p&gt;一時は卒業すらちょっと怪しかったんですが，おかげさまで無事大学院に進学できることが決まりました．&lt;/p&gt;
+&lt;h3 id=&#34;車に関する悪い出来事が多かった&#34;&gt;車に関する悪い出来事が多かった&lt;/h3&gt;
+&lt;p&gt;今年は車に関する悪い出来事が多かったですね．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4月 : もらい事故で修理&lt;/li&gt;
+&lt;li&gt;9月 : ステアリングの不具合で修理 (人生初の代車)&lt;/li&gt;
+&lt;li&gt;10月 : 朝起きたら家の駐車場でタイヤがパンクして潰れてた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただ，こういう経験をしておくことでいざという時どこに連絡して何をすれば良いのか，学ぶことができたので今となってはまあ良かったのかなとも思っています．&lt;/p&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;後輩ができた&lt;/li&gt;
+&lt;li&gt;人生初の学会発表をした&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t-asa2000.net/post/202412_01/&#34; &gt;&lt;strong&gt;「Misskey Advent Calendar 2024」&lt;/strong&gt;&lt;/a&gt;に参加した&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;成長できたこと&#34;&gt;成長できたこと&lt;/h2&gt;
+&lt;h3 id=&#34;開発技術の大幅な向上&#34;&gt;開発技術の大幅な向上&lt;/h3&gt;
+&lt;p&gt;今年の4月頃から，とあるWebシステムの開発に携わらせていただいていて（といいつつ既存のソースコードを頂いて，フォークとして独自に開発を進めてるんですが），そこで開発力を大幅に向上させることができたなと思います．&lt;/p&gt;
+&lt;p&gt;Node.jsで動くサーバーサイドとフロントエンドが分離してる（それこそMisskeyみたいなタイプの）アプリケーションを開発することで， &lt;strong&gt;Expressでのルーティング，Vueによるフロントエンド開発，APIやデータベースの設計&lt;/strong&gt; などなど色々なことを自分でやったことは大きな経験になりましたね．&lt;/p&gt;
+&lt;p&gt;また，実際に業界で働いてらっしゃる方のソースコードを見れたこと，一緒に沢山お話しできたことが自分の人生において大きな財産になりました．&lt;/p&gt;
+&lt;h3 id=&#34;他に&#34;&gt;他に&lt;/h3&gt;
+&lt;p&gt;書くことがねぇ・・・（こいつの人生コードしか書いてない？）&lt;/p&gt;
+&lt;h2 id=&#34;来年の目標&#34;&gt;来年の目標&lt;/h2&gt;
+&lt;h3 id=&#34;体調管理&#34;&gt;体調管理&lt;/h3&gt;
+&lt;p&gt;来年は就活も始まりますし，今のように &lt;strong&gt;「学校行くだけで体力全消耗」&lt;/strong&gt; だと死んでしまうので疲れにくい身体を作っていきたいなと思っています．&lt;/p&gt;
+&lt;h3 id=&#34;コミュニケーション能力を鍛えたい&#34;&gt;コミュニケーション能力を鍛えたい&lt;/h3&gt;
+&lt;p&gt;これも就活のためですね．特に瞬発的な考察力が弱い．会話のキャッチボールで，自分が想定していないことを言われると何も返せなくなってしまうので．&lt;/p&gt;
+&lt;h3 id=&#34;ブログの更新頻度が上がったので維持したい&#34;&gt;ブログの更新頻度が上がったので維持したい&lt;/h3&gt;
+&lt;p&gt;2024年12月のアドベントカレンダー参加を機に，実はブログもプチリニューアルさせました．そしたら&lt;strong&gt;急にモチベが出て更新頻度が上がった&lt;/strong&gt;（笑）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「とりあえずUDフォント使えばええやろ」&lt;/strong&gt; とか思ってBIZ UDPゴシックを採用してたら，クッソ見辛かったのでNoto Sans JPに変えてみたり&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t-asa2000.net/profile/&#34; &gt;&lt;strong&gt;プロフィール&lt;/strong&gt;&lt;/a&gt;をちゃんと（？）整備したり，どんな環境でも見やすいようにCSSを調整したりしました．&lt;/p&gt;
+&lt;p&gt;MisskeyやMastodonで好きな時に好きなこと吐き出すよりも，こういう場所で1～2時間かけて自分の頭の中を整理する作業が，&lt;strong&gt;面倒だけど自分には必要な時間&lt;/strong&gt; なんじゃないかと思うようになりました．&lt;/p&gt;
+&lt;p&gt;今年は8月に1回，12月にはこれも含めて3回更新したことになるので，月1～2回程度の更新を今後も続けていきたいですね．&lt;/p&gt;
+&lt;h2 id=&#34;挨拶&#34;&gt;挨拶&lt;/h2&gt;
+&lt;p&gt;今年も本当にありがとうございました．来年も私のことをどうか見守っていただければと思っています．&lt;/p&gt;
+&lt;p&gt;それでは，&lt;strong&gt;良いお年を！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;追記&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;マジで思ったより書くことなかった&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>ネタ切れ</title>
+		<link>https://t-asa2000.net/post/20230309/</link>
+		<pubDate>Thu, 09 Mar 2023 18:46:26 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/post/20230309/</guid>
+		<description>&lt;p&gt;ネタがない 町内&lt;br&gt;
+なななな なななな&lt;/p&gt;
+&lt;p&gt;　終&lt;br&gt;
+ーーー&lt;br&gt;
+ＮＨＫ&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

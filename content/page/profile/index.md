@@ -2,7 +2,6 @@
 title: プロフィール
 draft: false
 date: 2023-03-06
-lastmod: 2024-12-21
 menu:
     main: 
         weight: 2
@@ -24,7 +23,7 @@ Niigata-pref, Japan. Student. Male.**
 
 ### お問い合わせ
 
-[こちらの問い合わせフォームをご利用ください．](https://forms.gle/EiWydB9utuZktf4Y6)
+info.t.asa2000あっとgmail.com
 
 ## 使用したことのある言語・フレームワーク・技術スタックなど
 

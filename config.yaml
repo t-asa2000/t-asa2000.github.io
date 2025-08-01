@@ -214,17 +214,10 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
   main:
-    - identifier: spotify
-      name: プレイリスト
-      url: "https://open.spotify.com/playlist/2QaGyw6rKWDO28LiNnj9T3"
+    - identifier: note
+      name: note
+      url: "https://note.com/t_asa2000"
       weight: 100
-      params:
-        icon: brand-spotify
-        newtab: true
-    - identifier: qiita
-      name: Qiita
-      url: "https://qiita.com/t_asa"
-      weight: 101
       params:
         icon: archives
         newtab: true
@@ -242,26 +235,12 @@ menu:
       params:
         icon: brand-github
         newtab: true
-    - identifier: misskey
-      name: Misskey.io
-      url: "https://misskey.io/@asata"
-      weight: 104
-      params:
-        icon: planet
-        newtab: true
     - identifier: fedibird
       name: Fedibird.com
       url: "https://fedibird.com/@asata"
-      weight: 105
+      weight: 104
       params:
         icon: planet
-        newtab: true
-    - identifier: nicovideo
-      name: ニコニコ動画
-      url: "https://www.nicovideo.jp/user/82641779"
-      weight: 106
-      params:
-        icon: movie
         newtab: true
 
   social:
@@ -271,27 +250,6 @@ menu:
       weight: 1
       params:
         icon: brand-github
-        newtab: true
-    - identifier: spotify
-      name: Spotify
-      url: https://open.spotify.com/user/31u5ssruqseukcodexup2ua3lxnm
-      weight: 4
-      params:
-        icon: brand-spotify
-        newtab: true
-    - identifier: soundcloud
-      name: SoundCloud
-      url: "https://soundcloud.com/t-asa2000"
-      weight: 5
-      params:
-        icon: brand-soundcloud
-        newtab: true
-    - identifier: fedimovie
-      name: FediMovie
-      url: "https://fedimovie.com/c/asatach"
-      weight: 6
-      params:
-        icon: movie
         newtab: true
     - identifier: rss
       name: RSS

@@ -1,134 +1,195 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>t-asa2000.net</title><description>Recent content on t-asa2000.net</description><link>https://t-asa2000.net/page/</link><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 06 Mar 2023 15:48:38 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/page/index.xml" rel="self" type="application/rss+xml"/><item><title>カスタム絵文字</title><link>https://t-asa2000.net/emoji/</link><pubDate>Mon, 06 Mar 2023 15:48:38 +0900</pubDate><guid>https://t-asa2000.net/emoji/</guid><description>&lt;p>Misskey個人サーバー(運用終了)で使用していた絵文字の一覧です．&lt;/p>
-&lt;p>&lt;img src="https://t-asa2000.net/misskey-emoji/applenanntokashiro.png">&lt;/p>
-&lt;p>&lt;code>:applenanntokashiro:​&lt;/code>&lt;/p>
-&lt;a href="https://t-asa2000.net/misskey-emoji/applenanntokashiro.png" download="">ダウンロード&lt;/a>
-&lt;p>&lt;img src="https://t-asa2000.net/misskey-emoji/ittare.png">&lt;/p>
-&lt;p>&lt;code>:ittare:​&lt;/code>&lt;/p>
-&lt;a href="https://t-asa2000.net/misskey-emoji/ittare.png" download="">ダウンロード&lt;/a>
-&lt;p>&lt;img src="https://t-asa2000.net/misskey-emoji/okosama_lunch.png">&lt;/p>
-&lt;p>&lt;code>:okosama_lunch:​&lt;/code>&lt;/p>
-&lt;a href="https://t-asa2000.net/misskey-emoji/okosama_lunch.png" download="">ダウンロード&lt;/a></description></item><item><title>プロフィール</title><link>https://t-asa2000.net/profile/</link><pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate><guid>https://t-asa2000.net/profile/</guid><description>&lt;h2 id="asata-t-asa2000">asata (t-asa2000)&lt;/h2>
-&lt;p>&lt;strong>新潟県出身・在住　学生　男&lt;br>
-Niigata-pref, Japan. Student. Male.&lt;/strong>&lt;/p>
-&lt;p>工学系の学生。自称「普通の人よりちょっとPCがいじれる」だけ。&lt;br>
-中学校に入学した頃から、自分専用のPCを買ってプログラミングとかをやりはじめました。&lt;/p>
-&lt;ul>
-&lt;li>血液型 : B型&lt;/li>
-&lt;li>好きな食べ物：うどん,餃子,エビフライ,寿司&lt;/li>
-&lt;li>趣味：ガジェット関係の情報収集,ドライブ,Webサイト製作,ラジオ,音楽,ドラマ観賞etc&amp;hellip;&lt;/li>
-&lt;li>苦手なこと：おしゃれ、手先を使う作業(不器用)&lt;/li>
-&lt;/ul>
-&lt;h3 id="お問い合わせ">お問い合わせ&lt;/h3>
-&lt;p>&lt;a class="link" href="https://forms.gle/EiWydB9utuZktf4Y6" target="_blank" rel="noopener"
->こちらの問い合わせフォームをご利用ください．&lt;/a>&lt;/p>
-&lt;h2 id="使用したことのある言語フレームワーク技術スタックなど">使用したことのある言語・フレームワーク・技術スタックなど&lt;/h2>
-&lt;p>※ 1回でも触ったことがあるものを記載しています．現在メインで触っているものは &lt;strong>太字&lt;/strong> にしています．&lt;/p>
-&lt;h3 id="プログラミングマークアップ言語">プログラミング・マークアップ言語&lt;/h3>
-&lt;ul>
-&lt;li>HTML&lt;/li>
-&lt;li>CSS&lt;/li>
-&lt;li>&lt;strong>JavaScript&lt;/strong>&lt;/li>
-&lt;li>PHP&lt;/li>
-&lt;li>Pug&lt;/li>
-&lt;li>SQL&lt;/li>
-&lt;li>C&lt;/li>
-&lt;li>&lt;strong>C#&lt;/strong>&lt;/li>
-&lt;li>Visual Basic .NET&lt;/li>
-&lt;li>Python&lt;/li>
-&lt;li>Java&lt;/li>
-&lt;li>R&lt;/li>
-&lt;/ul>
-&lt;h3 id="フレームワーク技術スタックなど">フレームワーク・技術スタックなど&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Node.js&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Express&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h3 id="使用経験のあるライブラリ">使用経験のあるライブラリ&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Sequelize&lt;/strong> (Node.js向けのDBMS操作用ライブラリ)&lt;/li>
-&lt;li>CONTEC API-AIO (VB.NET/C#向けのCONTEC社 AD変換ライブラリ)&lt;/li>
-&lt;/ul>
-&lt;h2 id="これまでにやったこと">これまでにやったこと&lt;/h2>
-&lt;ul>
-&lt;li>WordPress サイトの構築・管理&lt;/li>
-&lt;li>WordPress テーマ・プラグインの開発&lt;/li>
-&lt;li>PHPを言語としたWeb公開コンテンツの開発&lt;/li>
-&lt;li>.NET/.NET Framework を用いた Windows デスクトップアプリケーションの開発&lt;/li>
-&lt;li>Node.js で動作するWebアプリケーション (分散型SNS : &lt;strong>Misskey&lt;/strong>) のセルフホスティング&lt;/li>
-&lt;li>ApacheやNginxの設定作業&lt;/li>
-&lt;li>Node.js を用いたサーバーサイド・フロントエンド分離型のWebアプリケーション開発&lt;/li>
-&lt;li>CONTEC社 API-AIOを用いてAD変換モジュールを操作するWindows デスクトップアプリケーションの開発&lt;/li>
-&lt;li>Fitbit (スマートウォッチ) 上で動作するアプリケーションの開発&lt;/li>
-&lt;/ul>
-&lt;h2 id="プライベートでの開発経験活動実績">プライベートでの開発経験・活動実績&lt;/h2>
-&lt;h3 id="2019">2019&lt;/h3>
-&lt;ul>
-&lt;li>所属していた部活のサイト (WordPress) を作成・維持管理&lt;/li>
-&lt;/ul>
-&lt;h3 id="2021">2021&lt;/h3>
-&lt;ul>
-&lt;li>学生ベンチャー企業のサイト (WordPress) を作成・維持管理
-&lt;ul>
-&lt;li>同社がWeb上で展開する教材コンテンツ (動画・テキスト) のビューアーをPHPで開発&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="2022">2022&lt;/h3>
-&lt;ul>
-&lt;li>卒業研究で使用するアプリケーションをC#で開発
-&lt;ul>
-&lt;li>AD変換モジュール向けライブラリ CONTEC API-AIOを使用したデスクトップアプリケーション&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="2024">2024&lt;/h3>
-&lt;ul>
-&lt;li>研究で使用するWebシステム (Node.js, Express+Vue) を開発・運用&lt;/li>
-&lt;/ul>
-&lt;h2 id="web-sns-上での活動">Web (SNS) 上での活動&lt;/h2>
-&lt;h3 id="2021-1">2021&lt;/h3>
-&lt;ul>
-&lt;li>初めての個人ドメイン (t-asa2000.net) を購入&lt;/li>
-&lt;li>VPS(Linux)を契約&lt;/li>
-&lt;li>分散型SNS「misskey」の個人サーバーを設置&lt;br>
-&lt;a class="link" href="https://misskey.t-asa2000.net" target="_blank" rel="noopener"
->(2023年8月6日運用終了, 跡地はこちら)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="2023">2023&lt;/h3>
-&lt;ul>
-&lt;li>個人サイトをリニューアルして現在の形に&lt;/li>
-&lt;/ul>
-&lt;h3 id="2024-1">2024&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://t-asa2000.net/post/202412_01/" >Misskey Advent Calendar 2024&lt;/a> への参加&lt;/li>
-&lt;/ul>
-&lt;h2 id="使ってるモノ">使ってるモノ&lt;/h2>
-&lt;p>2024年12月3日現在&lt;/p>
-&lt;h3 id="スマートフォン">スマートフォン&lt;/h3>
-&lt;p>SHARP AQUOS sense7 SH-M24&lt;br>
-(2023.7 - )&lt;/p>
-&lt;h3 id="タブレット">タブレット&lt;/h3>
-&lt;p>第8世代 iPad Wi-Fi+Cellular 128GB&lt;br>
-(2021.5 - )&lt;/p>
-&lt;h3 id="pc">PC&lt;/h3>
-&lt;p>Lenovo ThinkPad L15 gen1&lt;br>
-(2020.10 - )&lt;/p>
-&lt;h3 id="ヘッドフォン">ヘッドフォン&lt;/h3>
-&lt;p>DENON AH-GC30&lt;br>
-(2020.3 - )&lt;/p>
-&lt;h3 id="イヤフォン">イヤフォン&lt;/h3>
-&lt;p>DENON AH-C720&lt;br>
-(2024.3 - )&lt;/p>
-&lt;p>DENON AH-C620R&lt;br>
-(2021.3 - )&lt;/p>
-&lt;h3 id="ポータブルスピーカー">ポータブルスピーカー&lt;/h3>
-&lt;p>SONY SRS-XB20&lt;br>
-(2018.3 - )&lt;/p>
-&lt;h3 id="モバイル回線">モバイル回線&lt;/h3>
-&lt;p>UQ mobile ミニミニプラン (音声+データ 4GB)&lt;br>
-IIJmio ギガプラン (データeSIM 20GB, docomo回線網)&lt;/p>
-&lt;h3 id="自動車">自動車&lt;/h3>
-&lt;p>マツダ MAZDA2 15S Smart Edition 4WD&lt;br>
-※2021年次改良モデル&lt;br>
-(2022.2 - )&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel><title>t-asa2000.net</title>
+			<description>Recent content on t-asa2000.net</description><link>https://t-asa2000.net/page/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Mon, 06 Mar 2023 15:48:38 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
+		<title>カスタム絵文字</title>
+		<link>https://t-asa2000.net/emoji/</link>
+		<pubDate>Mon, 06 Mar 2023 15:48:38 +0900</pubDate>
+		
+		<guid>https://t-asa2000.net/emoji/</guid>
+		<description>&lt;p&gt;Misskey個人サーバー(運用終了)で使用していた絵文字の一覧です．&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/applenanntokashiro.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:applenanntokashiro:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/applenanntokashiro.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/ittare.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:ittare:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/ittare.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+&lt;p&gt;&lt;img src=&#34;https://t-asa2000.net/misskey-emoji/okosama_lunch.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:okosama_lunch:​&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&#34;https://t-asa2000.net/misskey-emoji/okosama_lunch.png&#34; download=&#34;&#34;&gt;ダウンロード&lt;/a&gt;
+
+</description>
+		</item>
+		<item>
+		<title>プロフィール</title>
+		<link>https://t-asa2000.net/profile/</link>
+		<pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/profile/</guid>
+		<description>&lt;h2 id=&#34;asata-t-asa2000&#34;&gt;asata (t-asa2000)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;新潟県出身・在住　学生　男&lt;br&gt;
+Niigata-pref, Japan. Student. Male.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;工学系の学生。自称「普通の人よりちょっとPCがいじれる」だけ。&lt;br&gt;
+中学校に入学した頃から、自分専用のPCを買ってプログラミングとかをやりはじめました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;血液型 : B型&lt;/li&gt;
+&lt;li&gt;好きな食べ物：うどん,餃子,エビフライ,寿司&lt;/li&gt;
+&lt;li&gt;趣味：ガジェット関係の情報収集,ドライブ,Webサイト製作,ラジオ,音楽,ドラマ観賞etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;苦手なこと：おしゃれ、手先を使う作業(不器用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;お問い合わせ&#34;&gt;お問い合わせ&lt;/h3&gt;
+&lt;p&gt;info.t.asa2000あっとgmail.com&lt;/p&gt;
+&lt;h2 id=&#34;使用したことのある言語フレームワーク技術スタックなど&#34;&gt;使用したことのある言語・フレームワーク・技術スタックなど&lt;/h2&gt;
+&lt;p&gt;※ 1回でも触ったことがあるものを記載しています．現在メインで触っているものは &lt;strong&gt;太字&lt;/strong&gt; にしています．&lt;/p&gt;
+&lt;h3 id=&#34;プログラミングマークアップ言語&#34;&gt;プログラミング・マークアップ言語&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Pug&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Visual Basic .NET&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;フレームワーク技術スタックなど&#34;&gt;フレームワーク・技術スタックなど&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Express&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vue&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;使用経験のあるライブラリ&#34;&gt;使用経験のあるライブラリ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sequelize&lt;/strong&gt; (Node.js向けのDBMS操作用ライブラリ)&lt;/li&gt;
+&lt;li&gt;CONTEC API-AIO (VB.NET/C#向けのCONTEC社 AD変換ライブラリ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;これまでにやったこと&#34;&gt;これまでにやったこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WordPress サイトの構築・管理&lt;/li&gt;
+&lt;li&gt;WordPress テーマ・プラグインの開発&lt;/li&gt;
+&lt;li&gt;PHPを言語としたWeb公開コンテンツの開発&lt;/li&gt;
+&lt;li&gt;.NET/.NET Framework を用いた Windows デスクトップアプリケーションの開発&lt;/li&gt;
+&lt;li&gt;Node.js で動作するWebアプリケーション (分散型SNS : &lt;strong&gt;Misskey&lt;/strong&gt;) のセルフホスティング&lt;/li&gt;
+&lt;li&gt;ApacheやNginxの設定作業&lt;/li&gt;
+&lt;li&gt;Node.js を用いたサーバーサイド・フロントエンド分離型のWebアプリケーション開発&lt;/li&gt;
+&lt;li&gt;CONTEC社 API-AIOを用いてAD変換モジュールを操作するWindows デスクトップアプリケーションの開発&lt;/li&gt;
+&lt;li&gt;Fitbit (スマートウォッチ) 上で動作するアプリケーションの開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プライベートでの開発経験活動実績&#34;&gt;プライベートでの開発経験・活動実績&lt;/h2&gt;
+&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;所属していた部活のサイト (WordPress) を作成・維持管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2021&#34;&gt;2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;学生ベンチャー企業のサイト (WordPress) を作成・維持管理
+&lt;ul&gt;
+&lt;li&gt;同社がWeb上で展開する教材コンテンツ (動画・テキスト) のビューアーをPHPで開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;卒業研究で使用するアプリケーションをC#で開発
+&lt;ul&gt;
+&lt;li&gt;AD変換モジュール向けライブラリ CONTEC API-AIOを使用したデスクトップアプリケーション&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;研究で使用するWebシステム (Node.js, Express+Vue) を開発・運用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;web-sns-上での活動&#34;&gt;Web (SNS) 上での活動&lt;/h2&gt;
+&lt;h3 id=&#34;2021-1&#34;&gt;2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;初めての個人ドメイン (t-asa2000.net) を購入&lt;/li&gt;
+&lt;li&gt;VPS(Linux)を契約&lt;/li&gt;
+&lt;li&gt;分散型SNS「misskey」の個人サーバーを設置&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://misskey.t-asa2000.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(2023年8月6日運用終了, 跡地はこちら)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2023&#34;&gt;2023&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;個人サイトをリニューアルして現在の形に&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2024-1&#34;&gt;2024&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://t-asa2000.net/post/202412_01/&#34; &gt;Misskey Advent Calendar 2024&lt;/a&gt; への参加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使ってるモノ&#34;&gt;使ってるモノ&lt;/h2&gt;
+&lt;p&gt;2024年12月3日現在&lt;/p&gt;
+&lt;h3 id=&#34;スマートフォン&#34;&gt;スマートフォン&lt;/h3&gt;
+&lt;p&gt;SHARP AQUOS sense7 SH-M24&lt;br&gt;
+(2023.7 - )&lt;/p&gt;
+&lt;h3 id=&#34;タブレット&#34;&gt;タブレット&lt;/h3&gt;
+&lt;p&gt;第8世代 iPad Wi-Fi+Cellular 128GB&lt;br&gt;
+(2021.5 - )&lt;/p&gt;
+&lt;h3 id=&#34;pc&#34;&gt;PC&lt;/h3&gt;
+&lt;p&gt;Lenovo ThinkPad L15 gen1&lt;br&gt;
+(2020.10 - )&lt;/p&gt;
+&lt;h3 id=&#34;ヘッドフォン&#34;&gt;ヘッドフォン&lt;/h3&gt;
+&lt;p&gt;DENON AH-GC30&lt;br&gt;
+(2020.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;イヤフォン&#34;&gt;イヤフォン&lt;/h3&gt;
+&lt;p&gt;DENON AH-C720&lt;br&gt;
+(2024.3 - )&lt;/p&gt;
+&lt;p&gt;DENON AH-C620R&lt;br&gt;
+(2021.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;ポータブルスピーカー&#34;&gt;ポータブルスピーカー&lt;/h3&gt;
+&lt;p&gt;SONY SRS-XB20&lt;br&gt;
+(2018.3 - )&lt;/p&gt;
+&lt;h3 id=&#34;モバイル回線&#34;&gt;モバイル回線&lt;/h3&gt;
+&lt;p&gt;UQ mobile ミニミニプラン (音声+データ 4GB)&lt;br&gt;
+IIJmio ギガプラン (データeSIM 20GB, docomo回線網)&lt;/p&gt;
+&lt;h3 id=&#34;自動車&#34;&gt;自動車&lt;/h3&gt;
+&lt;p&gt;マツダ MAZDA2 15S Smart Edition 4WD&lt;br&gt;
+※2021年次改良モデル&lt;br&gt;
+(2022.2 - )&lt;/p&gt;
+</description>
+		</item>
+		<item>
+		<title>SNSアカウント一覧</title>
+		<link>https://t-asa2000.net/sns/</link>
+		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+		
+		<guid>https://t-asa2000.net/sns/</guid>
+		<description>&lt;h2 id=&#34;短文投稿&#34;&gt;短文投稿&lt;/h2&gt;
+&lt;h3 id=&#34;fedibird-メイン-asatahttpsfedibirdcomasata&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://fedibird.com/@asata&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fedibird (メイン, @asata)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;misskeyio-asatahttpsmisskeyioasata&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://misskey.io/@asata&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Misskey.io (@asata)&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;ブログ&#34;&gt;ブログ&lt;/h2&gt;
+&lt;h3 id=&#34;notehttpsnotecomt_asa2000&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://note.com/t_asa2000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;note&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;技術関係&#34;&gt;技術関係&lt;/h2&gt;
+&lt;h3 id=&#34;github-t-asa2000httpsgithubcomt-asa2000&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/t-asa2000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub (t-asa2000)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;github-gist-t-asa2000httpsgithubcomt-asa2000&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/t-asa2000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub Gist (t-asa2000)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;zenn-t_asa2000httpszenndevt_asa2000&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://zenn.dev/t_asa2000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Zenn (t_asa2000)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;qiita-t_asahttpsqiitacomt_asa&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://qiita.com/t_asa&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Qiita (t_asa)&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;h3 id=&#34;lastfmhttpslastfmusert-asa2000&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://last.fm/user/t-asa2000&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Last.fm&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;spotifyhttpsopenspotifycomplaylist2qagyw6rkwdo28linnj9t3&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.spotify.com/playlist/2QaGyw6rKWDO28LiNnj9T3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;fedimoviehttpsfedimoviecomcasatachvideos&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://fedimovie.com/c/asatach/videos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fedimovie&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ニコニコ動画httpswwwnicovideojpuser82641779&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nicovideo.jp/user/82641779&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ニコニコ動画&lt;/a&gt;&lt;/h3&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>
